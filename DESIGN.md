@@ -27,7 +27,7 @@
 multie-series line graph:
 
 * hier worden of de hoeveelheden mannelijke en vrouwelijke hooftrolspelers tegen elkaar uitgezet
-* of doormiddel van een drop down menu witte tegen tegen niet witte mensen tegen lekaar uitgezet
+* of doormiddel van een drop down menu worden witte tegen niet witte mensen tegen lekaar uitgezet
 * er is een slider onder de line graph die de hoeveelheid data die weergeven wordt in de andere grafieken aanpast
 
 Sunburst chart:
