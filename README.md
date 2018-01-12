@@ -20,6 +20,7 @@ the minimum viable product (MVP):
 - De barchart laat zien hoeveel een gemiddelde film van die etniticiteit kost voor het geselecteerde jaar.
 - Op de line graph zit een knop waarmee je kunt kiezen of je het verschil tussen man en vrouw of entnitichiteit wil zien.
 - Waarneer je op de line graph clickt verandert de sunburst rechts er van naar waarbij hij alleen de catogorie van dat jaar weergeeft. Ook verandert de barchart jaar aanleiding van het geselecteerde jaar.
+- Met de slider kan je kiezen hoeveel jaren je selecteerd
 
 optional:
 - Waarneer je op een catagorie van de pie chart clickt update de barchart zodat hij alleen de regiseurs van die catagorie in dat jaar laat zien 
