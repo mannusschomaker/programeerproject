@@ -9,12 +9,18 @@
  */
 
 
+
 // load json file and execute function graph
 d3.csv("data.csv", function (error, data) {
     if(error) throw error;
 
     // go to make variables
+    window.onload = function(){
     valueMulti(data)
+    //valueSun(data)
+    scale(data)
+    myFuncBar(data)
+    }
 });
 
 
@@ -22,7 +28,6 @@ d3.csv("data.csv", function (error, data) {
 function valueMulti(data){
     personOfColor = Array.apply(null, Array(18)).map(Number.prototype.valueOf,0);
     personNotColor = Array.apply(null, Array(18)).map(Number.prototype.valueOf,0);
-    console.log(data)
     data.forEach(function(d) {
         
         d.year_release = +d.year_release
@@ -50,24 +55,20 @@ function valueMulti(data){
         group1.push({year:(yearsList[i]), amount:(personOfColor[i])});
         group2.push({year:(yearsList[i]), amount:(personNotColor[i])});
     } 
-    obj.push({id:"personOfColor", values:group1})
     obj.push({id:"personNotColor", values:group2})
-    console.log(obj)
-    console.log(111)
-    graph(obj, yearsList)
-    console.log(yearsList)
+    obj.push({id:"personOfColor", values:group1})
+
+    multiGraph(obj, yearsList)
 }
 
 // funtion for a dynamic bar chart
-function graph(data, yearsList){
-
-    
+function multiGraph(data, yearsList){
 
     // make canvas
-    var svg = d3.select("body").append("svg"),
-        margin = {top: 20, right: 80, bottom: 30, left: 50},
-        width = 800 - margin.left - margin.right,
-        height = 500 - margin.top - margin.bottom,
+    var svg = d3.select("#graf").append("svg").attr("id","line"),
+        margin = {top: 60, right: 20, bottom: 20, left: 50},
+        width = 700 - margin.left - margin.right,
+        height = 450 - margin.top - margin.bottom,
 
         
     g = svg.attr("height",height + margin.top + margin.bottom)
@@ -86,15 +87,16 @@ function graph(data, yearsList){
 
     var line = d3.line()
         .curve(d3.curveBasis)
-        .x(function(d) { console.log(d.year);return x(d.year); })
-        .y(function(d) { console.log(d.amount);return y(d.amount); });
+        .x(function(d) { return x(d.year); })
+        .y(function(d) { return y(d.amount); });
 
     z.domain(data.map(function(c) { return c.id; }));
         
-    g.append("g")
-        .attr("class", "axis axis--x")
-        .attr("transform", "translate(0," + height + ")")
-        .call(d3.axisBottom(x));
+    // g.append("g")
+    //     .attr("class", "axis axis--x")
+    //     .attr("transform", "translate(0," + height + ")")
+    //     .call(d3.axisBottom(x));
+            
 
     g.append("g")
         .attr("class", "axis axis--y")
@@ -105,19 +107,17 @@ function graph(data, yearsList){
         .attr("dy", "0.71em")
         .attr("fill", "#000")
         .text("aantal films");
-        console.log(111)
 
     var city = g.selectAll(".city")
         .data(data)
     .enter().append("g")
         .attr("class", "city");
-        console.log(111)
+
 
     city.append("path")
         .attr("class", "line")
-        .attr("d", function(d) { console.log(d.values);return line(d.values); })
+        .attr("d", function(d) { return line(d.values); })
         .style("stroke", function(d) { return z(d.id); });
-        console.log(111)
         
     city.append("text")
         .datum(function(d) { return {id: d.id, value: d.values[d.values.length - 1]}; })
@@ -126,5 +126,92 @@ function graph(data, yearsList){
         .attr("dy", "0.35em")
         .style("font", "10px sans-serif")
         .text(function(d) { return d.id; });
-        console.log(111)
-    };
+
+
+//     console.log(g)
+//     var mouseG = g.append("g")
+//         .attr("class", "mouse-over-effects");
+
+//     mouseG.append("path") // this is the black vertical line to follow mouse
+//         .attr("class", "mouse-line")
+//         .style("stroke", "black")
+//         .style("stroke-width", "1px")
+//         .style("opacity", "0");
+        
+//     var lines = document.getElementsByClassName('line');
+
+//     var mousePerLine = mouseG.selectAll('.mouse-per-line')
+//     .data(data)
+//     .enter()
+//     .append("g")
+//     .attr("class", "mouse-per-line");
+
+//   mousePerLine.append("circle")
+//     .attr("r", 7)
+//     .style("stroke", "blue")
+//     .style("fill", "none")
+//     .style("stroke-width", "1px")
+//     .style("opacity", "0");
+
+//   mousePerLine.append("text")
+//     .attr("transform", "translate(10,3)");
+
+//   mouseG.append('svg:rect') // append a rect to catch mouse movements on canvas
+//     .attr('width', width) // can't catch mouse events on a g element
+//     .attr('height', height)
+//     .attr('fill', 'none')
+//     .attr('pointer-events', 'all')
+//     .on('mouseout', function() { // on mouse out hide line, circles and text
+//       d3.select(".mouse-line")
+//         .style("opacity", "0");
+//       d3.selectAll(".mouse-per-line circle")
+//         .style("opacity", "0");
+//       d3.selectAll(".mouse-per-line text")
+//         .style("opacity", "0");
+//     })
+//     .on('mouseover', function() { // on mouse in show line, circles and text
+//       d3.select(".mouse-line")
+//         .style("opacity", "1");
+//       d3.selectAll(".mouse-per-line circle")
+//         .style("opacity", "1");
+//       d3.selectAll(".mouse-per-line text")
+//         .style("opacity", "1");
+//     })
+//     .on('mousemove', function() { // mouse moving over canvas
+//       var mouse = d3.mouse(this);
+//       d3.select(".mouse-line")
+//         .attr("d", function() {
+//           var d = "M" + mouse[0] + "," + height;
+//           d += " " + mouse[0] + "," + 0;
+//           return d;
+//         });
+
+//       d3.selectAll(".mouse-per-line")
+//         .attr("transform", function(d, i) {
+//           console.log(width/mouse[0])
+//           var xDate = x.invert(mouse[0]),
+//               bisect = d3.bisector(function(d) { return d.date; }).right;
+//               idx = bisect(d.values, xDate);
+          
+//           var beginning = 0,
+//               end = lines[i].getTotalLength(),
+//               target = null;
+
+//           while (true){
+//             target = Math.floor((beginning + end) / 2);
+//             pos = lines[i].getPointAtLength(target);
+//             if ((target === end || target === beginning) && pos.x !== mouse[0]) {
+//                 break;
+//             }
+//             if (pos.x > mouse[0])      end = target;
+//             else if (pos.x < mouse[0]) beginning = target;
+//             else break; //position found
+//           }
+          
+//           d3.select(this).select('text')
+//             .text(y.invert(pos.y).toFixed(2));
+            
+//           return "translate(" + mouse[0] + "," + pos.y +")";
+//         });
+//     });
+};

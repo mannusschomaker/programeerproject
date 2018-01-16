@@ -1,0 +1,786 @@
+{
+    "name": "films",
+    "children": [
+        {
+            "name": "Male",
+            "children": [
+                {
+                    "name": "Unknown",
+                    "children": [
+                        {
+                            "name": "Criminal",
+                            "size": 32
+                        },
+                        {
+                            "name": "Other",
+                            "size": 40
+                        },
+                        {
+                            "name": "Athlete",
+                            "size": 19
+                        },
+                        {
+                            "name": "Musician",
+                            "size": 10
+                        },
+                        {
+                            "name": "Author",
+                            "size": 5
+                        },
+                        {
+                            "name": "Academic",
+                            "size": 3
+                        },
+                        {
+                            "name": "Historical",
+                            "size": 2
+                        },
+                        {
+                            "name": "Military",
+                            "size": 13
+                        },
+                        {
+                            "name": "Comedian",
+                            "size": 2
+                        },
+                        {
+                            "name": "Actor",
+                            "size": 3
+                        },
+                        {
+                            "name": "Medicine",
+                            "size": 4
+                        },
+                        {
+                            "name": "Artist",
+                            "size": 3
+                        },
+                        {
+                            "name": "Activist",
+                            "size": 2
+                        },
+                        {
+                            "name": "Military / activist",
+                            "size": 1
+                        },
+                        {
+                            "name": "Singer",
+                            "size": 2
+                        },
+                        {
+                            "name": "Author (poet)",
+                            "size": 5
+                        },
+                        {
+                            "name": "Media",
+                            "size": 7
+                        }
+                    ]
+                },
+                {
+                    "name": "African American",
+                    "children": [
+                        {
+                            "name": "Criminal",
+                            "size": 2
+                        },
+                        {
+                            "name": "Other",
+                            "size": 4
+                        },
+                        {
+                            "name": "Athlete",
+                            "size": 12
+                        },
+                        {
+                            "name": "Musician",
+                            "size": 4
+                        },
+                        {
+                            "name": "Academic",
+                            "size": 1
+                        },
+                        {
+                            "name": "Military",
+                            "size": 1
+                        },
+                        {
+                            "name": "Comedian",
+                            "size": 1
+                        },
+                        {
+                            "name": "Actor",
+                            "size": 1
+                        },
+                        {
+                            "name": "Activist",
+                            "size": 3
+                        },
+                        {
+                            "name": "Singer",
+                            "size": 2
+                        }
+                    ]
+                },
+                {
+                    "name": "White",
+                    "children": [
+                        {
+                            "name": "Criminal",
+                            "size": 36
+                        },
+                        {
+                            "name": "Other",
+                            "size": 47
+                        },
+                        {
+                            "name": "Athlete",
+                            "size": 29
+                        },
+                        {
+                            "name": "Musician",
+                            "size": 50
+                        },
+                        {
+                            "name": "Author",
+                            "size": 22
+                        },
+                        {
+                            "name": "Academic",
+                            "size": 13
+                        },
+                        {
+                            "name": "Historical",
+                            "size": 32
+                        },
+                        {
+                            "name": "Actress",
+                            "size": 1
+                        },
+                        {
+                            "name": "Journalist",
+                            "size": 1
+                        },
+                        {
+                            "name": "World leader",
+                            "size": 12
+                        },
+                        {
+                            "name": "Military",
+                            "size": 25
+                        },
+                        {
+                            "name": "Comedian",
+                            "size": 4
+                        },
+                        {
+                            "name": "Actor",
+                            "size": 8
+                        },
+                        {
+                            "name": "Medicine",
+                            "size": 4
+                        },
+                        {
+                            "name": "Artist",
+                            "size": 14
+                        },
+                        {
+                            "name": "Activist",
+                            "size": 7
+                        },
+                        {
+                            "name": "Politician",
+                            "size": 1
+                        },
+                        {
+                            "name": "Singer",
+                            "size": 5
+                        },
+                        {
+                            "name": "Author (poet)",
+                            "size": 4
+                        },
+                        {
+                            "name": "Government",
+                            "size": 2
+                        },
+                        {
+                            "name": "Media",
+                            "size": 6
+                        },
+                        {
+                            "name": "Athlete / military",
+                            "size": 1
+                        },
+                        {
+                            "name": "Academic (Philosopher)",
+                            "size": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "Asian American",
+                    "children": [
+                        {
+                            "name": "Other",
+                            "size": 1
+                        },
+                        {
+                            "name": "Athlete",
+                            "size": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "Hispanic (White)",
+                    "children": [
+                        {
+                            "name": "Athlete",
+                            "size": 1
+                        },
+                        {
+                            "name": "Author",
+                            "size": 1
+                        },
+                        {
+                            "name": "Historical",
+                            "size": 1
+                        },
+                        {
+                            "name": "Artist",
+                            "size": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "Multi racial",
+                    "children": [
+                        {
+                            "name": "Criminal",
+                            "size": 3
+                        },
+                        {
+                            "name": "Other",
+                            "size": 4
+                        },
+                        {
+                            "name": "Musician",
+                            "size": 2
+                        },
+                        {
+                            "name": "Military",
+                            "size": 1
+                        },
+                        {
+                            "name": "Artist",
+                            "size": 3
+                        },
+                        {
+                            "name": "Activist",
+                            "size": 1
+                        },
+                        {
+                            "name": "Singer",
+                            "size": 1
+                        },
+                        {
+                            "name": "Author (poet)",
+                            "size": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "Hispanic (Latino)",
+                    "children": [
+                        {
+                            "name": "Criminal",
+                            "size": 1
+                        },
+                        {
+                            "name": "Athlete",
+                            "size": 2
+                        },
+                        {
+                            "name": "Musician",
+                            "size": 1
+                        },
+                        {
+                            "name": "Military",
+                            "size": 1
+                        },
+                        {
+                            "name": "Activist",
+                            "size": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "Indian",
+                    "children": [
+                        {
+                            "name": "Activist",
+                            "size": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "Hispanic (Latin American)",
+                    "children": [
+                        {
+                            "name": "Other",
+                            "size": 1
+                        },
+                        {
+                            "name": "Musician",
+                            "size": 1
+                        },
+                        {
+                            "name": "World leader",
+                            "size": 1
+                        },
+                        {
+                            "name": "Military",
+                            "size": 1
+                        },
+                        {
+                            "name": "Actor",
+                            "size": 1
+                        },
+                        {
+                            "name": "Activist",
+                            "size": 6
+                        }
+                    ]
+                },
+                {
+                    "name": "Middle Eastern",
+                    "children": [
+                        {
+                            "name": "Other",
+                            "size": 1
+                        },
+                        {
+                            "name": "Historical",
+                            "size": 2
+                        },
+                        {
+                            "name": "Actor",
+                            "size": 1
+                        },
+                        {
+                            "name": "Artist",
+                            "size": 1
+                        },
+                        {
+                            "name": "Activist",
+                            "size": 1
+                        },
+                        {
+                            "name": "Media",
+                            "size": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "Mediterranean",
+                    "children": []
+                },
+                {
+                    "name": "Caribbean",
+                    "children": [
+                        {
+                            "name": "Other",
+                            "size": 1
+                        },
+                        {
+                            "name": "Musician",
+                            "size": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "African",
+                    "children": [
+                        {
+                            "name": "Other",
+                            "size": 2
+                        },
+                        {
+                            "name": "World leader",
+                            "size": 2
+                        },
+                        {
+                            "name": "Activist",
+                            "size": 2
+                        }
+                    ]
+                },
+                {
+                    "name": "Middle Eastern (White)",
+                    "children": [
+                        {
+                            "name": "Historical",
+                            "size": 12
+                        }
+                    ]
+                },
+                {
+                    "name": "Native American",
+                    "children": [
+                        {
+                            "name": "Athlete",
+                            "size": 1
+                        },
+                        {
+                            "name": "Historical",
+                            "size": 1
+                        },
+                        {
+                            "name": "Military",
+                            "size": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "Asian",
+                    "children": [
+                        {
+                            "name": "Author",
+                            "size": 1
+                        },
+                        {
+                            "name": "World leader",
+                            "size": 1
+                        },
+                        {
+                            "name": "Military",
+                            "size": 1
+                        },
+                        {
+                            "name": "Activist",
+                            "size": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "Eurasian",
+                    "children": []
+                },
+                {
+                    "name": "Hispanic (Latina)",
+                    "children": []
+                }
+            ]
+        },
+        {
+            "name": "Female",
+            "children": [
+                {
+                    "name": "Unknown",
+                    "children": [
+                        {
+                            "name": "Criminal",
+                            "size": 4
+                        },
+                        {
+                            "name": "Other",
+                            "size": 22
+                        },
+                        {
+                            "name": "Athlete",
+                            "size": 3
+                        },
+                        {
+                            "name": "Musician",
+                            "size": 2
+                        },
+                        {
+                            "name": "Author",
+                            "size": 3
+                        },
+                        {
+                            "name": "Academic",
+                            "size": 1
+                        },
+                        {
+                            "name": "Historical",
+                            "size": 1
+                        },
+                        {
+                            "name": "Actress",
+                            "size": 3
+                        },
+                        {
+                            "name": "Artist",
+                            "size": 2
+                        },
+                        {
+                            "name": "Activist",
+                            "size": 2
+                        },
+                        {
+                            "name": "Singer",
+                            "size": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "African American",
+                    "children": [
+                        {
+                            "name": "Other",
+                            "size": 1
+                        },
+                        {
+                            "name": "Athlete",
+                            "size": 1
+                        },
+                        {
+                            "name": "Musician",
+                            "size": 1
+                        },
+                        {
+                            "name": "Singer",
+                            "size": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "White",
+                    "children": [
+                        {
+                            "name": "Criminal",
+                            "size": 2
+                        },
+                        {
+                            "name": "Other",
+                            "size": 28
+                        },
+                        {
+                            "name": "Athlete",
+                            "size": 5
+                        },
+                        {
+                            "name": "Musician",
+                            "size": 4
+                        },
+                        {
+                            "name": "Author",
+                            "size": 12
+                        },
+                        {
+                            "name": "Academic",
+                            "size": 3
+                        },
+                        {
+                            "name": "Historical",
+                            "size": 20
+                        },
+                        {
+                            "name": "Actress",
+                            "size": 12
+                        },
+                        {
+                            "name": "World leader",
+                            "size": 1
+                        },
+                        {
+                            "name": "Military",
+                            "size": 1
+                        },
+                        {
+                            "name": "Medicine",
+                            "size": 1
+                        },
+                        {
+                            "name": "Artist",
+                            "size": 4
+                        },
+                        {
+                            "name": "Singer",
+                            "size": 4
+                        },
+                        {
+                            "name": "Author (poet)",
+                            "size": 2
+                        },
+                        {
+                            "name": "Teacher",
+                            "size": 1
+                        },
+                        {
+                            "name": "Government",
+                            "size": 1
+                        },
+                        {
+                            "name": "Media",
+                            "size": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "Asian American",
+                    "children": [
+                        {
+                            "name": "Other",
+                            "size": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "Hispanic (White)",
+                    "children": [
+                        {
+                            "name": "Actress",
+                            "size": 1
+                        },
+                        {
+                            "name": "Activist",
+                            "size": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "Multi racial",
+                    "children": [
+                        {
+                            "name": "Other",
+                            "size": 3
+                        },
+                        {
+                            "name": "Author",
+                            "size": 1
+                        },
+                        {
+                            "name": "Journalist",
+                            "size": 1
+                        },
+                        {
+                            "name": "Singer",
+                            "size": 2
+                        },
+                        {
+                            "name": "Author (poet)",
+                            "size": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "Hispanic (Latino)",
+                    "children": []
+                },
+                {
+                    "name": "Indian",
+                    "children": [
+                        {
+                            "name": "Criminal",
+                            "size": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "Hispanic (Latin American)",
+                    "children": [
+                        {
+                            "name": "Artist",
+                            "size": 1
+                        },
+                        {
+                            "name": "Actress / activist",
+                            "size": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "Middle Eastern",
+                    "children": [
+                        {
+                            "name": "Historical",
+                            "size": 3
+                        },
+                        {
+                            "name": "Activist",
+                            "size": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "Mediterranean",
+                    "children": [
+                        {
+                            "name": "Singer",
+                            "size": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "Caribbean",
+                    "children": []
+                },
+                {
+                    "name": "African",
+                    "children": [
+                        {
+                            "name": "Other",
+                            "size": 1
+                        },
+                        {
+                            "name": "Activist",
+                            "size": 1
+                        },
+                        {
+                            "name": "Government",
+                            "size": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "Middle Eastern (White)",
+                    "children": [
+                        {
+                            "name": "Historical",
+                            "size": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "Native American",
+                    "children": [
+                        {
+                            "name": "Historical",
+                            "size": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "Asian",
+                    "children": [
+                        {
+                            "name": "Activist",
+                            "size": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "Eurasian",
+                    "children": [
+                        {
+                            "name": "Other",
+                            "size": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "Hispanic (Latina)",
+                    "children": [
+                        {
+                            "name": "Singer",
+                            "size": 1
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
