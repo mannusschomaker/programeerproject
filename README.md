@@ -8,7 +8,7 @@ Hoe kan het dat 80% van de waargebeurde verhalen die verfilmt worden een witte m
 **visualizatie in één zin**
 De ongelijkheden bij biografiche film keuzes in beeld.
 
-![img](https://github.com/mannusschomaker/programeerproject/blob/master/Schermafbeelding%202018-01-08%20om%2016.35.43.png)
+![img](https://github.com/mannusschomaker/programeerproject/blob/master/doc/Schermafbeelding%202018-01-12%20om%2012.29.00.png)
 Afbeelding visualizatie
 
 ***
@@ -16,15 +16,15 @@ Afbeelding visualizatie
 
 the minimum viable product (MVP):
 - De line graph laat zien hoeveel films er per jaar uitgebracht zijn van twee verschillende groepen.
-- De pie chart laat zien van welke catagorien de uitgebrachte films zijn per groep.
-- De netwerk graph laat zien welke regiseurs films hebben uitgebracht met welke acteurs.
+- De sunburst laat zien van welke catagorien de uitgebrachte films zijn per groep.
+- De barchart laat zien hoeveel een gemiddelde film van die etniticiteit kost voor het geselecteerde jaar.
 - Op de line graph zit een knop waarmee je kunt kiezen of je het verschil tussen man en vrouw of entnitichiteit wil zien.
-- Waarneer je op de line graph clickt verandert de pie chart rechts er van naar waarbij hij alleen de catogorie van dat jaar weergeeft.
+- Waarneer je op de line graph clickt verandert de sunburst rechts er van naar waarbij hij alleen de catogorie van dat jaar weergeeft. Ook verandert de barchart jaar aanleiding van het geselecteerde jaar.
+- Met de slider kan je kiezen hoeveel jaren je selecteerd
 
 optional:
-- Waarneer je op een catagorie van de pie chart clickt update de netwerk graph zodat hij alleen de regiseurs van die catagorie in dat jaar laat zien 
+- Waarneer je op een catagorie van de pie chart clickt update de barchart zodat hij alleen de regiseurs van die catagorie in dat jaar laat zien 
 - Op de line graph zit een tooltip waarmee je on mouse over kan zien welke films er dat jaar zijn uitgebracht.
-- Waarnee je met je muis over de bolletjes van de acteus en regiseurs gaat zie je in welke films ze hebben gespeeld
 
 ***
 **data sources**
