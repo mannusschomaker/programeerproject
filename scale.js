@@ -68,4 +68,5 @@ function sentYears(years, data){
     })
 
     valueBarUpdate(dataForUpdate)
+    valueSun(dataForUpdate)
 }

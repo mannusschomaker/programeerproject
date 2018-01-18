@@ -22,12 +22,7 @@
     min-height:200px;
 }
 
-/* Hide the carousel text when the screen is less than 600 pixels wide */
-@media (max-width: 600px) {
-  .carousel-caption {
-    display: none; 
-  }
-}
+
 
 
 .axis--grid .domain {
@@ -42,4 +37,49 @@
 
 .axis--grid .tick--minor line {
   stroke-opacity: .5;
+}
+
+
+
+body {
+  font-family: Sans-serif;
+
+}
+
+.slice {
+  cursor: pointer;
+}
+
+.slice .main-arc {
+  stroke: #fff;
+  stroke-width: 1px;
+}
+
+.slice .hidden-arc {
+  fill: none;
+}
+
+.slice text {
+  pointer-events: none;
+  dominant-baseline: middle;
+  text-anchor: middle;
+  font-size: 25px;
+}
+
+.node circle {
+  cursor: pointer;
+  stroke: #3182bd;
+  stroke-width: 1.5px;
+}
+
+.node text {
+  font: 10px sans-serif;
+  pointer-events: none;
+  text-anchor: middle;
+}
+
+line.link {
+  fill: none;
+  stroke: #9ecae1;
+  stroke-width: 1.5px;
 }

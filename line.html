@@ -8,12 +8,20 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js"></script>
+    <script>
+      d3v3 = d3
+      window.d3 = null
+    </script>
     <script src="//d3js.org/d3.v4.min.js"  charset="utf-8"></script>
     <link rel="stylesheet" type="text/css" href="styleSheetMulti.css">
+    
     <script src="bar.js" ></script>
     <script src="multi.js" ></script>
     <script src="scale.js" ></script>
     <script src="sun.js" ></script>
+    <script src="force.js" ></script>
+    <script src="update.js" ></script>
 	  <a href= "https://github.com/fivethirtyeight/data/tree/master/biopics"> data source </a>
     
   </head>
@@ -53,7 +61,7 @@
         <!-- Wrapper for slides -->
         <div class="carousel-inner" role="listbox">
           <div class="item active">
-            <img src="https://placehold.it/1200x400?text=IMAGE" alt="Image">
+            <img src="http://cdn.history.com/sites/2/2017/10/GettyImages-72150247-H.jpeg" alt="Image">
             <div class="carousel-caption">
               <h3>Sell $</h3>
               <p>Money Money.</p>
@@ -61,7 +69,7 @@
           </div>
     
           <div class="item">
-            <img src="https://placehold.it/1200x400?text=Another Image Maybe" alt="Image">
+            <img src="http://cdn.history.com/sites/2/2013/12/black-history-facts-hero-H.jpeg" alt="Image">
             <div class="carousel-caption">
               <h3>More Sell $</h3>
               <p>Lorem ipsum...</p>
@@ -92,8 +100,7 @@
       <div class="row">
         <div class="col-md-6" id="graph3">
           </div>
-        <div class="col-md-6">
-         <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+        <div class="col-md-6" id="graph4">
           <p>Project 3</p>    
           </div>
         </div>

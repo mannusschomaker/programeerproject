@@ -47,6 +47,7 @@ d3.json("data.json", function(error, json) {
   if (error) throw error;
 
   root = json;
+  console.log(root)
   update();
 });
 
@@ -106,6 +107,7 @@ function color(d) {
 
 // Toggle children on click.
 function click(d) {
+    console.log(d.children)
   if (d3.event.defaultPrevented) return; // ignore drag
   if (d.children) {
     d._children = d.children;
@@ -119,6 +121,7 @@ function click(d) {
 
 // Returns a list of all nodes under the root.
 function flatten(root) {
+    console.log(root)
   var nodes = [], i = 0;
 
   function recurse(node) {

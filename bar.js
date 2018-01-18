@@ -29,15 +29,17 @@ yChart = d3.scaleLinear()
 				.range([height, 0]);
 
 xAxis = d3.axisBottom(xChart);
-yAxis = d3.axisLeft(yChart);
+yAxis = d3.axisLeft(yChart)
+            .tickSize(-width);
 colorScale = d3.scaleOrdinal(d3.schemeCategory10);
 
 
 //set up axes
 //left axis
 	g.append("g")
-		  .attr("class", "y axis")
-		  .call(yAxis)
+          .attr("class", "y axis")
+          .call(yAxis)
+
 		  
 	//bottom axis
 	g.append("g")
@@ -97,8 +99,7 @@ function valueBarUpdate(data){
         newData.push({"id":a, "meanValue":avg, "color":color[counter]})
         counter = counter + 1
     })
-    console.log(color)
-    console.log(newData)
+
     barUpdate(newData)
 }
 

@@ -9,15 +9,16 @@
  */
 
 
-
 // load json file and execute function graph
 d3.csv("data.csv", function (error, data) {
     if(error) throw error;
 
     // go to make variables
     window.onload = function(){
+    Sun(data)
     valueMulti(data)
     //valueSun(data)
+    force()
     scale(data)
     myFuncBar(data)
     }
@@ -65,13 +66,13 @@ function valueMulti(data){
 function multiGraph(data, yearsList){
 
     // make canvas
-    var svg = d3.select("#graf").append("svg").attr("id","line"),
-        margin = {top: 60, right: 20, bottom: 20, left: 50},
-        width = 700 - margin.left - margin.right,
-        height = 450 - margin.top - margin.bottom,
+    svgBar = d3.select("#graf").append("svg").attr("id","line"),
+        marginBar = {top: 60, right: 20, bottom: 20, left: 50},
+        widthBar = 700 - margin.left - margin.right,
+        heightBar = 450 - margin.top - margin.bottom,
 
         
-    g = svg.attr("height",height + margin.top + margin.bottom)
+    g = svgBar.attr("height",height + margin.top + margin.bottom)
         .attr("width",width + margin.left + margin.right)
         .append("g").attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
@@ -126,6 +127,10 @@ function multiGraph(data, yearsList){
         .attr("dy", "0.35em")
         .style("font", "10px sans-serif")
         .text(function(d) { return d.id; });
+
+
+};
+
 
 
 //     console.log(g)
@@ -214,4 +219,3 @@ function multiGraph(data, yearsList){
 //           return "translate(" + mouse[0] + "," + pos.y +")";
 //         });
 //     });
-};
