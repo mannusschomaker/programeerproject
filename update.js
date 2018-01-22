@@ -4,6 +4,7 @@ function valueSun(data){
     var gender = []
     
     data.forEach(function(d) {
+
         if (etnicities.indexOf(d.subject_race) <= -1){
             etnicities.push(d.subject_race);         
         }
@@ -18,15 +19,15 @@ function valueSun(data){
     var childernlist = []
     gender.forEach(function(sex) {
 
-        childernlist1 = []
+        var childernlist1 = []
         etnicities.forEach(function(race) {
 
-            childernlist2 = []
+            var childernlist2 = []
             catagory.forEach(function(subject) {
                 
-                counter = []
+                counter = 0
                 data.forEach(function(row) {
-                    if (row.subject_sex == sex && row.subject_race == race && row.type_of_subject){
+                    if (row.subject_sex == sex && row.subject_race == race && row.type_of_subject == subject){
                         counter += 1
                     }
 
@@ -42,10 +43,11 @@ function valueSun(data){
         childernlist.push({"name": sex, "children": childernlist1})
 
     })
+
     temp = {"name": "films", "children": childernlist}
 
-    console.log(temp)
     setTimeout(function() {
+    updateSun(temp)
     update(temp)
     },3000)
 }

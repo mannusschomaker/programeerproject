@@ -6,14 +6,15 @@ var link
 var node
 
 
+
 function force(){
 
 widthForce = 1200,
     heightForce = 1200;
 
 force = d3v3.layout.force()
-    .linkDistance(70)
-    .charge(-130)
+    .linkDistance(80)
+    .charge(-100)
     .gravity(.05)
     .size([width, height])
     .on("tick", tick);
@@ -28,7 +29,6 @@ link = svgForce.selectAll(".link"),
 
 d3v3.json("data.json", function(error, json) {
   if (error) throw error;
-
   root = json;
   console.log(root)
   update(root);
@@ -64,7 +64,7 @@ function update(root) {
       .call(force.drag);
 
   nodeEnter.append("circle")
-      .attr("r", function(d) { return ((Math.sqrt(d.size) * 4) + 1) || 4.5; });
+      .attr("r", function(d) { return ((Math.sqrt(d.size) * 2.5) + 0.5) || 4.5; });
 
   nodeEnter.append("text")
       .attr("dy", ".35em")

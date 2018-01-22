@@ -1,29 +1,43 @@
 
+var widthSun;
+var heightSun;
+var maxRadius;
+var formatNumber;
+var xSun;
+var ySun;
+var colorSun;
+var partition;
+var arc;
+var middleArcLine = {};
+var textFits = {};
+var svgSun;
+
+
 function Sun(){
-const widthSun = window.innerWidth,
+ widthSun = window.innerWidth,
     heightSun = window.innerHeight,
     maxRadius = (Math.min(widthSun, heightSun) / 2) - 5;
 
-const formatNumber = d3.format(',d');
+ formatNumber = d3.format(',d');
 
-const xSun = d3.scaleLinear()
+ xSun = d3.scaleLinear()
     .range([0, 2 * Math.PI])
     .clamp(true);
 
-const ySun = d3.scaleSqrt()
+ ySun = d3.scaleSqrt()
     .range([maxRadius*.1, maxRadius]);
 
-const color = d3.scaleOrdinal(d3.schemeCategory20);
+ colorSun = d3.scaleOrdinal(d3.schemeCategory20);
 
-const partition = d3.partition();
+ partition = d3.partition();
 
-const arc = d3.arc()
+ arc = d3.arc()
     .startAngle(d => xSun(d.x0))
     .endAngle(d => xSun(d.x1))
     .innerRadius(d => Math.max(0, ySun(d.y0)))
     .outerRadius(d => Math.max(0, ySun(d.y1)));
 
-const middleArcLine = d => {
+ middleArcLine = d => {
     const halfPi = Math.PI/2;
     const angles = [xSun(d.x0) - halfPi, xSun(d.x1) - halfPi];
     const r = Math.max(0, (ySun(d.y0) + ySun(d.y1)) / 2);
@@ -37,7 +51,7 @@ const middleArcLine = d => {
     return path.toString();
 };
 
-const textFits = d => {
+ textFits = d => {
     const CHAR_SPACE = 6;
 
     const deltaAngle = xSun(d.x1) - xSun(d.x0);
@@ -47,7 +61,7 @@ const textFits = d => {
     return d.data.name.length * CHAR_SPACE < perimeter;
 };
 
-const svgSun = d3.select('#graph3').append('svg')
+ svgSun = d3.select('#graph3').append('svg')
     .style('width', '800')
     .style('height', '800')
     .attr('viewBox', `${-widthSun / 2} ${-heightSun / 2} ${widthSun} ${heightSun}`)
@@ -57,15 +71,23 @@ const svgSun = d3.select('#graph3').append('svg')
 d3.json('data.json', (error, root) => {
     if (error) throw error;
 
+    updateSun(root)
+
+});
+}
+
+function updateSun(root){
+
+    console.log(root)
     root = d3.hierarchy(root);
     root.sum(d => d.size);
+
+    svgSun.selectAll("*").remove()
     
-    const slice = svgSun.selectAll('g.slice')
+    var slice = svgSun.selectAll('g.slice')
         .data(partition(root).descendants());
 
-    slice.exit().remove();
-
-    const newSlice = slice.enter()
+    var newSlice = slice.enter()
         .append('g').attr('class', 'slice')
         .on('click', d => {
             d3.event.stopPropagation();
@@ -79,7 +101,7 @@ d3.json('data.json', (error, root) => {
 
     newSlice.append('path')
         .attr('class', 'main-arc')
-        .style('fill', d => color((d.children ? d : d.parent).data.name))
+        .style('fill', d => colorSun((d.children ? d : d.parent).data.name))
         .attr('d', arc);
 
     newSlice.append('path')
@@ -87,7 +109,7 @@ d3.json('data.json', (error, root) => {
         .attr('id', (_, i) => `hiddenArc${i}`)
         .attr('d', middleArcLine);
 
-    const text = newSlice.append('text')
+    var text = newSlice.append('text')
         .attr('display', d => textFits(d) ? null : 'none');
 
     // Add white contour
@@ -104,7 +126,7 @@ d3.json('data.json', (error, root) => {
         .attr('startOffset','50%')
         .attr('xlink:href', (_, i) => `#hiddenArc${i}` )
         .text(d => d.data.name);
-});
+    }
 
 function focusOn(d = { x0: 0, x1: 1, y0: 0, y1: 1 }) {
     // Reset to top-level if no data point specified
@@ -137,5 +159,4 @@ function focusOn(d = { x0: 0, x1: 1, y0: 0, y1: 1 }) {
                 if (d.parent) { moveStackToFront(d.parent); }
             })
     }
-}
 }
