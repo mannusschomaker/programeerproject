@@ -16,7 +16,7 @@ force = d3v3.layout.force()
     .linkDistance(80)
     .charge(-100)
     .gravity(.05)
-    .size([width, height])
+    .size([widthForce, heightForce])
     .on("tick", tick);
 
 
@@ -31,11 +31,14 @@ d3v3.json("data.json", function(error, json) {
   if (error) throw error;
   root = json;
   console.log(root)
-  update(root);
+  updateForce(root);
 });
 }
 
-function update(root) {
+function updateForce(root) {
+
+
+
   var nodes = flatten(root),
       links = d3v3.layout.tree().links(nodes);
 
@@ -48,7 +51,8 @@ function update(root) {
   // Update links.
   link = link.data(links, function(d) { return d.target.id; });
 
-  link.exit().remove();
+  svgForce.selectAll("*").remove()
+//   link.exit().remove();
 
   link.enter().insert("line", ".node")
       .attr("class", "link");
@@ -100,7 +104,7 @@ function tick() {
       d.children = d._children;
       d._children = null;
     }
-    update();
+    updateForce();
   }
   
   // Returns a list of all nodes under the root.

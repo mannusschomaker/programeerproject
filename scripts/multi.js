@@ -68,8 +68,8 @@ function multiGraph(data, yearsList){
     // make canvas
     svgBar = d3.select("#graf").append("svg").attr("id","line"),
         marginBar = {top: 60, right: 20, bottom: 20, left: 50},
-        widthBar = 700 - margin.left - margin.right,
-        heightBar = 450 - margin.top - margin.bottom,
+        widthBar = 2000 - margin.left - margin.right,
+        heightBar = 250 - margin.top - margin.bottom,
 
         
     g = svgBar.attr("height",height + margin.top + margin.bottom)

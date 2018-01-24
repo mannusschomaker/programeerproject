@@ -154,6 +154,7 @@ function valueBar(data){
 
 
 function barUpdate(data){
+    console.log(data)
     //set domain for the x axis
     xChart.domain(data.map(function(d){ return d.id; }) );
     //set domain for y axis

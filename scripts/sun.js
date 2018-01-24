@@ -62,8 +62,8 @@ function Sun(){
 };
 
  svgSun = d3.select('#graph3').append('svg')
-    .style('width', '800')
-    .style('height', '800')
+    .style('width', '1200')
+    .style('height', '1200')
     .attr('viewBox', `${-widthSun / 2} ${-heightSun / 2} ${widthSun} ${heightSun}`)
     .on('click', () => focusOn()); // Reset zoom on canvas click
 
@@ -86,6 +86,8 @@ function updateSun(root){
     
     var slice = svgSun.selectAll('g.slice')
         .data(partition(root).descendants());
+
+    // slice.exit().remove();
 
     var newSlice = slice.enter()
         .append('g').attr('class', 'slice')

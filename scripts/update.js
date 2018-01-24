@@ -46,9 +46,9 @@ function valueSun(data){
 
     temp = {"name": "films", "children": childernlist}
 
-    setTimeout(function() {
+    // setTimeout(function() {
     updateSun(temp)
     update(temp)
-    },3000)
+    // },3000)
 }
 
