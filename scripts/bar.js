@@ -6,6 +6,8 @@ var yChart;
 var xAxis;
 var yAxis;
 var colorScale;
+var height;
+var tooltip;
 
 
 function myFuncBar(data, callback){
@@ -22,7 +24,7 @@ g = svg.attr("height",height + margin.top + margin.bottom)
 .append("g").attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
 xChart = d3.scaleBand()
-				.range([0, width]);
+                .range([0, width]);
         
 
 yChart = d3.scaleLinear()
@@ -32,6 +34,8 @@ xAxis = d3.axisBottom(xChart);
 yAxis = d3.axisLeft(yChart)
             .tickSize(-width);
 colorScale = d3.scaleOrdinal(d3.schemeCategory10);
+
+tooltip = d3.select("#graf2").append("div").attr("class", "toolTip");
 
 
 //set up axes
@@ -67,90 +71,9 @@ g
 
     
     valueBar(data)
-}
-function valueBarUpdate(data){
-    var etnicities = []
-    var newData = []
-    var color = []
-    data.forEach(function(d) {
-        if (etnicities.indexOf(d.subject_race) <= -1){
-            etnicities.push(d.subject_race);
-            color.push(d.person_of_color);            
-
-        }
-    })
-
-    var counter = 0
-    etnicities.forEach(function(a) {
-        arr = a + "Arry"
-        arr = []
-        data.forEach(function(d) {
-            if (a == d.subject_race){
-                arr.push(d.box_office)
-            }
-        })
-        
-        var sum = 0;
-        for (i = 0; i < arr.length; i++) {
-            sum = sum + arr[i]; //don't forget to add the base
-        }
-        var avg = sum/arr.length; 
-        
-        newData.push({"id":a, "meanValue":avg, "color":color[counter]})
-        counter = counter + 1
-    })
-
-    barUpdate(newData)
+    valueBarUpdateMvsW(data)
 }
 
-
-function valueBar(data){
-
-    var etnicities = []
-    var newData = []
-    var color = []
-
-    data.forEach(function(d) {
-        if (d.box_office == "-") {
-            d.box_office = 1;
-        }
-        else {
-            d.box_office = +d.box_office.slice(1, -1);
-        }
-        if ( d.subject_race == "" ) {
-            d.subject_race = "Unknown"
-        }
-
-        if (etnicities.indexOf(d.subject_race) <= -1){
-            etnicities.push(d.subject_race);
-            color.push(d.person_of_color);
-        }
-    })
-    var counter = 0
-    etnicities.forEach(function(a) {
-        arr = a + "Arry"
-        var arr = []
-        data.forEach(function(d) {
-            if (a == d.subject_race){
-                arr.push(d.box_office)
-            }
-        })
-        
-        var sum = 0;
-        for (i = 0; i < arr.length; i++) {
-            sum = sum + arr[i]; //don't forget to add the base
-        }
-        var avg = sum/arr.length; 
-        
-        newData.push({"id":a, "meanValue":avg, "color":color[counter]})
-        counter = counter + 1
-        
-    })
-
-    barUpdate(newData)
-   
-
-}
 
 
 function barUpdate(data){
@@ -168,17 +91,32 @@ function barUpdate(data){
     var bars = g.selectAll(".bar")
                     .remove()
                     .exit()
-                    .data(data)		
+                    .data(data)	
+        
+
     //now actually give each rectangle the corresponding data
     bars.enter()
         .append("rect")
         .attr("class", "bar")
         .attr("x", function(d, i){ return i * barWidth + 1 })
-        .attr("y", function(d){ return yChart( d.meanValue); })
-        .attr("height", function(d){ return height - yChart(d.meanValue); })
+        .attr("y", height)
         .attr("width", barWidth - 1)
         .attr("fill", function (d){ return colorScale(d.color); })
-        .attr()
+        .on("mousemove", function(d){
+            console.log(tooltip)
+            tooltip
+              .style("left", d3.event.pageX - 800 + "px")
+              .style("top", d3.event.pageY - 800 + "px")
+              .style("display", "inline-block")
+              .html((d.meanValue) + "<br>" + "£" + (d.meanValue));
+        })
+        .on("mouseout", function(d){ tooltip.style("display", "none");})
+        .transition().duration(800)
+        .attr("y", function(d) { return yChart(d.meanValue); })
+        .attr("height", function(d){ return height - yChart(d.meanValue); })
+
+
+
         
     //left axis
     g.select('.y')

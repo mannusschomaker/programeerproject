@@ -7,22 +7,24 @@
  * door: mannus schomaker 10591664
  * 
  */
+var allData;
+var dataBarEtnicities;
+var dataBarMvsW;
 
+queue()
+.defer(d3.csv, '../data/data.csv')
+.defer(d3.json, '../data/data.json')
+.await(startMyPage);
 
-// load json file and execute function graph
-d3.csv("data.csv", function (error, data) {
-    if(error) throw error;
-
-    // go to make variables
-    window.onload = function(){
-    Sun(data)
-    valueMulti(data)
-    //valueSun(data)
-    force()
-    scale(data)
-    myFuncBar(data)
-    }
-});
+function startMyPage(error, all, her){
+        Sun(her)
+        allData = all
+        valueMulti(all)
+        //valueSun(data)
+        force(her)
+        scale(all)
+        myFuncBar(all)
+}
 
 
 // initialize variables min

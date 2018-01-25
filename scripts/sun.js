@@ -13,7 +13,8 @@ var textFits = {};
 var svgSun;
 
 
-function Sun(){
+
+function Sun(data){
  widthSun = window.innerWidth,
     heightSun = window.innerHeight,
     maxRadius = (Math.min(widthSun, heightSun) / 2) - 5;
@@ -26,6 +27,8 @@ function Sun(){
 
  ySun = d3.scaleSqrt()
     .range([maxRadius*.1, maxRadius]);
+
+
 
  colorSun = d3.scaleOrdinal(d3.schemeCategory20);
 
@@ -62,30 +65,25 @@ function Sun(){
 };
 
  svgSun = d3.select('#graph3').append('svg')
-    .style('width', '1200')
-    .style('height', '1200')
-    .attr('viewBox', `${-widthSun / 2} ${-heightSun / 2} ${widthSun} ${heightSun}`)
+    .style('width', '1000')
+    .style('height', '1000')
+    .attr('viewBox', `${-widthSun / 3} ${-heightSun / 3} ${widthSun} ${heightSun}`)
     .on('click', () => focusOn()); // Reset zoom on canvas click
 
-    
-d3.json('data.json', (error, root) => {
-    if (error) throw error;
-
-    updateSun(root)
-
-});
+console.log(data)
+updateSun(data)
 }
 
-function updateSun(root){
+function updateSun(rootSun){
 
-    console.log(root)
-    root = d3.hierarchy(root);
-    root.sum(d => d.size);
+    console.log(rootSun)
+    rootSun = d3.hierarchy(rootSun);
+    rootSun.sum(d => d.size);
 
     svgSun.selectAll("*").remove()
     
     var slice = svgSun.selectAll('g.slice')
-        .data(partition(root).descendants());
+        .data(partition(rootSun).descendants());
 
     // slice.exit().remove();
 
@@ -93,7 +91,10 @@ function updateSun(root){
         .append('g').attr('class', 'slice')
         .on('click', d => {
             d3.event.stopPropagation();
-            update(d[Object.keys(d)[0]])
+            root = d[Object.keys(d)[0]]
+            setTimeout(function() {
+                updateForce()
+              }, 1000);
             console.log(d[Object.keys(d)[0]])
             focusOn(d);
         });
@@ -109,7 +110,9 @@ function updateSun(root){
     newSlice.append('path')
         .attr('class', 'hidden-arc')
         .attr('id', (_, i) => `hiddenArc${i}`)
-        .attr('d', middleArcLine);
+        .attr('d', middleArcLine)
+        .transition()
+        .duration(750);
 
     var text = newSlice.append('text')
         .attr('display', d => textFits(d) ? null : 'none');

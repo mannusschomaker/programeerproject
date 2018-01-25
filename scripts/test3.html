@@ -43,7 +43,7 @@ var svg = d3.select("body").append("svg")
 var link = svg.selectAll(".link"),
     node = svg.selectAll(".node");
 
-d3.json("data.json", function(error, json) {
+d3.json("../data/data.json", function(error, json) {
   if (error) throw error;
 
   root = json;
@@ -107,7 +107,10 @@ function color(d) {
 
 // Toggle children on click.
 function click(d) {
+    console.log(d)
     console.log(d.children)
+    console.log(d._children)
+
   if (d3.event.defaultPrevented) return; // ignore drag
   if (d.children) {
     d._children = d.children;

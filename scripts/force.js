@@ -4,13 +4,14 @@ var force
 var svgForce
 var link
 var node
+var root
 
 
 
-function force(){
+function force(data){
 
-widthForce = 1200,
-    heightForce = 1200;
+widthForce = 800,
+heightForce = 800;
 
 force = d3v3.layout.force()
     .linkDistance(80)
@@ -24,43 +25,42 @@ svgForce = d3v3.select("#graph4").append("svg")
     .attr("width", widthForce)
     .attr("height", heightForce);
 
-link = svgForce.selectAll(".link"),
-    node = svgForce.selectAll(".node");
 
-d3v3.json("data.json", function(error, json) {
-  if (error) throw error;
-  root = json;
-  console.log(root)
-  updateForce(root);
-});
+
+root = data
+console.log(data)
+updateForce()
+
 }
 
-function updateForce(root) {
+function updateForce() {
+    console.log(root)
+    svgForce.selectAll(".node").remove()
 
+    link = svgForce.selectAll(".link");
+    node = svgForce.selectAll(".node");
 
-
-  var nodes = flatten(root),
+    var nodes = flatten(root),
       links = d3v3.layout.tree().links(nodes);
 
   // Restart the force layout.
   force
-      .nodes(nodes)
-      .links(links)
-      .start();
+  .nodes(nodes)
+  .links(links)
+  .start();
 
   // Update links.
   link = link.data(links, function(d) { return d.target.id; });
 
-  svgForce.selectAll("*").remove()
-//   link.exit().remove();
+//   
+  link.exit().remove();
 
   link.enter().insert("line", ".node")
       .attr("class", "link");
 
   // Update nodes.
+  console.log(node)
   node = node.data(nodes, function(d) { return d.id; });
-
-  node.exit().remove();
 
   var nodeEnter = node.enter().append("g")
       .attr("class", "node")
@@ -76,6 +76,8 @@ function updateForce(root) {
 
   node.select("circle")
       .style("fill", color);
+
+
 }
 
 function tick() {
