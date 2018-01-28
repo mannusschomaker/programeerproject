@@ -68,7 +68,6 @@ function valueBarUpdate(data){
 
     var counter = 0
     etnicities.forEach(function(a) {
-        arr = a + "Arry"
         arr = []
         data.forEach(function(d) {
             if (a == d.subject_race){
@@ -94,17 +93,9 @@ function valueBarUpdateMvsW(data){
     var gender = ["Male","Female"]
     var newData = []
     var color = [0,1]
-    // data.forEach(function(d) {
-    //     if (etnicities.indexOf(d.subject_race) <= -1){
-    //         etnicities.push(d.subject_race);
-    //         color.push(d.subject_sex);            
-
-    //     }
-    // })
 
     var counter = 0
     gender.forEach(function(a) {
-        arr = a + "Arry"
         arr = []
         data.forEach(function(d) {
             if (a == d.subject_sex){
@@ -150,7 +141,6 @@ function valueBar(data){
     })
     var counter = 0
     etnicities.forEach(function(a) {
-        arr = a + "Arry"
         var arr = []
         data.forEach(function(d) {
             if (a == d.subject_race){

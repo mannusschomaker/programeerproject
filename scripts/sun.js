@@ -85,7 +85,7 @@ function updateSun(rootSun){
     var slice = svgSun.selectAll('g.slice')
         .data(partition(rootSun).descendants());
 
-    // slice.exit().remove();
+    slice.exit().remove();
 
     var newSlice = slice.enter()
         .append('g').attr('class', 'slice')

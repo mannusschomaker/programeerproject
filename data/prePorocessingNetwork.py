@@ -32,15 +32,19 @@ with open('data.csv') as csvfile:
             childernlist2 = []
             for sub in catagory:
                 counter = 0
+                avg_monny = []
                 for row in allData:
-                    childernlist3 = []
                     if row['subject_sex'] == sex:
                         if row['subject_race'] == race:
                             if row['type_of_subject'] == sub:
-                                childernlist2.append({"name": row['title'], "size": 1})
-
-                if not counter == 0:
-                    childernlist2.append({"name": sub, "size": counter})
+                                if len(row['box_office'][1:-1]) == 0:
+                                    print(1)
+                                    row['box_office'] = 1
+            
+                                avg_monny.append(int(row['box_office'][1:-1]))
+                print(avg_monny)
+                if not len(avg_monny) == 0:
+                    childernlist2.append({"name": sub, "size": sum(avg_monny)/len(avg_monny)})
             childernlist1.append({"name": race, "children": childernlist2})
         childernlist.append({"name": sex, "children": childernlist1})
     temp = {"name": "films", "children": childernlist}

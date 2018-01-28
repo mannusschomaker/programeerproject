@@ -31,7 +31,7 @@ yChart = d3.scaleLinear()
 				.range([height, 0]);
 
 xAxis = d3.axisBottom(xChart);
-yAxis = d3.axisLeft(yChart)
+yAxis = d3.axisLeft(yChart).tickSizeOuter(0)
             .tickSize(-width);
 colorScale = d3.scaleOrdinal(d3.schemeCategory10);
 
@@ -120,7 +120,9 @@ function barUpdate(data){
         
     //left axis
     g.select('.y')
-          .call(yAxis)
+        .transition()
+        .duration(800)
+        .call(yAxis)
     //bottom axis
     g.select('.xAxis')
         .attr("transform", "translate(0," + height + ")")

@@ -33,6 +33,10 @@
     min-height:200px;
 }
 
+#graf2 svg g g path.domain {
+    visibility:  hidden;
+}
+
 
 
 
@@ -117,16 +121,4 @@ line.link {
 #panel2 {
   padding: 50px;
   display: none;
-}
-
-.first {
-  width: 100%;
-  height: 1000px;
-  background: #ccc;
-}
-
-.second {
-  width: 100%;
-  height: 1000px;
-  background: #999;
 }

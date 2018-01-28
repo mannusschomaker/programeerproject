@@ -1,4 +1,4 @@
-/* scripts.js
+/* multi.js
  * minor programeren
  *
  * d3.js page for interactive bar graph
@@ -7,24 +7,7 @@
  * door: mannus schomaker 10591664
  * 
  */
-var allData;
-var dataBarEtnicities;
-var dataBarMvsW;
 
-queue()
-.defer(d3.csv, '../data/data.csv')
-.defer(d3.json, '../data/data.json')
-.await(startMyPage);
-
-function startMyPage(error, all, her){
-        Sun(her)
-        allData = all
-        valueMulti(all)
-        //valueSun(data)
-        force(her)
-        scale(all)
-        myFuncBar(all)
-}
 
 
 // initialize variables min
