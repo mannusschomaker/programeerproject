@@ -70,4 +70,5 @@ function sentYears(years, data){
     valueBarUpdate(dataForUpdate)
     valueBarUpdateMvsW(dataForUpdate)
     valueSun(dataForUpdate)
+    // valueForce(dataForUpdate)
 }

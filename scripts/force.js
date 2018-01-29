@@ -1,5 +1,14 @@
-var widthForce
-var heightForce
+/* multi.js
+ * minor programeren
+ *
+ * d3.js page for interactive bar graph
+ * interactive bar chart
+ * graph is interactive: info popup when hovering over bars
+ * door: mannus schomaker 10591664
+ * 
+ */
+
+// initiate global variables for force graph
 var force
 var svgForce
 var link
@@ -7,12 +16,19 @@ var node
 var root
 
 
+// function for initiation of force directed graph
+function initForce(data) {
 
-function force(data){
-
+// cavas size
 widthForce = 800,
 heightForce = 800;
 
+// initiate cavas
+svgForce = d3v3.select("#graph4").append("svg")
+    .attr("width", widthForce)
+    .attr("height", heightForce);
+
+// force layout function sets layout parameters
 force = d3v3.layout.force()
     .linkDistance(80)
     .charge(-100)
@@ -20,64 +36,53 @@ force = d3v3.layout.force()
     .size([widthForce, heightForce])
     .on("tick", tick);
 
-
-svgForce = d3v3.select("#graph4").append("svg")
-    .attr("width", widthForce)
-    .attr("height", heightForce);
-
-
-
+// set data and call function to create force graph
 root = data
-console.log(data)
 updateForce()
 
 }
 
+
+// function to build and rebuild the force directed graph
 function updateForce() {
-    console.log(root)
+
+    // remove all old node
     svgForce.selectAll(".node").remove()
 
+    // set easy selectors
     link = svgForce.selectAll(".link");
     node = svgForce.selectAll(".node");
-
     var nodes = flatten(root),
-      links = d3v3.layout.tree().links(nodes);
+        links = d3v3.layout.tree().links(nodes);
 
-  // Restart the force layout.
-  force
-  .nodes(nodes)
-  .links(links)
-  .start();
+    // Restart the force layout.
+    force.nodes(nodes)
+        .links(links)
+        .start();
 
-  // Update links.
-  link = link.data(links, function(d) { return d.target.id; });
+    // add new data for links and remove the old 
+    link = link.data(links, function(d) { return d.target.id; });
+    link.exit().remove();
 
-//   
-  link.exit().remove();
+    // draw new links
+    link.enter().insert("line", ".node")
+        .attr("class", "link");
 
-  link.enter().insert("line", ".node")
-      .attr("class", "link");
+    // add new data for nodes and make spaces for nodes
+    node = node.data(nodes, function(d) { return d.id; });
+    var nodeEnter = node.enter().append("g")
+        .attr("class", "node")
+        .on("click", click)
+        .call(force.drag);
 
-  // Update nodes.
-  console.log(node)
-  node = node.data(nodes, function(d) { return d.id; });
+    // add circle and text
+    nodeEnter.append("circle")
+        .attr("r", function(d) { return ((Math.sqrt(d.box) * 2.5) + 0.5) || 4.5; })
+        .style("fill", color);
 
-  var nodeEnter = node.enter().append("g")
-      .attr("class", "node")
-      .on("click", click)
-      .call(force.drag);
-
-  nodeEnter.append("circle")
-      .attr("r", function(d) { return ((Math.sqrt(d.size) * 2.5) + 0.5) || 4.5; });
-
-  nodeEnter.append("text")
-      .attr("dy", ".35em")
-      .text(function(d) { return d.name; });
-
-  node.select("circle")
-      .style("fill", color);
-
-
+    nodeEnter.append("text")
+        .attr("dy", ".35em")
+        .text(function(d) { return d.name; });
 }
 
 function tick() {
@@ -89,16 +94,17 @@ function tick() {
     node.attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; });
   }
   
+  // collapsed, expanded and leaf nodes 
   function color(d) {
-    return d._children ? "#3182bd" // collapsed package
-        : d.children ? "#c6dbef" // expanded package
-        : "#fd8d3c"; // leaf node
+    return d._children ? "#3182bd"
+        : d.children ? "#c6dbef"
+        : "#fd8d3c";
   }
   
   // Toggle children on click.
   function click(d) {
-    console.log(d)
-    if (d3v3.event.defaultPrevented) return; // ignore drag
+
+    if (d3v3.event.defaultPrevented) return;
     if (d.children) {
       d._children = d.children;
       d.children = null;
@@ -111,9 +117,9 @@ function tick() {
   
   // Returns a list of all nodes under the root.
   function flatten(root) {
-    
+
     var nodes = [], i = 0;
-  
+
     function recurse(node) {
       if (node.children) node.children.forEach(recurse);
       if (!node.id) node.id = ++i;

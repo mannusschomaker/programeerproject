@@ -8,616 +8,72 @@
                     "name": "Unknown",
                     "children": [
                         {
-                            "name": "10 Rillington Place",
-                            "size": 1
+                            "name": "Criminal",
+                            "box": 49.106875
                         },
                         {
-                            "name": "Alpha Dog",
-                            "size": 1
+                            "name": "Other",
+                            "box": 47.852250000000005
                         },
                         {
-                            "name": "Birdman of Alcatraz",
-                            "size": 1
+                            "name": "Athlete",
+                            "box": 65.20473684210526
                         },
                         {
-                            "name": "Bonnie and Clyde",
-                            "size": 1
+                            "name": "Musician",
+                            "box": 98.24000000000001
                         },
                         {
-                            "name": "Bronson",
-                            "size": 1
+                            "name": "Author",
+                            "box": 9.046000000000001
                         },
                         {
-                            "name": "Buster",
-                            "size": 1
+                            "name": "Academic",
+                            "box": 219.33333333333334
                         },
                         {
-                            "name": "Cannibal! The Musical",
-                            "size": 1
+                            "name": "Historical",
+                            "box": 182.5
                         },
                         {
-                            "name": "Casino",
-                            "size": 1
+                            "name": "Military",
+                            "box": 71.87384615384616
                         },
                         {
-                            "name": "Catch Me If You Can",
-                            "size": 1
+                            "name": "Comedian",
+                            "box": 17.845000000000002
                         },
                         {
-                            "name": "Devil's Knot",
-                            "size": 1
+                            "name": "Actor",
+                            "box": 5.466666666666666
                         },
                         {
-                            "name": "Devil's Knot",
-                            "size": 1
+                            "name": "Medicine",
+                            "box": 36.75
                         },
                         {
-                            "name": "Devil's Knot",
-                            "size": 1
+                            "name": "Artist",
+                            "box": 1.04
                         },
                         {
-                            "name": "Dillinger",
-                            "size": 1
+                            "name": "Activist",
+                            "box": 28.15
                         },
                         {
-                            "name": "Ed Gein",
-                            "size": 1
+                            "name": "Military / activist",
+                            "box": 70.0
                         },
                         {
-                            "name": "Escape from Alcatraz",
-                            "size": 1
+                            "name": "Singer",
+                            "box": 30.814999999999998
                         },
                         {
-                            "name": "Escape from Alcatraz",
-                            "size": 1
+                            "name": "Author (poet)",
+                            "box": 136.6
                         },
                         {
-                            "name": "Escape from Alcatraz",
-                            "size": 1
-                        },
-                        {
-                            "name": "I Love You Phillip Morris",
-                            "size": 1
-                        },
-                        {
-                            "name": "Jamesy Boy",
-                            "size": 1
-                        },
-                        {
-                            "name": "Kid Cannabis",
-                            "size": 1
-                        },
-                        {
-                            "name": "Machine-Gun Kelly",
-                            "size": 1
-                        },
-                        {
-                            "name": "Midnight Express",
-                            "size": 1
-                        },
-                        {
-                            "name": "Mr. Nice",
-                            "size": 1
-                        },
-                        {
-                            "name": "Party Monster",
-                            "size": 1
-                        },
-                        {
-                            "name": "Public Enemies",
-                            "size": 1
-                        },
-                        {
-                            "name": "Ricky 6",
-                            "size": 1
-                        },
-                        {
-                            "name": "Rise of the Footsoldier",
-                            "size": 1
-                        },
-                        {
-                            "name": "Stealing Sinatra",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Assassination of Jesse James by the Coward Robert Ford",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Falcon and the Snowman",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Lawless Breed",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Wolf of Wall Street",
-                            "size": 1
-                        },
-                        {
-                            "name": "20 Dates",
-                            "size": 1
-                        },
-                        {
-                            "name": "Beyond the Law",
-                            "size": 1
-                        },
-                        {
-                            "name": "Blue",
-                            "size": 1
-                        },
-                        {
-                            "name": "Boys Don't Cry",
-                            "size": 1
-                        },
-                        {
-                            "name": "Carbine Williams",
-                            "size": 1
-                        },
-                        {
-                            "name": "Casino Jack",
-                            "size": 1
-                        },
-                        {
-                            "name": "Chisum",
-                            "size": 1
-                        },
-                        {
-                            "name": "Communion",
-                            "size": 1
-                        },
-                        {
-                            "name": "Digging Up the Marrow",
-                            "size": 1
-                        },
-                        {
-                            "name": "Ed Wood",
-                            "size": 1
-                        },
-                        {
-                            "name": "Fire in the Sky",
-                            "size": 1
-                        },
-                        {
-                            "name": "Flash of Genius",
-                            "size": 1
-                        },
-                        {
-                            "name": "Infamous",
-                            "size": 1
-                        },
-                        {
-                            "name": "Murder, Inc.",
-                            "size": 1
-                        },
-                        {
-                            "name": "My Childhood",
-                            "size": 1
-                        },
-                        {
-                            "name": "Open Water",
-                            "size": 1
-                        },
-                        {
-                            "name": "Prick Up Your Ears",
-                            "size": 1
-                        },
-                        {
-                            "name": "Searching for Bobby Fischer",
-                            "size": 1
-                        },
-                        {
-                            "name": "Self Medicated",
-                            "size": 1
-                        },
-                        {
-                            "name": "Sixty Six",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Assassination of Richard Nixon",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Aviator",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Best Intentions",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Cross and the Switchblade",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Frozen Ground",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Grey Fox",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Hunter",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Idolmaker",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Look of Love",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Magic Box",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Other Side of Heaven",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Social Network",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Straight Story",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Wizard of Speed and Time",
-                            "size": 1
-                        },
-                        {
-                            "name": "This Boy's Life",
-                            "size": 1
-                        },
-                        {
-                            "name": "To Walk with Lions",
-                            "size": 1
-                        },
-                        {
-                            "name": "To Walk with Lions",
-                            "size": 1
-                        },
-                        {
-                            "name": "Tucker: The Man and His Dream",
-                            "size": 1
-                        },
-                        {
-                            "name": "Walking Tall Part II",
-                            "size": 1
-                        },
-                        {
-                            "name": "WhiteLightnin'",
-                            "size": 1
-                        },
-                        {
-                            "name": "127 Hours",
-                            "size": 1
-                        },
-                        {
-                            "name": "8 Seconds",
-                            "size": 1
-                        },
-                        {
-                            "name": "Bloodsport",
-                            "size": 1
-                        },
-                        {
-                            "name": "Bobby Jones: Stroke of Genius",
-                            "size": 1
-                        },
-                        {
-                            "name": "Chasing Mavericks",
-                            "size": 1
-                        },
-                        {
-                            "name": "Fear Strikes Out",
-                            "size": 1
-                        },
-                        {
-                            "name": "Glory Road",
-                            "size": 1
-                        },
-                        {
-                            "name": "Into the Wild",
-                            "size": 1
-                        },
-                        {
-                            "name": "Invincible",
-                            "size": 1
-                        },
-                        {
-                            "name": "Lords of Dogtown",
-                            "size": 1
-                        },
-                        {
-                            "name": "Lords of Dogtown",
-                            "size": 1
-                        },
-                        {
-                            "name": "Miracle",
-                            "size": 1
-                        },
-                        {
-                            "name": "Radio",
-                            "size": 1
-                        },
-                        {
-                            "name": "Rudy",
-                            "size": 1
-                        },
-                        {
-                            "name": "Swimming Upstream",
-                            "size": 1
-                        },
-                        {
-                            "name": "The 5th Quarter",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Damned United",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Hammer",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Stratton Story",
-                            "size": 1
-                        },
-                        {
-                            "name": "Control",
-                            "size": 1
-                        },
-                        {
-                            "name": "Good Vibrations",
-                            "size": 1
-                        },
-                        {
-                            "name": "Great Balls of Fire!",
-                            "size": 1
-                        },
-                        {
-                            "name": "Night and Day",
-                            "size": 1
-                        },
-                        {
-                            "name": "One Chance",
-                            "size": 1
-                        },
-                        {
-                            "name": "Sex & Drugs & Rock & Roll",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Eddy Duchin Story",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Five Pennies",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Last Ride",
-                            "size": 1
-                        },
-                        {
-                            "name": "Your Cheatin' Heart",
-                            "size": 1
-                        },
-                        {
-                            "name": "84 Charing Cross Road",
-                            "size": 1
-                        },
-                        {
-                            "name": "Capote",
-                            "size": 1
-                        },
-                        {
-                            "name": "Prick Up Your Ears",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Color of Time",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Last Time I Committed Suicide",
-                            "size": 1
-                        },
-                        {
-                            "name": "A Beautiful Mind",
-                            "size": 1
-                        },
-                        {
-                            "name": "Creation",
-                            "size": 1
-                        },
-                        {
-                            "name": "Infinity",
-                            "size": 1
-                        },
-                        {
-                            "name": "Nostradamus",
-                            "size": 1
-                        },
-                        {
-                            "name": "Spartacus",
-                            "size": 1
-                        },
-                        {
-                            "name": "Above and Beyond",
-                            "size": 1
-                        },
-                        {
-                            "name": "American Sniper",
-                            "size": 1
-                        },
-                        {
-                            "name": "Another Country",
-                            "size": 1
-                        },
-                        {
-                            "name": "Battle Hymn",
-                            "size": 1
-                        },
-                        {
-                            "name": "Burning Blue",
-                            "size": 1
-                        },
-                        {
-                            "name": "Captain Phillips",
-                            "size": 1
-                        },
-                        {
-                            "name": "Charlie Wilson's War",
-                            "size": 1
-                        },
-                        {
-                            "name": "Chattahoochee",
-                            "size": 1
-                        },
-                        {
-                            "name": "Everyman's War",
-                            "size": 1
-                        },
-                        {
-                            "name": "Lone Survivor",
-                            "size": 1
-                        },
-                        {
-                            "name": "Reach for the Sky",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Railway Man",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Wings of Eagles",
-                            "size": 1
-                        },
-                        {
-                            "name": "Man on the Moon",
-                            "size": 1
-                        },
-                        {
-                            "name": "Wired",
-                            "size": 1
-                        },
-                        {
-                            "name": "Confessions of a Dangerous Mind",
-                            "size": 1
-                        },
-                        {
-                            "name": "Crutch",
-                            "size": 1
-                        },
-                        {
-                            "name": "Hollywoodland",
-                            "size": 1
-                        },
-                        {
-                            "name": "Bubble Boy",
-                            "size": 1
-                        },
-                        {
-                            "name": "Patch Adams",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Great Moment",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Sessions",
-                            "size": 1
-                        },
-                        {
-                            "name": "Moulin Rouge",
-                            "size": 1
-                        },
-                        {
-                            "name": "Savage Messiah",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Story of Vernon and Irene Castle",
-                            "size": 1
-                        },
-                        {
-                            "name": "Dallas Buyers Club",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Insider",
-                            "size": 1
-                        },
-                        {
-                            "name": "Born on the Fourth of July",
-                            "size": 1
-                        },
-                        {
-                            "name": "Sid and Nancy",
-                            "size": 1
-                        },
-                        {
-                            "name": "What We Do Is Secret",
-                            "size": 1
-                        },
-                        {
-                            "name": "Pandaemonium",
-                            "size": 1
-                        },
-                        {
-                            "name": "Pandaemonium",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Broken Tower",
-                            "size": 1
-                        },
-                        {
-                            "name": "Total Eclipse",
-                            "size": 1
-                        },
-                        {
-                            "name": "Total Eclipse",
-                            "size": 1
-                        },
-                        {
-                            "name": "Good Morning, Vietnam",
-                            "size": 1
-                        },
-                        {
-                            "name": "Kill the Messenger",
-                            "size": 1
-                        },
-                        {
-                            "name": "Story of G.I. Joe",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Bang Bang Club",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Bang Bang Club",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Soloist",
-                            "size": 1
-                        },
-                        {
-                            "name": "Where the Buffalo Roam",
-                            "size": 1
+                            "name": "Media",
+                            "box": 23.16428571428571
                         }
                     ]
                 },
@@ -625,128 +81,44 @@
                     "name": "African American",
                     "children": [
                         {
-                            "name": "American Gangster",
-                            "size": 1
+                            "name": "Criminal",
+                            "box": 108.35
                         },
                         {
-                            "name": "Blue Caprice",
-                            "size": 1
+                            "name": "Other",
+                            "box": 88.2
                         },
                         {
-                            "name": "12 Years a Slave",
-                            "size": 1
+                            "name": "Athlete",
+                            "box": 57.54916666666667
                         },
                         {
-                            "name": "Fruitvale Station",
-                            "size": 1
+                            "name": "Musician",
+                            "box": 31.8825
                         },
                         {
-                            "name": "Lee Daniels' The Butler",
-                            "size": 1
+                            "name": "Academic",
+                            "box": 30.2
                         },
                         {
-                            "name": "The Pursuit of Happyness",
-                            "size": 1
+                            "name": "Military",
+                            "box": 21.1
                         },
                         {
-                            "name": "42",
-                            "size": 1
+                            "name": "Comedian",
+                            "box": 18.0
                         },
                         {
-                            "name": "Ali",
-                            "size": 1
+                            "name": "Actor",
+                            "box": 365.0
                         },
                         {
-                            "name": "Greased Lightning",
-                            "size": 1
+                            "name": "Activist",
+                            "box": 34.92333333333334
                         },
                         {
-                            "name": "Men of Honor",
-                            "size": 1
-                        },
-                        {
-                            "name": "Phantom Punch",
-                            "size": 1
-                        },
-                        {
-                            "name": "Radio",
-                            "size": 1
-                        },
-                        {
-                            "name": "Remember the Titans",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Blind Side",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Express",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Greatest",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Hurricane",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Jackie Robinson Story",
-                            "size": 1
-                        },
-                        {
-                            "name": "Cadillac Records",
-                            "size": 1
-                        },
-                        {
-                            "name": "Ray",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Soloist",
-                            "size": 1
-                        },
-                        {
-                            "name": "Why Do Fools Fall in Love",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Great Debaters",
-                            "size": 1
-                        },
-                        {
-                            "name": "Antwone Fisher",
-                            "size": 1
-                        },
-                        {
-                            "name": "Jo Jo Dancer, Your Life Is Calling",
-                            "size": 1
-                        },
-                        {
-                            "name": "Baadasssss!",
-                            "size": 1
-                        },
-                        {
-                            "name": "Malcolm X",
-                            "size": 1
-                        },
-                        {
-                            "name": "Selma",
-                            "size": 1
-                        },
-                        {
-                            "name": "Talk to Me",
-                            "size": 1
-                        },
-                        {
-                            "name": "Get on Up",
-                            "size": 1
-                        },
-                        {
-                            "name": "Get Rich or Die Tryin'",
-                            "size": 1
+                            "name": "Singer",
+                            "box": 30.75
                         }
                     ]
                 },
@@ -754,1304 +126,96 @@
                     "name": "White",
                     "children": [
                         {
-                            "name": "Al Capone",
-                            "size": 1
+                            "name": "Criminal",
+                            "box": 59.90194444444445
                         },
                         {
-                            "name": "Billy the Kid",
-                            "size": 1
+                            "name": "Other",
+                            "box": 41.61425531914893
                         },
                         {
-                            "name": "Blow",
-                            "size": 1
+                            "name": "Athlete",
+                            "box": 84.32551724137932
                         },
                         {
-                            "name": "Breach",
-                            "size": 1
+                            "name": "Musician",
+                            "box": 40.6232
                         },
                         {
-                            "name": "Bugsy",
-                            "size": 1
+                            "name": "Author",
+                            "box": 79.78636363636363
                         },
                         {
-                            "name": "Butch Cassidy and the Sundance Kid",
-                            "size": 1
+                            "name": "Academic",
+                            "box": 12.243076923076924
                         },
                         {
-                            "name": "Butch Cassidy and the Sundance Kid",
-                            "size": 1
+                            "name": "Historical",
+                            "box": 9.791562500000001
                         },
                         {
-                            "name": "Capone",
-                            "size": 1
+                            "name": "Actress",
+                            "box": 1.0
                         },
                         {
-                            "name": "Compulsion",
-                            "size": 1
+                            "name": "Journalist",
+                            "box": 9.17
                         },
                         {
-                            "name": "Compulsion",
-                            "size": 1
+                            "name": "World leader",
+                            "box": 19.705833333333334
                         },
                         {
-                            "name": "Dahmer",
-                            "size": 1
+                            "name": "Military",
+                            "box": 19.9456
                         },
                         {
-                            "name": "Dillinger",
-                            "size": 1
+                            "name": "Comedian",
+                            "box": 4.415000000000001
                         },
                         {
-                            "name": "Find Me Guilty",
-                            "size": 1
+                            "name": "Actor",
+                            "box": 35.775
                         },
                         {
-                            "name": "Frank & Jesse",
-                            "size": 1
+                            "name": "Medicine",
+                            "box": 13.775
                         },
                         {
-                            "name": "Frank & Jesse",
-                            "size": 1
+                            "name": "Artist",
+                            "box": 42.017142857142865
                         },
                         {
-                            "name": "Goodfellas",
-                            "size": 1
+                            "name": "Activist",
+                            "box": 45.48571428571429
                         },
                         {
-                            "name": "Jesse James",
-                            "size": 1
+                            "name": "Politician",
+                            "box": 19.1
                         },
                         {
-                            "name": "Kill the Irishman",
-                            "size": 1
+                            "name": "Singer",
+                            "box": 7.840000000000001
                         },
                         {
-                            "name": "Killer: A Journal of Murder",
-                            "size": 1
+                            "name": "Author (poet)",
+                            "box": 9.4025
                         },
                         {
-                            "name": "Lucky Luciano",
-                            "size": 1
+                            "name": "Government",
+                            "box": 39.65
                         },
                         {
-                            "name": "Mesrine Part 1: Killer Instinct",
-                            "size": 1
+                            "name": "Media",
+                            "box": 10.781666666666666
                         },
                         {
-                            "name": "Mesrine Part 2: Public Enemy #1",
-                            "size": 1
+                            "name": "Athlete / military",
+                            "box": 116.0
                         },
                         {
-                            "name": "Ned Kelly",
-                            "size": 1
-                        },
-                        {
-                            "name": "Papillon",
-                            "size": 1
-                        },
-                        {
-                            "name": "Quills",
-                            "size": 1
-                        },
-                        {
-                            "name": "Swoon",
-                            "size": 1
-                        },
-                        {
-                            "name": "Swoon",
-                            "size": 1
-                        },
-                        {
-                            "name": "Ted Bundy",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Assassination of Jesse James by the Coward Robert Ford",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Frozen Ground",
-                            "size": 1
-                        },
-                        {
-                            "name": "The General",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Iceman",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Left Handed Gun",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Toast of New York",
-                            "size": 1
-                        },
-                        {
-                            "name": "The True Story of Jesse James",
-                            "size": 1
-                        },
-                        {
-                            "name": "VIPs",
-                            "size": 1
-                        },
-                        {
-                            "name": "1987",
-                            "size": 1
-                        },
-                        {
-                            "name": "A Man Called Peter",
-                            "size": 1
-                        },
-                        {
-                            "name": "Amazing Grace",
-                            "size": 1
-                        },
-                        {
-                            "name": "Beau Brummell",
-                            "size": 1
-                        },
-                        {
-                            "name": "Bernard and Doris",
-                            "size": 1
-                        },
-                        {
-                            "name": "Boys Town",
-                            "size": 1
-                        },
-                        {
-                            "name": "Brigham Young",
-                            "size": 1
-                        },
-                        {
-                            "name": "Buffalo Bill",
-                            "size": 1
-                        },
-                        {
-                            "name": "Christopher Columbus: The Discovery",
-                            "size": 1
-                        },
-                        {
-                            "name": "Gods and Monsters",
-                            "size": 1
-                        },
-                        {
-                            "name": "High Roller: The Stu Ungar Story",
-                            "size": 1
-                        },
-                        {
-                            "name": "His Majesty O'Keefe",
-                            "size": 1
-                        },
-                        {
-                            "name": "Hitchcock",
-                            "size": 1
-                        },
-                        {
-                            "name": "Houdini",
-                            "size": 1
-                        },
-                        {
-                            "name": "In the Name of the Father",
-                            "size": 1
-                        },
-                        {
-                            "name": "Jean Charles",
-                            "size": 1
-                        },
-                        {
-                            "name": "Korczak",
-                            "size": 1
-                        },
-                        {
-                            "name": "Machine Gun Preacher",
-                            "size": 1
-                        },
-                        {
-                            "name": "Mask",
-                            "size": 1
-                        },
-                        {
-                            "name": "Meetings with Remarkable Men",
-                            "size": 1
-                        },
-                        {
-                            "name": "My Life So Far",
-                            "size": 1
-                        },
-                        {
-                            "name": "My One and Only",
-                            "size": 1
-                        },
-                        {
-                            "name": "One Foot in Heaven",
-                            "size": 1
-                        },
-                        {
-                            "name": "Pierrepoint: The Last Hangman",
-                            "size": 1
-                        },
-                        {
-                            "name": "Rasputin: The Mad Monk",
-                            "size": 1
-                        },
-                        {
-                            "name": "Reversal of Fortune",
-                            "size": 1
-                        },
-                        {
-                            "name": "Rob Roy",
-                            "size": 1
-                        },
-                        {
-                            "name": "Santa Fe Trail",
-                            "size": 1
-                        },
-                        {
-                            "name": "Saving Mr. Banks",
-                            "size": 1
-                        },
-                        {
-                            "name": "Schindler's List",
-                            "size": 1
-                        },
-                        {
-                            "name": "Scott of the Antarctic",
-                            "size": 1
-                        },
-                        {
-                            "name": "Serpico",
-                            "size": 1
-                        },
-                        {
-                            "name": "Seven Years in Tibet",
-                            "size": 1
-                        },
-                        {
-                            "name": "Stander",
-                            "size": 1
-                        },
-                        {
-                            "name": "Stealing Sinatra",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Color of Freedom",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Elephant Man",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Fifth Estate",
-                            "size": 1
-                        },
-                        {
-                            "name": "The House of Rothschild",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Long Day Closes",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Spirit of St. Louis",
-                            "size": 1
-                        },
-                        {
-                            "name": "Vatel",
-                            "size": 1
-                        },
-                        {
-                            "name": "Vincent & Theo",
-                            "size": 1
-                        },
-                        {
-                            "name": "Walker",
-                            "size": 1
-                        },
-                        {
-                            "name": "When Did You Last See Your Father?",
-                            "size": 1
-                        },
-                        {
-                            "name": "Wyatt Earp",
-                            "size": 1
-                        },
-                        {
-                            "name": "Young Tom Edison",
-                            "size": 1
-                        },
-                        {
-                            "name": "Best",
-                            "size": 1
-                        },
-                        {
-                            "name": "Cinderella Man",
-                            "size": 1
-                        },
-                        {
-                            "name": "Cobb",
-                            "size": 1
-                        },
-                        {
-                            "name": "Evel Knievel",
-                            "size": 1
-                        },
-                        {
-                            "name": "Foxcatcher",
-                            "size": 1
-                        },
-                        {
-                            "name": "Gentleman Jim",
-                            "size": 1
-                        },
-                        {
-                            "name": "Invictus",
-                            "size": 1
-                        },
-                        {
-                            "name": "Jappeloup",
-                            "size": 1
-                        },
-                        {
-                            "name": "Knute Rockne All American",
-                            "size": 1
-                        },
-                        {
-                            "name": "Louis Cyr",
-                            "size": 1
-                        },
-                        {
-                            "name": "Million Dollar Arm",
-                            "size": 1
-                        },
-                        {
-                            "name": "Moneyball",
-                            "size": 1
-                        },
-                        {
-                            "name": "Prefontaine",
-                            "size": 1
-                        },
-                        {
-                            "name": "Raging Bull",
-                            "size": 1
-                        },
-                        {
-                            "name": "Rush",
-                            "size": 1
-                        },
-                        {
-                            "name": "Rush",
-                            "size": 1
-                        },
-                        {
-                            "name": "Somebody Up There Likes Me",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Babe",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Babe Ruth Story",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Boy in Blue",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Fighter",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Pistol: The Birth of a Legend",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Pride of the Yankees",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Rocket: The Legend of Rocket Richard",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Winning Team",
-                            "size": 1
-                        },
-                        {
-                            "name": "The World's Fastest Indian",
-                            "size": 1
-                        },
-                        {
-                            "name": "Triumph of the Spirit",
-                            "size": 1
-                        },
-                        {
-                            "name": "Viva Knievel!",
-                            "size": 1
-                        },
-                        {
-                            "name": "Without Limits",
-                            "size": 1
-                        },
-                        {
-                            "name": "24 Hour Party People",
-                            "size": 1
-                        },
-                        {
-                            "name": "A Song to Remember",
-                            "size": 1
-                        },
-                        {
-                            "name": "Amadeus",
-                            "size": 1
-                        },
-                        {
-                            "name": "Amadeus",
-                            "size": 1
-                        },
-                        {
-                            "name": "Backbeat",
-                            "size": 1
-                        },
-                        {
-                            "name": "Backbeat",
-                            "size": 1
-                        },
-                        {
-                            "name": "Beyond the Sea",
-                            "size": 1
-                        },
-                        {
-                            "name": "Cadillac Records",
-                            "size": 1
-                        },
-                        {
-                            "name": "Copying Beethoven",
-                            "size": 1
-                        },
-                        {
-                            "name": "De-Lovely",
-                            "size": 1
-                        },
-                        {
-                            "name": "Finding Graceland",
-                            "size": 1
-                        },
-                        {
-                            "name": "I'll See You in My Dreams",
-                            "size": 1
-                        },
-                        {
-                            "name": "I'm Not There.",
-                            "size": 1
-                        },
-                        {
-                            "name": "Immortal Beloved",
-                            "size": 1
-                        },
-                        {
-                            "name": "Impromptu",
-                            "size": 1
-                        },
-                        {
-                            "name": "Jersey Boys",
-                            "size": 1
-                        },
-                        {
-                            "name": "Jersey Boys",
-                            "size": 1
-                        },
-                        {
-                            "name": "Jersey Boys",
-                            "size": 1
-                        },
-                        {
-                            "name": "Jersey Boys",
-                            "size": 1
-                        },
-                        {
-                            "name": "Last Days",
-                            "size": 1
-                        },
-                        {
-                            "name": "Lisztomania",
-                            "size": 1
-                        },
-                        {
-                            "name": "Love & Mercy",
-                            "size": 1
-                        },
-                        {
-                            "name": "Low Down",
-                            "size": 1
-                        },
-                        {
-                            "name": "Mahler",
-                            "size": 1
-                        },
-                        {
-                            "name": "Nowhere Boy",
-                            "size": 1
-                        },
-                        {
-                            "name": "Rhapsody in Blue",
-                            "size": 1
-                        },
-                        {
-                            "name": "Stars and Stripes Forever",
-                            "size": 1
-                        },
-                        {
-                            "name": "Stoned",
-                            "size": 1
-                        },
-                        {
-                            "name": "Strauss' Great Waltz",
-                            "size": 1
-                        },
-                        {
-                            "name": "Strauss' Great Waltz",
-                            "size": 1
-                        },
-                        {
-                            "name": "Telstar: The Joe Meek Story",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Benny Goodman Story",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Glenn Miller Story",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Great Caruso",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Great Waltz",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Great Ziegfeld",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Jolson Story",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Music Lovers",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Pianist",
-                            "size": 1
-                        },
-                        {
-                            "name": "Thirty Two Short Films About Glenn Gould",
-                            "size": 1
-                        },
-                        {
-                            "name": "This Is Elvis",
-                            "size": 1
-                        },
-                        {
-                            "name": "Three Little Words",
-                            "size": 1
-                        },
-                        {
-                            "name": "Three Little Words",
-                            "size": 1
-                        },
-                        {
-                            "name": "Till the Clouds Roll By",
-                            "size": 1
-                        },
-                        {
-                            "name": "Topsy-Turvy",
-                            "size": 1
-                        },
-                        {
-                            "name": "Walk the Line",
-                            "size": 1
-                        },
-                        {
-                            "name": "Words and Music",
-                            "size": 1
-                        },
-                        {
-                            "name": "Words and Music",
-                            "size": 1
-                        },
-                        {
-                            "name": "Yankee Doodle Dandy",
-                            "size": 1
-                        },
-                        {
-                            "name": "Young Man with a Horn",
-                            "size": 1
-                        },
-                        {
-                            "name": "Carrington",
-                            "size": 1
-                        },
-                        {
-                            "name": "Finding Neverland",
-                            "size": 1
-                        },
-                        {
-                            "name": "Hans Christian Andersen",
-                            "size": 1
-                        },
-                        {
-                            "name": "Henry & June",
-                            "size": 1
-                        },
-                        {
-                            "name": "Howl",
-                            "size": 1
-                        },
-                        {
-                            "name": "Kill Your Darlings",
-                            "size": 1
-                        },
-                        {
-                            "name": "Nora",
-                            "size": 1
-                        },
-                        {
-                            "name": "Salome's Last Dance",
-                            "size": 1
-                        },
-                        {
-                            "name": "Shadowlands",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Adventures of Mark Twain",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Basketball Diaries",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Invisible Woman",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Last Station",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Life of Emile Zola",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Trials of Oscar Wilde",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Whole Wide World",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Wonderful World of the Brothers Grimm",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Wonderful World of the Brothers Grimm",
-                            "size": 1
-                        },
-                        {
-                            "name": "Tom & Viv",
-                            "size": 1
-                        },
-                        {
-                            "name": "Topsy-Turvy",
-                            "size": 1
-                        },
-                        {
-                            "name": "Wilde",
-                            "size": 1
-                        },
-                        {
-                            "name": "Young Cassidy",
-                            "size": 1
-                        },
-                        {
-                            "name": "A Dangerous Method",
-                            "size": 1
-                        },
-                        {
-                            "name": "A Dangerous Method",
-                            "size": 1
-                        },
-                        {
-                            "name": "Edison, the Man",
-                            "size": 1
-                        },
-                        {
-                            "name": "Fat Man and Little Boy",
-                            "size": 1
-                        },
-                        {
-                            "name": "Freud",
-                            "size": 1
-                        },
-                        {
-                            "name": "Kinsey",
-                            "size": 1
-                        },
-                        {
-                            "name": "Madame Curie",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Imitation Game",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Man Who Saw Tomorrow",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Soul Keeper",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Story of Alexander Graham Bell",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Story of Louis Pasteur",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Theory of Everything",
-                            "size": 1
-                        },
-                        {
-                            "name": "A Man for All Seasons",
-                            "size": 1
-                        },
-                        {
-                            "name": "Alexander",
-                            "size": 1
-                        },
-                        {
-                            "name": "Alexander the Great",
-                            "size": 1
-                        },
-                        {
-                            "name": "Barabbas",
-                            "size": 1
-                        },
-                        {
-                            "name": "Becket",
-                            "size": 1
-                        },
-                        {
-                            "name": "Becket",
-                            "size": 1
-                        },
-                        {
-                            "name": "Brother Sun, Sister Moon",
-                            "size": 1
-                        },
-                        {
-                            "name": "Caesar and Cleopatra",
-                            "size": 1
-                        },
-                        {
-                            "name": "Captain Kidd",
-                            "size": 1
-                        },
-                        {
-                            "name": "Cromwell",
-                            "size": 1
-                        },
-                        {
-                            "name": "D\u0329sir\u0329e",
-                            "size": 1
-                        },
-                        {
-                            "name": "Fellini's Casanova",
-                            "size": 1
-                        },
-                        {
-                            "name": "Francis of Assisi",
-                            "size": 1
-                        },
-                        {
-                            "name": "Henry V",
-                            "size": 1
-                        },
-                        {
-                            "name": "Henry V",
-                            "size": 1
-                        },
-                        {
-                            "name": "Jefferson in Paris",
-                            "size": 1
-                        },
-                        {
-                            "name": "Luther",
-                            "size": 1
-                        },
-                        {
-                            "name": "Monsieur N.",
-                            "size": 1
-                        },
-                        {
-                            "name": "Nicholas and Alexandra",
-                            "size": 1
-                        },
-                        {
-                            "name": "Quo Vadis",
-                            "size": 1
-                        },
-                        {
-                            "name": "Restoration",
-                            "size": 1
-                        },
-                        {
-                            "name": "Richard III",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Adventures of Marco Polo",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Gaul",
-                            "size": 1
-                        },
-                        {
-                            "name": "The King's Speech",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Madness of King George",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Plainsman",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Private Life of Henry VIII.",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Private Lives of Elizabeth and Essex",
-                            "size": 1
-                        },
-                        {
-                            "name": "To Kill a King",
-                            "size": 1
-                        },
-                        {
-                            "name": "To Kill a King",
-                            "size": 1
-                        },
-                        {
-                            "name": "Wild Bill",
-                            "size": 1
-                        },
-                        {
-                            "name": "Grace of Monaco",
-                            "size": 1
-                        },
-                        {
-                            "name": "A Mighty Heart",
-                            "size": 1
-                        },
-                        {
-                            "name": "Abe Lincoln in Illinois",
-                            "size": 1
-                        },
-                        {
-                            "name": "Abraham Lincoln",
-                            "size": 1
-                        },
-                        {
-                            "name": "Disraeli",
-                            "size": 1
-                        },
-                        {
-                            "name": "Hyde Park on Hudson",
-                            "size": 1
-                        },
-                        {
-                            "name": "Lincoln",
-                            "size": 1
-                        },
-                        {
-                            "name": "Nixon",
-                            "size": 1
-                        },
-                        {
-                            "name": "Sunrise at Campobello",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Better Angels",
-                            "size": 1
-                        },
-                        {
-                            "name": "W.",
-                            "size": 1
-                        },
-                        {
-                            "name": "Wilson",
-                            "size": 1
-                        },
-                        {
-                            "name": "Young Mr. Lincoln",
-                            "size": 1
-                        },
-                        {
-                            "name": "Young Winston",
-                            "size": 1
-                        },
-                        {
-                            "name": "Baader",
-                            "size": 1
-                        },
-                        {
-                            "name": "Braveheart",
-                            "size": 1
-                        },
-                        {
-                            "name": "Custer of the West",
-                            "size": 1
-                        },
-                        {
-                            "name": "Eichmann",
-                            "size": 1
-                        },
-                        {
-                            "name": "Fat Man and Little Boy",
-                            "size": 1
-                        },
-                        {
-                            "name": "Hitler: A Film from Germany",
-                            "size": 1
-                        },
-                        {
-                            "name": "Hitler: The Last Ten Days",
-                            "size": 1
-                        },
-                        {
-                            "name": "John Paul Jones",
-                            "size": 1
-                        },
-                        {
-                            "name": "Lawrence of Arabia",
-                            "size": 1
-                        },
-                        {
-                            "name": "MacArthur",
-                            "size": 1
-                        },
-                        {
-                            "name": "Patton",
-                            "size": 1
-                        },
-                        {
-                            "name": "Pride of the Marines",
-                            "size": 1
-                        },
-                        {
-                            "name": "PT 109",
-                            "size": 1
-                        },
-                        {
-                            "name": "Rescue Dawn",
-                            "size": 1
-                        },
-                        {
-                            "name": "Sergeant York",
-                            "size": 1
-                        },
-                        {
-                            "name": "Spitfire",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Court-Martial of Billy Mitchell",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Desert Fox: The Story of Rommel",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Gallant Hours",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Long Gray Line",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Red Baron",
-                            "size": 1
-                        },
-                        {
-                            "name": "They Died with Their Boots On",
-                            "size": 1
-                        },
-                        {
-                            "name": "To Hell and Back",
-                            "size": 1
-                        },
-                        {
-                            "name": "Von Richthofen and Brown",
-                            "size": 1
-                        },
-                        {
-                            "name": "Von Richthofen and Brown",
-                            "size": 1
-                        },
-                        {
-                            "name": "American Splendor",
-                            "size": 1
-                        },
-                        {
-                            "name": "Chaplin",
-                            "size": 1
-                        },
-                        {
-                            "name": "Lenny",
-                            "size": 1
-                        },
-                        {
-                            "name": "Permanent Midnight",
-                            "size": 1
-                        },
-                        {
-                            "name": "Auto Focus",
-                            "size": 1
-                        },
-                        {
-                            "name": "Man of a Thousand Faces",
-                            "size": 1
-                        },
-                        {
-                            "name": "My Dinner with Andre",
-                            "size": 1
-                        },
-                        {
-                            "name": "My Dinner with Andre",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Last of Robin Hood",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Life and Death of Peter Sellers",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Seven Little Foys",
-                            "size": 1
-                        },
-                        {
-                            "name": "Valentino",
-                            "size": 1
-                        },
-                        {
-                            "name": "Awakenings",
-                            "size": 1
-                        },
-                        {
-                            "name": "Dr. Ehrlich's Magic Bullet",
-                            "size": 1
-                        },
-                        {
-                            "name": "Mesmer",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Prisoner of Shark Island",
-                            "size": 1
-                        },
-                        {
-                            "name": "Caravaggio",
-                            "size": 1
-                        },
-                        {
-                            "name": "Girl with a Pearl Earring",
-                            "size": 1
-                        },
-                        {
-                            "name": "Goltzius and the Pelican Company",
-                            "size": 1
-                        },
-                        {
-                            "name": "Klimt",
-                            "size": 1
-                        },
-                        {
-                            "name": "Love Is the Devil: Study for a Portrait of Francis Bacon",
-                            "size": 1
-                        },
-                        {
-                            "name": "Lust for Life",
-                            "size": 1
-                        },
-                        {
-                            "name": "Modigliani",
-                            "size": 1
-                        },
-                        {
-                            "name": "Mr. Turner",
-                            "size": 1
-                        },
-                        {
-                            "name": "My Left Foot",
-                            "size": 1
-                        },
-                        {
-                            "name": "Nightwatching",
-                            "size": 1
-                        },
-                        {
-                            "name": "Pollock",
-                            "size": 1
-                        },
-                        {
-                            "name": "Rembrandt",
-                            "size": 1
-                        },
-                        {
-                            "name": "Thomas Kinkade's Christmas Cottage",
-                            "size": 1
-                        },
-                        {
-                            "name": "Vincent & Theo",
-                            "size": 1
-                        },
-                        {
-                            "name": "Hoffa",
-                            "size": 1
-                        },
-                        {
-                            "name": "Hunger",
-                            "size": 1
-                        },
-                        {
-                            "name": "Michael Collins",
-                            "size": 1
-                        },
-                        {
-                            "name": "Milk",
-                            "size": 1
-                        },
-                        {
-                            "name": "Steal This Movie",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Assassination of Trotsky",
-                            "size": 1
-                        },
-                        {
-                            "name": "The People vs. Larry Flynt",
-                            "size": 1
-                        },
-                        {
-                            "name": "Blaze",
-                            "size": 1
-                        },
-                        {
-                            "name": "Bound for Glory",
-                            "size": 1
-                        },
-                        {
-                            "name": "If You Could See What I Hear",
-                            "size": 1
-                        },
-                        {
-                            "name": "Ragamuffin",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Doors",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Night We Called It a Day",
-                            "size": 1
-                        },
-                        {
-                            "name": "Bright Star",
-                            "size": 1
-                        },
-                        {
-                            "name": "Set Fire to the Stars",
-                            "size": 1
-                        },
-                        {
-                            "name": "Sylvia",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Edge of Love",
-                            "size": 1
-                        },
-                        {
-                            "name": "Donnie Brasco",
-                            "size": 1
-                        },
-                        {
-                            "name": "J. Edgar",
-                            "size": 1
-                        },
-                        {
-                            "name": "In Love and War",
-                            "size": 1
-                        },
-                        {
-                            "name": "Private Parts",
-                            "size": 1
-                        },
-                        {
-                            "name": "Reds",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Bang Bang Club",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Bang Bang Club",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Diving Bell and the Butterfly",
-                            "size": 1
-                        },
-                        {
-                            "name": "Unbroken",
-                            "size": 1
-                        },
-                        {
-                            "name": "Wittgenstein",
-                            "size": 1
+                            "name": "Academic (Philosopher)",
+                            "box": 1.0
                         }
                     ]
                 },
@@ -2059,12 +223,12 @@
                     "name": "Asian American",
                     "children": [
                         {
-                            "name": "21",
-                            "size": 1
+                            "name": "Other",
+                            "box": 81.2
                         },
                         {
-                            "name": "Dragon: The Bruce Lee Story",
-                            "size": 1
+                            "name": "Athlete",
+                            "box": 35.1
                         }
                     ]
                 },
@@ -2072,20 +236,20 @@
                     "name": "Hispanic (White)",
                     "children": [
                         {
-                            "name": "A Matador's Mistress",
-                            "size": 1
+                            "name": "Athlete",
+                            "box": 1.0
                         },
                         {
-                            "name": "Death in Granada",
-                            "size": 1
+                            "name": "Author",
+                            "box": 226.0
                         },
                         {
-                            "name": "El Cid",
-                            "size": 1
+                            "name": "Historical",
+                            "box": 26.6
                         },
                         {
-                            "name": "Goya's Ghosts",
-                            "size": 1
+                            "name": "Artist",
+                            "box": 1.0
                         }
                     ]
                 },
@@ -2093,68 +257,36 @@
                     "name": "Multi racial",
                     "children": [
                         {
-                            "name": "The Chameleon",
-                            "size": 1
+                            "name": "Criminal",
+                            "box": 1.7066666666666668
                         },
                         {
-                            "name": "The Krays",
-                            "size": 1
+                            "name": "Other",
+                            "box": 91.15
                         },
                         {
-                            "name": "The Krays",
-                            "size": 1
+                            "name": "Musician",
+                            "box": 162.59
                         },
                         {
-                            "name": "Grey Owl",
-                            "size": 1
+                            "name": "Military",
+                            "box": 19.3
                         },
                         {
-                            "name": "iSteve",
-                            "size": 1
+                            "name": "Artist",
+                            "box": 194.32000000000002
                         },
                         {
-                            "name": "Jobs",
-                            "size": 1
+                            "name": "Activist",
+                            "box": 153.0
                         },
                         {
-                            "name": "October Sky",
-                            "size": 1
+                            "name": "Singer",
+                            "box": 1.0
                         },
                         {
-                            "name": "Bird",
-                            "size": 1
-                        },
-                        {
-                            "name": "Jimi: All Is by My Side",
-                            "size": 1
-                        },
-                        {
-                            "name": "Behind the Lines",
-                            "size": 1
-                        },
-                        {
-                            "name": "Basquiat",
-                            "size": 1
-                        },
-                        {
-                            "name": "Downtown 81",
-                            "size": 1
-                        },
-                        {
-                            "name": "Little Ashes",
-                            "size": 1
-                        },
-                        {
-                            "name": "Music Within",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Buddy Holly Story",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Barretts of Wimpole Street",
-                            "size": 1
+                            "name": "Author (poet)",
+                            "box": 1.0
                         }
                     ]
                 },
@@ -2162,28 +294,24 @@
                     "name": "Hispanic (Latino)",
                     "children": [
                         {
-                            "name": "American Me",
-                            "size": 1
+                            "name": "Criminal",
+                            "box": 13.1
                         },
                         {
-                            "name": "Counterpunch",
-                            "size": 1
+                            "name": "Athlete",
+                            "box": 6.0
                         },
                         {
-                            "name": "Lords of Dogtown",
-                            "size": 1
+                            "name": "Musician",
+                            "box": 54.2
                         },
                         {
-                            "name": "La Bamba",
-                            "size": 1
+                            "name": "Military",
+                            "box": 1.0
                         },
                         {
-                            "name": "Hell to Eternity",
-                            "size": 1
-                        },
-                        {
-                            "name": "Cesar Chavez",
-                            "size": 1
+                            "name": "Activist",
+                            "box": 5.55
                         }
                     ]
                 },
@@ -2191,8 +319,8 @@
                     "name": "Indian",
                     "children": [
                         {
-                            "name": "Gandhi",
-                            "size": 1
+                            "name": "Activist",
+                            "box": 1.0
                         }
                     ]
                 },
@@ -2200,48 +328,28 @@
                     "name": "Hispanic (Latin American)",
                     "children": [
                         {
-                            "name": "Romero",
-                            "size": 1
+                            "name": "Other",
+                            "box": 1.32
                         },
                         {
-                            "name": "El cantante",
-                            "size": 1
+                            "name": "Musician",
+                            "box": 7.56
                         },
                         {
-                            "name": "Juarez",
-                            "size": 1
+                            "name": "World leader",
+                            "box": 1.0
                         },
                         {
-                            "name": "Viva Villa!",
-                            "size": 1
+                            "name": "Military",
+                            "box": 1.11
                         },
                         {
-                            "name": "Pi\u0331ero",
-                            "size": 1
+                            "name": "Actor",
+                            "box": 1.42
                         },
                         {
-                            "name": "Before Night Falls",
-                            "size": 1
-                        },
-                        {
-                            "name": "Che: Part One",
-                            "size": 1
-                        },
-                        {
-                            "name": "Che: Part Two",
-                            "size": 1
-                        },
-                        {
-                            "name": "Che!",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Motorcycle Diaries",
-                            "size": 1
-                        },
-                        {
-                            "name": "Viva Zapata!",
-                            "size": 1
+                            "name": "Activist",
+                            "box": 4.458333333333333
                         }
                     ]
                 },
@@ -2249,32 +357,28 @@
                     "name": "Middle Eastern",
                     "children": [
                         {
-                            "name": "Jinnah",
-                            "size": 1
+                            "name": "Other",
+                            "box": 1.0
                         },
                         {
-                            "name": "Muhammad: The Last Prophet",
-                            "size": 1
+                            "name": "Historical",
+                            "box": 1.0
                         },
                         {
-                            "name": "The Message",
-                            "size": 1
+                            "name": "Actor",
+                            "box": 113.0
                         },
                         {
-                            "name": "I Am a Sex Addict",
-                            "size": 1
+                            "name": "Artist",
+                            "box": 144.0
                         },
                         {
-                            "name": "Desert Dancer",
-                            "size": 1
+                            "name": "Activist",
+                            "box": 1.0
                         },
                         {
-                            "name": "Lion of the Desert",
-                            "size": 1
-                        },
-                        {
-                            "name": "Rosewater",
-                            "size": 1
+                            "name": "Media",
+                            "box": 3.09
                         }
                     ]
                 },
@@ -2286,12 +390,12 @@
                     "name": "Caribbean",
                     "children": [
                         {
-                            "name": "Cass",
-                            "size": 1
+                            "name": "Other",
+                            "box": 1.0
                         },
                         {
-                            "name": "Notorious",
-                            "size": 1
+                            "name": "Musician",
+                            "box": 36.8
                         }
                     ]
                 },
@@ -2299,28 +403,16 @@
                     "name": "African",
                     "children": [
                         {
-                            "name": "The First Grader",
-                            "size": 1
+                            "name": "Other",
+                            "box": 174.3
                         },
                         {
-                            "name": "The Last King of Scotland",
-                            "size": 1
+                            "name": "World leader",
+                            "box": 22.91
                         },
                         {
-                            "name": "Invictus",
-                            "size": 1
-                        },
-                        {
-                            "name": "Mandela: Long Walk to Freedom",
-                            "size": 1
-                        },
-                        {
-                            "name": "Catch a Fire",
-                            "size": 1
-                        },
-                        {
-                            "name": "Cry Freedom",
-                            "size": 1
+                            "name": "Activist",
+                            "box": 5.095000000000001
                         }
                     ]
                 },
@@ -2328,52 +420,8 @@
                     "name": "Middle Eastern (White)",
                     "children": [
                         {
-                            "name": "Exodus: Gods and Kings",
-                            "size": 1
-                        },
-                        {
-                            "name": "King David",
-                            "size": 1
-                        },
-                        {
-                            "name": "King of Kings",
-                            "size": 1
-                        },
-                        {
-                            "name": "Son of God",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Greatest Story Ever Told",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Jesus Film",
-                            "size": 1
-                        },
-                        {
-                            "name": "The King of Kings",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Miracle Maker",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Prince of Egypt",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Prince of Egypt",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Ten Commandments",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Visual Bible: The Gospel of John",
-                            "size": 1
+                            "name": "Historical",
+                            "box": 35.314166666666665
                         }
                     ]
                 },
@@ -2381,16 +429,16 @@
                     "name": "Native American",
                     "children": [
                         {
-                            "name": "Jim Thorpe -- All-American",
-                            "size": 1
+                            "name": "Athlete",
+                            "box": 1.0
                         },
                         {
-                            "name": "Squanto: A Warrior's Tale",
-                            "size": 1
+                            "name": "Historical",
+                            "box": 3.34
                         },
                         {
-                            "name": "Geronimo",
-                            "size": 1
+                            "name": "Military",
+                            "box": 1.0
                         }
                     ]
                 },
@@ -2398,20 +446,20 @@
                     "name": "Asian",
                     "children": [
                         {
-                            "name": "Mishima: A Life in Four Chapters",
-                            "size": 1
+                            "name": "Author",
+                            "box": 450.0
                         },
                         {
-                            "name": "The Last Emperor",
-                            "size": 1
+                            "name": "World leader",
+                            "box": 109.0
                         },
                         {
-                            "name": "The Conqueror",
-                            "size": 1
+                            "name": "Military",
+                            "box": 4.5
                         },
                         {
-                            "name": "Kundun",
-                            "size": 1
+                            "name": "Activist",
+                            "box": 5.53
                         }
                     ]
                 },
@@ -2432,180 +480,48 @@
                     "name": "Unknown",
                     "children": [
                         {
-                            "name": "Bonnie and Clyde",
-                            "size": 1
+                            "name": "Criminal",
+                            "box": 43.625
                         },
                         {
-                            "name": "Dance with a Stranger",
-                            "size": 1
+                            "name": "Other",
+                            "box": 74.67363636363636
                         },
                         {
-                            "name": "I Want to Live!",
-                            "size": 1
+                            "name": "Athlete",
+                            "box": 16.926666666666666
                         },
                         {
-                            "name": "Monster",
-                            "size": 1
+                            "name": "Musician",
+                            "box": 2.285
                         },
                         {
-                            "name": "A Home of Our Own",
-                            "size": 1
+                            "name": "Author",
+                            "box": 76.66000000000001
                         },
                         {
-                            "name": "An American Crime",
-                            "size": 1
+                            "name": "Academic",
+                            "box": 24.7
                         },
                         {
-                            "name": "Blossoms in the Dust",
-                            "size": 1
+                            "name": "Historical",
+                            "box": 278.0
                         },
                         {
-                            "name": "Bright Star",
-                            "size": 1
+                            "name": "Actress",
+                            "box": 5.533333333333334
                         },
                         {
-                            "name": "Conviction",
-                            "size": 1
+                            "name": "Artist",
+                            "box": 1.06
                         },
                         {
-                            "name": "Dreamchild",
-                            "size": 1
+                            "name": "Activist",
+                            "box": 80.8
                         },
                         {
-                            "name": "Hyde Park on Hudson",
-                            "size": 1
-                        },
-                        {
-                            "name": "Julie & Julia",
-                            "size": 1
-                        },
-                        {
-                            "name": "Julie & Julia",
-                            "size": 1
-                        },
-                        {
-                            "name": "Mahler",
-                            "size": 1
-                        },
-                        {
-                            "name": "Mockingbird Don't Sing",
-                            "size": 1
-                        },
-                        {
-                            "name": "Nora",
-                            "size": 1
-                        },
-                        {
-                            "name": "Open Water",
-                            "size": 1
-                        },
-                        {
-                            "name": "Riding in Cars with Boys",
-                            "size": 1
-                        },
-                        {
-                            "name": "Sid and Nancy",
-                            "size": 1
-                        },
-                        {
-                            "name": "Testament of Youth",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Best Intentions",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Entity",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Prize Winner of Defiance, Ohio",
-                            "size": 1
-                        },
-                        {
-                            "name": "Thirteen",
-                            "size": 1
-                        },
-                        {
-                            "name": "To Write Love on Her Arms",
-                            "size": 1
-                        },
-                        {
-                            "name": "Wild",
-                            "size": 1
-                        },
-                        {
-                            "name": "Against the Ropes",
-                            "size": 1
-                        },
-                        {
-                            "name": "Soul Surfer",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Other Side of the Mountain",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Runaways",
-                            "size": 1
-                        },
-                        {
-                            "name": "With a Song in My Heart",
-                            "size": 1
-                        },
-                        {
-                            "name": "84 Charing Cross Road",
-                            "size": 1
-                        },
-                        {
-                            "name": "Cross Creek",
-                            "size": 1
-                        },
-                        {
-                            "name": "Girl, Interrupted",
-                            "size": 1
-                        },
-                        {
-                            "name": "Gorillas in the Mist",
-                            "size": 1
-                        },
-                        {
-                            "name": "Lady Jane",
-                            "size": 1
-                        },
-                        {
-                            "name": "My Week with Marilyn",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Actress",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Perils of Pauline",
-                            "size": 1
-                        },
-                        {
-                            "name": "Isadora",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Story of Vernon and Irene Castle",
-                            "size": 1
-                        },
-                        {
-                            "name": "Erin Brockovich",
-                            "size": 1
-                        },
-                        {
-                            "name": "Silkwood",
-                            "size": 1
-                        },
-                        {
-                            "name": "Love Me or Leave Me",
-                            "size": 1
+                            "name": "Singer",
+                            "box": 1.0
                         }
                     ]
                 },
@@ -2613,20 +529,20 @@
                     "name": "African American",
                     "children": [
                         {
-                            "name": "Frankie & Alice",
-                            "size": 1
+                            "name": "Other",
+                            "box": 693.0
                         },
                         {
-                            "name": "The Longshots",
-                            "size": 1
+                            "name": "Athlete",
+                            "box": 11.5
                         },
                         {
-                            "name": "Lady Sings the Blues",
-                            "size": 1
+                            "name": "Musician",
+                            "box": 9.6
                         },
                         {
-                            "name": "Cadillac Records",
-                            "size": 1
+                            "name": "Singer",
+                            "box": 8.13
                         }
                     ]
                 },
@@ -2634,412 +550,72 @@
                     "name": "White",
                     "children": [
                         {
-                            "name": "An American Crime",
-                            "size": 1
+                            "name": "Criminal",
+                            "box": 7.05
                         },
                         {
-                            "name": "Bathory: Countess of Blood",
-                            "size": 1
+                            "name": "Other",
+                            "box": 30.091071428571432
                         },
                         {
-                            "name": "Amelia",
-                            "size": 1
+                            "name": "Athlete",
+                            "box": 5.212000000000001
                         },
                         {
-                            "name": "Anastasia",
-                            "size": 1
+                            "name": "Musician",
+                            "box": 3.5775
                         },
                         {
-                            "name": "Bernard and Doris",
-                            "size": 1
+                            "name": "Author",
+                            "box": 55.54749999999999
                         },
                         {
-                            "name": "Dangerous Beauty",
-                            "size": 1
+                            "name": "Academic",
+                            "box": 2.566666666666667
                         },
                         {
-                            "name": "Diana",
-                            "size": 1
+                            "name": "Historical",
+                            "box": 10.276
                         },
                         {
-                            "name": "Domino",
-                            "size": 1
+                            "name": "Actress",
+                            "box": 50.09583333333333
                         },
                         {
-                            "name": "Freedom Writers",
-                            "size": 1
+                            "name": "World leader",
+                            "box": 30.0
                         },
                         {
-                            "name": "Fur: An Imaginary Portrait of Diane Arbus",
-                            "size": 1
+                            "name": "Military",
+                            "box": 1.0
                         },
                         {
-                            "name": "Gypsy",
-                            "size": 1
+                            "name": "Medicine",
+                            "box": 1.0
                         },
                         {
-                            "name": "Henry & June",
-                            "size": 1
+                            "name": "Artist",
+                            "box": 5.1825
                         },
                         {
-                            "name": "Hitchcock",
-                            "size": 1
+                            "name": "Singer",
+                            "box": 43.825
                         },
                         {
-                            "name": "Impromptu",
-                            "size": 1
+                            "name": "Author (poet)",
+                            "box": 13.55
                         },
                         {
-                            "name": "In Love and War",
-                            "size": 1
+                            "name": "Teacher",
+                            "box": 84.9
                         },
                         {
-                            "name": "Out of Africa",
-                            "size": 1
+                            "name": "Government",
+                            "box": 9.53
                         },
                         {
-                            "name": "Patty Hearst",
-                            "size": 1
-                        },
-                        {
-                            "name": "Philomena",
-                            "size": 1
-                        },
-                        {
-                            "name": "Reversal of Fortune",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Diary of Anne Frank",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Duchess",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Happy Hooker",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Inn of the Sixth Happiness",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Lover",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Miracle Worker",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Miracle Worker",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Song of Bernadette",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Unsinkable Molly Brown",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Whistleblower",
-                            "size": 1
-                        },
-                        {
-                            "name": "Thirteen",
-                            "size": 1
-                        },
-                        {
-                            "name": "Annie Get Your Gun",
-                            "size": 1
-                        },
-                        {
-                            "name": "Annie Oakley",
-                            "size": 1
-                        },
-                        {
-                            "name": "Gracie",
-                            "size": 1
-                        },
-                        {
-                            "name": "Heart Like a Wheel",
-                            "size": 1
-                        },
-                        {
-                            "name": "Million Dollar Mermaid",
-                            "size": 1
-                        },
-                        {
-                            "name": "Hilary and Jackie",
-                            "size": 1
-                        },
-                        {
-                            "name": "Hilary and Jackie",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Runaways",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Singing Nun",
-                            "size": 1
-                        },
-                        {
-                            "name": "An Angel at My Table",
-                            "size": 1
-                        },
-                        {
-                            "name": "Becoming Jane",
-                            "size": 1
-                        },
-                        {
-                            "name": "Devotion",
-                            "size": 1
-                        },
-                        {
-                            "name": "Devotion",
-                            "size": 1
-                        },
-                        {
-                            "name": "Devotion",
-                            "size": 1
-                        },
-                        {
-                            "name": "Henry & June",
-                            "size": 1
-                        },
-                        {
-                            "name": "Iris",
-                            "size": 1
-                        },
-                        {
-                            "name": "Isn't She Great",
-                            "size": 1
-                        },
-                        {
-                            "name": "Miss Potter",
-                            "size": 1
-                        },
-                        {
-                            "name": "Mrs. Parker and the Vicious Circle",
-                            "size": 1
-                        },
-                        {
-                            "name": "Saving Mr. Banks",
-                            "size": 1
-                        },
-                        {
-                            "name": "Tom & Viv",
-                            "size": 1
-                        },
-                        {
-                            "name": "A Dangerous Method",
-                            "size": 1
-                        },
-                        {
-                            "name": "Madame Curie",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Soul Keeper",
-                            "size": 1
-                        },
-                        {
-                            "name": "D\u0329sir\u0329e",
-                            "size": 1
-                        },
-                        {
-                            "name": "Elizabeth",
-                            "size": 1
-                        },
-                        {
-                            "name": "Elizabeth: The Golden Age",
-                            "size": 1
-                        },
-                        {
-                            "name": "Joan of Arc",
-                            "size": 1
-                        },
-                        {
-                            "name": "Marie Antoinette",
-                            "size": 1
-                        },
-                        {
-                            "name": "Marie Antoinette",
-                            "size": 1
-                        },
-                        {
-                            "name": "Mary of Scotland",
-                            "size": 1
-                        },
-                        {
-                            "name": "Mary, Queen of Scots",
-                            "size": 1
-                        },
-                        {
-                            "name": "Mrs Brown",
-                            "size": 1
-                        },
-                        {
-                            "name": "Nicholas and Alexandra",
-                            "size": 1
-                        },
-                        {
-                            "name": "Queen Christina",
-                            "size": 1
-                        },
-                        {
-                            "name": "Quo Vadis",
-                            "size": 1
-                        },
-                        {
-                            "name": "Saint Joan",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Countess",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Other Boleyn Girl",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Other Boleyn Girl",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Private Lives of Elizabeth and Essex",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Queen",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Young Victoria",
-                            "size": 1
-                        },
-                        {
-                            "name": "Young Bess",
-                            "size": 1
-                        },
-                        {
-                            "name": "Ciao Manhattan",
-                            "size": 1
-                        },
-                        {
-                            "name": "Factory Girl",
-                            "size": 1
-                        },
-                        {
-                            "name": "Frances",
-                            "size": 1
-                        },
-                        {
-                            "name": "Funny Girl",
-                            "size": 1
-                        },
-                        {
-                            "name": "Harlow",
-                            "size": 1
-                        },
-                        {
-                            "name": "I'll Cry Tomorrow",
-                            "size": 1
-                        },
-                        {
-                            "name": "Lovelace",
-                            "size": 1
-                        },
-                        {
-                            "name": "Mommie Dearest",
-                            "size": 1
-                        },
-                        {
-                            "name": "Star 80",
-                            "size": 1
-                        },
-                        {
-                            "name": "Star!",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Brittany Murphy Story",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Girl in the Red Velvet Swing",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Iron Lady",
-                            "size": 1
-                        },
-                        {
-                            "name": "Carve Her Name with Pride",
-                            "size": 1
-                        },
-                        {
-                            "name": "Sister Kenny",
-                            "size": 1
-                        },
-                        {
-                            "name": "Big Eyes",
-                            "size": 1
-                        },
-                        {
-                            "name": "Carrington",
-                            "size": 1
-                        },
-                        {
-                            "name": "Gypsy",
-                            "size": 1
-                        },
-                        {
-                            "name": "Surviving Picasso",
-                            "size": 1
-                        },
-                        {
-                            "name": "Interrupted Melody",
-                            "size": 1
-                        },
-                        {
-                            "name": "La Vie en Rose",
-                            "size": 1
-                        },
-                        {
-                            "name": "Sweet Dreams",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Sound of Music",
-                            "size": 1
-                        },
-                        {
-                            "name": "Shadowlands",
-                            "size": 1
-                        },
-                        {
-                            "name": "Sylvia",
-                            "size": 1
-                        },
-                        {
-                            "name": "Dangerous Minds",
-                            "size": 1
-                        },
-                        {
-                            "name": "Fair Game",
-                            "size": 1
-                        },
-                        {
-                            "name": "Veronica Guerin",
-                            "size": 1
+                            "name": "Media",
+                            "box": 1.57
                         }
                     ]
                 },
@@ -3047,8 +623,8 @@
                     "name": "Asian American",
                     "children": [
                         {
-                            "name": "Heaven & Earth",
-                            "size": 1
+                            "name": "Other",
+                            "box": 5.86
                         }
                     ]
                 },
@@ -3056,12 +632,12 @@
                     "name": "Hispanic (White)",
                     "children": [
                         {
-                            "name": "A Matador's Mistress",
-                            "size": 1
+                            "name": "Actress",
+                            "box": 1.0
                         },
                         {
-                            "name": "I Shot Andy Warhol",
-                            "size": 1
+                            "name": "Activist",
+                            "box": 1.81
                         }
                     ]
                 },
@@ -3069,36 +645,24 @@
                     "name": "Multi racial",
                     "children": [
                         {
-                            "name": "Anna and the King of Siam",
-                            "size": 1
+                            "name": "Other",
+                            "box": 5.17
                         },
                         {
-                            "name": "The King and I",
-                            "size": 1
+                            "name": "Author",
+                            "box": 137.0
                         },
                         {
-                            "name": "The Notorious Bettie Page",
-                            "size": 1
+                            "name": "Journalist",
+                            "box": 9.17
                         },
                         {
-                            "name": "The Whole Wide World",
-                            "size": 1
+                            "name": "Singer",
+                            "box": 59.5
                         },
                         {
-                            "name": "A Mighty Heart",
-                            "size": 1
-                        },
-                        {
-                            "name": "Coal Miner's Daughter",
-                            "size": 1
-                        },
-                        {
-                            "name": "What's Love Got to Do with It",
-                            "size": 1
-                        },
-                        {
-                            "name": "The Barretts of Wimpole Street",
-                            "size": 1
+                            "name": "Author (poet)",
+                            "box": 1.0
                         }
                     ]
                 },
@@ -3110,8 +674,8 @@
                     "name": "Indian",
                     "children": [
                         {
-                            "name": "Bandit Queen",
-                            "size": 1
+                            "name": "Criminal",
+                            "box": 400.0
                         }
                     ]
                 },
@@ -3119,12 +683,12 @@
                     "name": "Hispanic (Latin American)",
                     "children": [
                         {
-                            "name": "Frida",
-                            "size": 1
+                            "name": "Artist",
+                            "box": 25.8
                         },
                         {
-                            "name": "Evita",
-                            "size": 1
+                            "name": "Actress / activist",
+                            "box": 50.0
                         }
                     ]
                 },
@@ -3132,20 +696,12 @@
                     "name": "Middle Eastern",
                     "children": [
                         {
-                            "name": "Caesar and Cleopatra",
-                            "size": 1
+                            "name": "Historical",
+                            "box": 19.933333333333334
                         },
                         {
-                            "name": "Cleopatra",
-                            "size": 1
-                        },
-                        {
-                            "name": "Cleopatra",
-                            "size": 1
-                        },
-                        {
-                            "name": "Persepolis",
-                            "size": 1
+                            "name": "Activist",
+                            "box": 4.44
                         }
                     ]
                 },
@@ -3153,8 +709,8 @@
                     "name": "Mediterranean",
                     "children": [
                         {
-                            "name": "Callas Forever",
-                            "size": 1
+                            "name": "Singer",
+                            "box": 446.0
                         }
                     ]
                 },
@@ -3166,16 +722,16 @@
                     "name": "African",
                     "children": [
                         {
-                            "name": "Skin",
-                            "size": 1
+                            "name": "Other",
+                            "box": 1.0
                         },
                         {
-                            "name": "Desert Flower",
-                            "size": 1
+                            "name": "Activist",
+                            "box": 44.3
                         },
                         {
-                            "name": "Winnie Mandela",
-                            "size": 1
+                            "name": "Government",
+                            "box": 1.0
                         }
                     ]
                 },
@@ -3183,8 +739,8 @@
                     "name": "Middle Eastern (White)",
                     "children": [
                         {
-                            "name": "One Night with the King",
-                            "size": 1
+                            "name": "Historical",
+                            "box": 13.4
                         }
                     ]
                 },
@@ -3192,8 +748,8 @@
                     "name": "Native American",
                     "children": [
                         {
-                            "name": "The New World",
-                            "size": 1
+                            "name": "Historical",
+                            "box": 12.7
                         }
                     ]
                 },
@@ -3201,8 +757,8 @@
                     "name": "Asian",
                     "children": [
                         {
-                            "name": "The Lady",
-                            "size": 1
+                            "name": "Activist",
+                            "box": 1.0
                         }
                     ]
                 },
@@ -3210,8 +766,8 @@
                     "name": "Eurasian",
                     "children": [
                         {
-                            "name": "Love Is a Many-Splendored Thing",
-                            "size": 1
+                            "name": "Other",
+                            "box": 1.0
                         }
                     ]
                 },
@@ -3219,8 +775,8 @@
                     "name": "Hispanic (Latina)",
                     "children": [
                         {
-                            "name": "Selena",
-                            "size": 1
+                            "name": "Singer",
+                            "box": 35.4
                         }
                     ]
                 }

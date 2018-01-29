@@ -9,36 +9,41 @@
  * 
  */
 
+var yearslist = ["1925-1930", "1930-1935", "1935-1940", "1940-1945", 
+                "1945-1950", "1950-1955", "1955-1960", "1960-1965", "1965-1970", 
+                "1970-1975", "1975-1980", "1980-1985", "1985-1990", "1990-1995", 
+                "1995-2000", "2000-2005", "2005-2010", "2010-2015"]
 
- // functies voor uitklappen infowindows
-$(document).ready(function(){
+ // functions to foldout info-windows
+$(document).ready(function() {
     $("#flip").click(function(){
         $("#panel").slideToggle("slow");
     });
 });
 
-$(document).ready(function(){
+$(document).ready(function() {
     $("#flip2").click(function(){
         $("#panel2").slideToggle("slow");
     });
 });
 
 
-var dataBarEtnicities;
-var dataBarMvsW;
+
 
 queue()
-.defer(d3.csv, '../data/data.csv')
-.defer(d3.json, '../data/data.json')
-.await(startMyPage);
+    .defer(d3.csv, "../data/data.csv")
+    .defer(d3.json, "../data/data.json")
+    .defer(d3.json, "../data/dataMulti.json")
+    .defer(d3.json, "../data/dataNetwork.json")
+    .await(startMyPage);
 
-function startMyPage(error, all, her){
-    Sun(her)
-    allData = all
-    valueMulti(all)
-    //valueSun(data)
-    force(her)
-    scale(all)
-    myFuncBar(all)
+function startMyPage(error, all, nested, multi, net) {
+    initSun(nested);
+    allData = all;
 
+    initMulti(multi, yearslist)
+    
+    initForce(net);
+    scale(all);
+    initBar(all);
 }

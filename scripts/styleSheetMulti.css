@@ -33,7 +33,7 @@
     min-height:200px;
 }
 
-#graf2 svg g g path.domain {
+#graph2 svg g g path.domain {
     visibility:  hidden;
 }
 

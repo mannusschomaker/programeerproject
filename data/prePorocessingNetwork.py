@@ -5,11 +5,15 @@ racelist = []
 catagory = []
 allData = []
 gender = []
-with open('data.csv') as csvfile:
+with open('data-data.csv') as csvfile:
     reader = csv.DictReader(csvfile)
     print(reader)
 
     for row in reader:
+        if row['box_office'] == "-":
+            row['box_office'] = 1
+        if row['box_office']:
+            row['box_office'] = float(str(row['box_office']).replace(",", "."))
         if row['subject_race'] == "":
             row['subject_race'] = "Unknown"
         if not row['subject_race'] in racelist:
@@ -31,20 +35,16 @@ with open('data.csv') as csvfile:
         for race in racelist:
             childernlist2 = []
             for sub in catagory:
-                counter = 0
                 avg_monny = []
                 for row in allData:
                     if row['subject_sex'] == sex:
                         if row['subject_race'] == race:
                             if row['type_of_subject'] == sub:
-                                if len(row['box_office'][1:-1]) == 0:
-                                    print(1)
-                                    row['box_office'] = 1
-            
-                                avg_monny.append(int(row['box_office'][1:-1]))
+                                print(row['box_office'])
+                                avg_monny.append(row['box_office'])
                 print(avg_monny)
                 if not len(avg_monny) == 0:
-                    childernlist2.append({"name": sub, "size": sum(avg_monny)/len(avg_monny)})
+                    childernlist2.append({"name": sub, "box": sum(avg_monny)/len(avg_monny)})
             childernlist1.append({"name": race, "children": childernlist2})
         childernlist.append({"name": sex, "children": childernlist1})
     temp = {"name": "films", "children": childernlist}
