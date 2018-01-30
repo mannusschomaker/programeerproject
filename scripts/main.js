@@ -1,11 +1,8 @@
-/* start.js
- * minor programeren
- * programeer project
+/* scale.js
+ * minor programming
  *
- * d3.js page for interactive bar graph
- * interactive bar chart
- * graph is interactive: info popup when hovering over bars
- * door: mannus schomaker 10591664
+ * loads in data and calls functions to build visualizations
+ * by: mannus schomaker 10591664
  * 
  */
 
@@ -29,21 +26,22 @@ $(document).ready(function() {
 
 
 
-
+// load in data for start of page
 queue()
     .defer(d3.csv, "../data/data.csv")
-    .defer(d3.json, "../data/data.json")
     .defer(d3.json, "../data/dataMulti.json")
     .defer(d3.json, "../data/dataNetwork.json")
     .await(startMyPage);
 
-function startMyPage(error, all, nested, multi, net) {
-    initSun(nested);
+// cal init functions of visualizations
+function startMyPage(error, all, multi, net) {
+
     allData = all;
 
+    initSun(net);
     initMulti(multi, yearslist)
-    
     initForce(net);
     scale(all);
     initBar(all);
+
 }

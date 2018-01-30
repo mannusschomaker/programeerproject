@@ -1,10 +1,8 @@
 /* multi.js
- * minor programeren
+ * minor programming
  *
- * d3.js page for interactive bar graph
- * interactive bar chart
- * graph is interactive: info popup when hovering over bars
- * door: mannus schomaker 10591664
+ * build and update bar graph graph
+ * by: mannus schomaker 10591664
  * 
  */
 
@@ -26,9 +24,9 @@ function initBar(data) {
 
     // init canvas for bar chart
     svg = d3.select("#graph2").append("svg"),
-    margin = {top: 20, right: 0, bottom: 100, left: 50},
-    width = 800 - margin.left - margin.right,
-    height = 400 - margin.top - margin.bottom,
+    margin = {top: 20, right: 0, bottom: 150, left: 50},
+    width = 900 - margin.left - margin.right,
+    height = 350 - margin.top - margin.bottom,
 
     g = svg.attr("height",height + margin.top + margin.bottom)
             .attr("width",width + margin.left + margin.right)
@@ -81,7 +79,7 @@ function initBar(data) {
 }
 
 
-
+// function to build and rebuild the bar graph
 function barUpdate(data) {
 
     //set domain for the x and y axis 
@@ -107,8 +105,8 @@ function barUpdate(data) {
         .on("mousemove", function(d) {
             console.log(tooltip)
             tooltip
-              .style("left", d3.event.pageX - 800 + "px")
-              .style("top", d3.event.pageY - 800 + "px")
+              .style("left", d3.event.pageX - 1000 + "px")
+              .style("top", d3.event.pageY - 900 + "px")
               .style("display", "inline-block")
               .html((d.meanValue) + "<br>" + "£" + (d.meanValue));
         })

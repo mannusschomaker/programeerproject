@@ -9,71 +9,275 @@
                     "children": [
                         {
                             "name": "Criminal",
-                            "box": 49.106875
+                            "size": 32,
+                            "box": 49.106875,
+                            "title": [
+                                "10 Rillington Place",
+                                "Alpha Dog",
+                                "Birdman of Alcatraz",
+                                "Bonnie and Clyde",
+                                "Bronson",
+                                "Buster",
+                                "Cannibal! The Musical",
+                                "Casino",
+                                "Catch Me If You Can",
+                                "Devil's Knot",
+                                "Devil's Knot",
+                                "Devil's Knot",
+                                "Dillinger",
+                                "Ed Gein",
+                                "Escape from Alcatraz",
+                                "Escape from Alcatraz",
+                                "Escape from Alcatraz",
+                                "I Love You Phillip Morris",
+                                "Jamesy Boy",
+                                "Kid Cannabis",
+                                "Machine-Gun Kelly",
+                                "Midnight Express",
+                                "Mr. Nice",
+                                "Party Monster",
+                                "Public Enemies",
+                                "Ricky 6",
+                                "Rise of the Footsoldier",
+                                "Stealing Sinatra",
+                                "The Assassination of Jesse James by the Coward Robert Ford",
+                                "The Falcon and the Snowman",
+                                "The Lawless Breed",
+                                "The Wolf of Wall Street"
+                            ]
                         },
                         {
                             "name": "Other",
-                            "box": 47.852250000000005
+                            "size": 40,
+                            "box": 47.852250000000005,
+                            "title": [
+                                "20 Dates",
+                                "Beyond the Law",
+                                "Blue",
+                                "Boys Don't Cry",
+                                "Carbine Williams",
+                                "Casino Jack",
+                                "Chisum",
+                                "Communion",
+                                "Digging Up the Marrow",
+                                "Ed Wood",
+                                "Fire in the Sky",
+                                "Flash of Genius",
+                                "Infamous",
+                                "Murder, Inc.",
+                                "My Childhood",
+                                "Open Water",
+                                "Prick Up Your Ears",
+                                "Searching for Bobby Fischer",
+                                "Self Medicated",
+                                "Sixty Six",
+                                "The Assassination of Richard Nixon",
+                                "The Aviator",
+                                "The Best Intentions",
+                                "The Cross and the Switchblade",
+                                "The Frozen Ground",
+                                "The Grey Fox",
+                                "The Hunter",
+                                "The Idolmaker",
+                                "The Look of Love",
+                                "The Magic Box",
+                                "The Other Side of Heaven",
+                                "The Social Network",
+                                "The Straight Story",
+                                "The Wizard of Speed and Time",
+                                "This Boy's Life",
+                                "To Walk with Lions",
+                                "To Walk with Lions",
+                                "Tucker: The Man and His Dream",
+                                "Walking Tall Part II",
+                                "WhiteLightnin'"
+                            ]
                         },
                         {
                             "name": "Athlete",
-                            "box": 65.20473684210526
+                            "size": 19,
+                            "box": 65.20473684210526,
+                            "title": [
+                                "127 Hours",
+                                "8 Seconds",
+                                "Bloodsport",
+                                "Bobby Jones: Stroke of Genius",
+                                "Chasing Mavericks",
+                                "Fear Strikes Out",
+                                "Glory Road",
+                                "Into the Wild",
+                                "Invincible",
+                                "Lords of Dogtown",
+                                "Lords of Dogtown",
+                                "Miracle",
+                                "Radio",
+                                "Rudy",
+                                "Swimming Upstream",
+                                "The 5th Quarter",
+                                "The Damned United",
+                                "The Hammer",
+                                "The Stratton Story"
+                            ]
                         },
                         {
                             "name": "Musician",
-                            "box": 98.24000000000001
+                            "size": 10,
+                            "box": 98.24000000000001,
+                            "title": [
+                                "Control",
+                                "Good Vibrations",
+                                "Great Balls of Fire!",
+                                "Night and Day",
+                                "One Chance",
+                                "Sex & Drugs & Rock & Roll",
+                                "The Eddy Duchin Story",
+                                "The Five Pennies",
+                                "The Last Ride",
+                                "Your Cheatin' Heart"
+                            ]
                         },
                         {
                             "name": "Author",
-                            "box": 9.046000000000001
+                            "size": 5,
+                            "box": 9.046000000000001,
+                            "title": [
+                                "84 Charing Cross Road",
+                                "Capote",
+                                "Prick Up Your Ears",
+                                "The Color of Time",
+                                "The Last Time I Committed Suicide"
+                            ]
                         },
                         {
                             "name": "Academic",
-                            "box": 219.33333333333334
+                            "size": 3,
+                            "box": 219.33333333333334,
+                            "title": [
+                                "A Beautiful Mind",
+                                "Creation",
+                                "Infinity"
+                            ]
                         },
                         {
                             "name": "Historical",
-                            "box": 182.5
+                            "size": 2,
+                            "box": 182.5,
+                            "title": [
+                                "Nostradamus",
+                                "Spartacus"
+                            ]
                         },
                         {
                             "name": "Military",
-                            "box": 71.87384615384616
+                            "size": 13,
+                            "box": 71.87384615384616,
+                            "title": [
+                                "Above and Beyond",
+                                "American Sniper",
+                                "Another Country",
+                                "Battle Hymn",
+                                "Burning Blue",
+                                "Captain Phillips",
+                                "Charlie Wilson's War",
+                                "Chattahoochee",
+                                "Everyman's War",
+                                "Lone Survivor",
+                                "Reach for the Sky",
+                                "The Railway Man",
+                                "The Wings of Eagles"
+                            ]
                         },
                         {
                             "name": "Comedian",
-                            "box": 17.845000000000002
+                            "size": 2,
+                            "box": 17.845000000000002,
+                            "title": [
+                                "Man on the Moon",
+                                "Wired"
+                            ]
                         },
                         {
                             "name": "Actor",
-                            "box": 5.466666666666666
+                            "size": 3,
+                            "box": 5.466666666666666,
+                            "title": [
+                                "Confessions of a Dangerous Mind",
+                                "Crutch",
+                                "Hollywoodland"
+                            ]
                         },
                         {
                             "name": "Medicine",
-                            "box": 36.75
+                            "size": 4,
+                            "box": 36.75,
+                            "title": [
+                                "Bubble Boy",
+                                "Patch Adams",
+                                "The Great Moment",
+                                "The Sessions"
+                            ]
                         },
                         {
                             "name": "Artist",
-                            "box": 1.04
+                            "size": 3,
+                            "box": 1.04,
+                            "title": [
+                                "Moulin Rouge",
+                                "Savage Messiah",
+                                "The Story of Vernon and Irene Castle"
+                            ]
                         },
                         {
                             "name": "Activist",
-                            "box": 28.15
+                            "size": 2,
+                            "box": 28.15,
+                            "title": [
+                                "Dallas Buyers Club",
+                                "The Insider"
+                            ]
                         },
                         {
                             "name": "Military / activist",
-                            "box": 70.0
+                            "size": 1,
+                            "box": 70.0,
+                            "title": [
+                                "Born on the Fourth of July"
+                            ]
                         },
                         {
                             "name": "Singer",
-                            "box": 30.814999999999998
+                            "size": 2,
+                            "box": 30.814999999999998,
+                            "title": [
+                                "Sid and Nancy",
+                                "What We Do Is Secret"
+                            ]
                         },
                         {
                             "name": "Author (poet)",
-                            "box": 136.6
+                            "size": 5,
+                            "box": 136.6,
+                            "title": [
+                                "Pandaemonium",
+                                "Pandaemonium",
+                                "The Broken Tower",
+                                "Total Eclipse",
+                                "Total Eclipse"
+                            ]
                         },
                         {
                             "name": "Media",
-                            "box": 23.16428571428571
+                            "size": 7,
+                            "box": 23.16428571428571,
+                            "title": [
+                                "Good Morning, Vietnam",
+                                "Kill the Messenger",
+                                "Story of G.I. Joe",
+                                "The Bang Bang Club",
+                                "The Bang Bang Club",
+                                "The Soloist",
+                                "Where the Buffalo Roam"
+                            ]
                         }
                     ]
                 },
@@ -82,43 +286,104 @@
                     "children": [
                         {
                             "name": "Criminal",
-                            "box": 108.35
+                            "size": 2,
+                            "box": 108.35,
+                            "title": [
+                                "American Gangster",
+                                "Blue Caprice"
+                            ]
                         },
                         {
                             "name": "Other",
-                            "box": 88.2
+                            "size": 4,
+                            "box": 88.2,
+                            "title": [
+                                "12 Years a Slave",
+                                "Fruitvale Station",
+                                "Lee Daniels' The Butler",
+                                "The Pursuit of Happyness"
+                            ]
                         },
                         {
                             "name": "Athlete",
-                            "box": 57.54916666666667
+                            "size": 12,
+                            "box": 57.54916666666667,
+                            "title": [
+                                "42",
+                                "Ali",
+                                "Greased Lightning",
+                                "Men of Honor",
+                                "Phantom Punch",
+                                "Radio",
+                                "Remember the Titans",
+                                "The Blind Side",
+                                "The Express",
+                                "The Greatest",
+                                "The Hurricane",
+                                "The Jackie Robinson Story"
+                            ]
                         },
                         {
                             "name": "Musician",
-                            "box": 31.8825
+                            "size": 4,
+                            "box": 31.8825,
+                            "title": [
+                                "Cadillac Records",
+                                "Ray",
+                                "The Soloist",
+                                "Why Do Fools Fall in Love"
+                            ]
                         },
                         {
                             "name": "Academic",
-                            "box": 30.2
+                            "size": 1,
+                            "box": 30.2,
+                            "title": [
+                                "The Great Debaters"
+                            ]
                         },
                         {
                             "name": "Military",
-                            "box": 21.1
+                            "size": 1,
+                            "box": 21.1,
+                            "title": [
+                                "Antwone Fisher"
+                            ]
                         },
                         {
                             "name": "Comedian",
-                            "box": 18.0
+                            "size": 1,
+                            "box": 18.0,
+                            "title": [
+                                "Jo Jo Dancer, Your Life Is Calling"
+                            ]
                         },
                         {
                             "name": "Actor",
-                            "box": 365.0
+                            "size": 1,
+                            "box": 365.0,
+                            "title": [
+                                "Baadasssss!"
+                            ]
                         },
                         {
                             "name": "Activist",
-                            "box": 34.92333333333334
+                            "size": 3,
+                            "box": 34.92333333333334,
+                            "title": [
+                                "Malcolm X",
+                                "Selma",
+                                "Talk to Me"
+                            ]
                         },
                         {
                             "name": "Singer",
-                            "box": 30.75
+                            "size": 2,
+                            "box": 30.75,
+                            "title": [
+                                "Get on Up",
+                                "Get Rich or Die Tryin'"
+                            ]
                         }
                     ]
                 },
@@ -127,95 +392,489 @@
                     "children": [
                         {
                             "name": "Criminal",
-                            "box": 59.90194444444445
+                            "size": 36,
+                            "box": 59.90194444444445,
+                            "title": [
+                                "Al Capone",
+                                "Billy the Kid",
+                                "Blow",
+                                "Breach",
+                                "Bugsy",
+                                "Butch Cassidy and the Sundance Kid",
+                                "Butch Cassidy and the Sundance Kid",
+                                "Capone",
+                                "Compulsion",
+                                "Compulsion",
+                                "Dahmer",
+                                "Dillinger",
+                                "Find Me Guilty",
+                                "Frank & Jesse",
+                                "Frank & Jesse",
+                                "Goodfellas",
+                                "Jesse James",
+                                "Kill the Irishman",
+                                "Killer: A Journal of Murder",
+                                "Lucky Luciano",
+                                "Mesrine Part 1: Killer Instinct",
+                                "Mesrine Part 2: Public Enemy #1",
+                                "Ned Kelly",
+                                "Papillon",
+                                "Quills",
+                                "Swoon",
+                                "Swoon",
+                                "Ted Bundy",
+                                "The Assassination of Jesse James by the Coward Robert Ford",
+                                "The Frozen Ground",
+                                "The General",
+                                "The Iceman",
+                                "The Left Handed Gun",
+                                "The Toast of New York",
+                                "The True Story of Jesse James",
+                                "VIPs"
+                            ]
                         },
                         {
                             "name": "Other",
-                            "box": 41.61425531914893
+                            "size": 47,
+                            "box": 41.61425531914893,
+                            "title": [
+                                "1987",
+                                "A Man Called Peter",
+                                "Amazing Grace",
+                                "Beau Brummell",
+                                "Bernard and Doris",
+                                "Boys Town",
+                                "Brigham Young",
+                                "Buffalo Bill",
+                                "Christopher Columbus: The Discovery",
+                                "Gods and Monsters",
+                                "High Roller: The Stu Ungar Story",
+                                "His Majesty O'Keefe",
+                                "Hitchcock",
+                                "Houdini",
+                                "In the Name of the Father",
+                                "Jean Charles",
+                                "Korczak",
+                                "Machine Gun Preacher",
+                                "Mask",
+                                "Meetings with Remarkable Men",
+                                "My Life So Far",
+                                "My One and Only",
+                                "One Foot in Heaven",
+                                "Pierrepoint: The Last Hangman",
+                                "Rasputin: The Mad Monk",
+                                "Reversal of Fortune",
+                                "Rob Roy",
+                                "Santa Fe Trail",
+                                "Saving Mr. Banks",
+                                "Schindler's List",
+                                "Scott of the Antarctic",
+                                "Serpico",
+                                "Seven Years in Tibet",
+                                "Stander",
+                                "Stealing Sinatra",
+                                "The Color of Freedom",
+                                "The Elephant Man",
+                                "The Fifth Estate",
+                                "The House of Rothschild",
+                                "The Long Day Closes",
+                                "The Spirit of St. Louis",
+                                "Vatel",
+                                "Vincent & Theo",
+                                "Walker",
+                                "When Did You Last See Your Father?",
+                                "Wyatt Earp",
+                                "Young Tom Edison"
+                            ]
                         },
                         {
                             "name": "Athlete",
-                            "box": 84.32551724137932
+                            "size": 29,
+                            "box": 84.32551724137932,
+                            "title": [
+                                "Best",
+                                "Cinderella Man",
+                                "Cobb",
+                                "Evel Knievel",
+                                "Foxcatcher",
+                                "Gentleman Jim",
+                                "Invictus",
+                                "Jappeloup",
+                                "Knute Rockne All American",
+                                "Louis Cyr",
+                                "Million Dollar Arm",
+                                "Moneyball",
+                                "Prefontaine",
+                                "Raging Bull",
+                                "Rush",
+                                "Rush",
+                                "Somebody Up There Likes Me",
+                                "The Babe",
+                                "The Babe Ruth Story",
+                                "The Boy in Blue",
+                                "The Fighter",
+                                "The Pistol: The Birth of a Legend",
+                                "The Pride of the Yankees",
+                                "The Rocket: The Legend of Rocket Richard",
+                                "The Winning Team",
+                                "The World's Fastest Indian",
+                                "Triumph of the Spirit",
+                                "Viva Knievel!",
+                                "Without Limits"
+                            ]
                         },
                         {
                             "name": "Musician",
-                            "box": 40.6232
+                            "size": 50,
+                            "box": 40.6232,
+                            "title": [
+                                "24 Hour Party People",
+                                "A Song to Remember",
+                                "Amadeus",
+                                "Amadeus",
+                                "Backbeat",
+                                "Backbeat",
+                                "Beyond the Sea",
+                                "Cadillac Records",
+                                "Copying Beethoven",
+                                "De-Lovely",
+                                "Finding Graceland",
+                                "I'll See You in My Dreams",
+                                "I'm Not There.",
+                                "Immortal Beloved",
+                                "Impromptu",
+                                "Jersey Boys",
+                                "Jersey Boys",
+                                "Jersey Boys",
+                                "Jersey Boys",
+                                "Last Days",
+                                "Lisztomania",
+                                "Love & Mercy",
+                                "Low Down",
+                                "Mahler",
+                                "Nowhere Boy",
+                                "Rhapsody in Blue",
+                                "Stars and Stripes Forever",
+                                "Stoned",
+                                "Strauss' Great Waltz",
+                                "Strauss' Great Waltz",
+                                "Telstar: The Joe Meek Story",
+                                "The Benny Goodman Story",
+                                "The Glenn Miller Story",
+                                "The Great Caruso",
+                                "The Great Waltz",
+                                "The Great Ziegfeld",
+                                "The Jolson Story",
+                                "The Music Lovers",
+                                "The Pianist",
+                                "Thirty Two Short Films About Glenn Gould",
+                                "This Is Elvis",
+                                "Three Little Words",
+                                "Three Little Words",
+                                "Till the Clouds Roll By",
+                                "Topsy-Turvy",
+                                "Walk the Line",
+                                "Words and Music",
+                                "Words and Music",
+                                "Yankee Doodle Dandy",
+                                "Young Man with a Horn"
+                            ]
                         },
                         {
                             "name": "Author",
-                            "box": 79.78636363636363
+                            "size": 22,
+                            "box": 79.78636363636363,
+                            "title": [
+                                "Carrington",
+                                "Finding Neverland",
+                                "Hans Christian Andersen",
+                                "Henry & June",
+                                "Howl",
+                                "Kill Your Darlings",
+                                "Nora",
+                                "Salome's Last Dance",
+                                "Shadowlands",
+                                "The Adventures of Mark Twain",
+                                "The Basketball Diaries",
+                                "The Invisible Woman",
+                                "The Last Station",
+                                "The Life of Emile Zola",
+                                "The Trials of Oscar Wilde",
+                                "The Whole Wide World",
+                                "The Wonderful World of the Brothers Grimm",
+                                "The Wonderful World of the Brothers Grimm",
+                                "Tom & Viv",
+                                "Topsy-Turvy",
+                                "Wilde",
+                                "Young Cassidy"
+                            ]
                         },
                         {
                             "name": "Academic",
-                            "box": 12.243076923076924
+                            "size": 13,
+                            "box": 12.243076923076924,
+                            "title": [
+                                "A Dangerous Method",
+                                "A Dangerous Method",
+                                "Edison, the Man",
+                                "Fat Man and Little Boy",
+                                "Freud",
+                                "Kinsey",
+                                "Madame Curie",
+                                "The Imitation Game",
+                                "The Man Who Saw Tomorrow",
+                                "The Soul Keeper",
+                                "The Story of Alexander Graham Bell",
+                                "The Story of Louis Pasteur",
+                                "The Theory of Everything"
+                            ]
                         },
                         {
                             "name": "Historical",
-                            "box": 9.791562500000001
+                            "size": 32,
+                            "box": 9.791562500000001,
+                            "title": [
+                                "A Man for All Seasons",
+                                "Alexander",
+                                "Alexander the Great",
+                                "Barabbas",
+                                "Becket",
+                                "Becket",
+                                "Brother Sun, Sister Moon",
+                                "Caesar and Cleopatra",
+                                "Captain Kidd",
+                                "Cromwell",
+                                "D\u0329sir\u0329e",
+                                "Fellini's Casanova",
+                                "Francis of Assisi",
+                                "Henry V",
+                                "Henry V",
+                                "Jefferson in Paris",
+                                "Luther",
+                                "Monsieur N.",
+                                "Nicholas and Alexandra",
+                                "Quo Vadis",
+                                "Restoration",
+                                "Richard III",
+                                "The Adventures of Marco Polo",
+                                "The Gaul",
+                                "The King's Speech",
+                                "The Madness of King George",
+                                "The Plainsman",
+                                "The Private Life of Henry VIII.",
+                                "The Private Lives of Elizabeth and Essex",
+                                "To Kill a King",
+                                "To Kill a King",
+                                "Wild Bill"
+                            ]
                         },
                         {
                             "name": "Actress",
-                            "box": 1.0
+                            "size": 1,
+                            "box": 1.0,
+                            "title": [
+                                "Grace of Monaco"
+                            ]
                         },
                         {
                             "name": "Journalist",
-                            "box": 9.17
+                            "size": 1,
+                            "box": 9.17,
+                            "title": [
+                                "A Mighty Heart"
+                            ]
                         },
                         {
                             "name": "World leader",
-                            "box": 19.705833333333334
+                            "size": 12,
+                            "box": 19.705833333333334,
+                            "title": [
+                                "Abe Lincoln in Illinois",
+                                "Abraham Lincoln",
+                                "Disraeli",
+                                "Hyde Park on Hudson",
+                                "Lincoln",
+                                "Nixon",
+                                "Sunrise at Campobello",
+                                "The Better Angels",
+                                "W.",
+                                "Wilson",
+                                "Young Mr. Lincoln",
+                                "Young Winston"
+                            ]
                         },
                         {
                             "name": "Military",
-                            "box": 19.9456
+                            "size": 25,
+                            "box": 19.9456,
+                            "title": [
+                                "Baader",
+                                "Braveheart",
+                                "Custer of the West",
+                                "Eichmann",
+                                "Fat Man and Little Boy",
+                                "Hitler: A Film from Germany",
+                                "Hitler: The Last Ten Days",
+                                "John Paul Jones",
+                                "Lawrence of Arabia",
+                                "MacArthur",
+                                "Patton",
+                                "Pride of the Marines",
+                                "PT 109",
+                                "Rescue Dawn",
+                                "Sergeant York",
+                                "Spitfire",
+                                "The Court-Martial of Billy Mitchell",
+                                "The Desert Fox: The Story of Rommel",
+                                "The Gallant Hours",
+                                "The Long Gray Line",
+                                "The Red Baron",
+                                "They Died with Their Boots On",
+                                "To Hell and Back",
+                                "Von Richthofen and Brown",
+                                "Von Richthofen and Brown"
+                            ]
                         },
                         {
                             "name": "Comedian",
-                            "box": 4.415000000000001
+                            "size": 4,
+                            "box": 4.415000000000001,
+                            "title": [
+                                "American Splendor",
+                                "Chaplin",
+                                "Lenny",
+                                "Permanent Midnight"
+                            ]
                         },
                         {
                             "name": "Actor",
-                            "box": 35.775
+                            "size": 8,
+                            "box": 35.775,
+                            "title": [
+                                "Auto Focus",
+                                "Man of a Thousand Faces",
+                                "My Dinner with Andre",
+                                "My Dinner with Andre",
+                                "The Last of Robin Hood",
+                                "The Life and Death of Peter Sellers",
+                                "The Seven Little Foys",
+                                "Valentino"
+                            ]
                         },
                         {
                             "name": "Medicine",
-                            "box": 13.775
+                            "size": 4,
+                            "box": 13.775,
+                            "title": [
+                                "Awakenings",
+                                "Dr. Ehrlich's Magic Bullet",
+                                "Mesmer",
+                                "The Prisoner of Shark Island"
+                            ]
                         },
                         {
                             "name": "Artist",
-                            "box": 42.017142857142865
+                            "size": 14,
+                            "box": 42.017142857142865,
+                            "title": [
+                                "Caravaggio",
+                                "Girl with a Pearl Earring",
+                                "Goltzius and the Pelican Company",
+                                "Klimt",
+                                "Love Is the Devil: Study for a Portrait of Francis Bacon",
+                                "Lust for Life",
+                                "Modigliani",
+                                "Mr. Turner",
+                                "My Left Foot",
+                                "Nightwatching",
+                                "Pollock",
+                                "Rembrandt",
+                                "Thomas Kinkade's Christmas Cottage",
+                                "Vincent & Theo"
+                            ]
                         },
                         {
                             "name": "Activist",
-                            "box": 45.48571428571429
+                            "size": 7,
+                            "box": 45.48571428571429,
+                            "title": [
+                                "Hoffa",
+                                "Hunger",
+                                "Michael Collins",
+                                "Milk",
+                                "Steal This Movie",
+                                "The Assassination of Trotsky",
+                                "The People vs. Larry Flynt"
+                            ]
                         },
                         {
                             "name": "Politician",
-                            "box": 19.1
+                            "size": 1,
+                            "box": 19.1,
+                            "title": [
+                                "Blaze"
+                            ]
                         },
                         {
                             "name": "Singer",
-                            "box": 7.840000000000001
+                            "size": 5,
+                            "box": 7.840000000000001,
+                            "title": [
+                                "Bound for Glory",
+                                "If You Could See What I Hear",
+                                "Ragamuffin",
+                                "The Doors",
+                                "The Night We Called It a Day"
+                            ]
                         },
                         {
                             "name": "Author (poet)",
-                            "box": 9.4025
+                            "size": 4,
+                            "box": 9.4025,
+                            "title": [
+                                "Bright Star",
+                                "Set Fire to the Stars",
+                                "Sylvia",
+                                "The Edge of Love"
+                            ]
                         },
                         {
                             "name": "Government",
-                            "box": 39.65
+                            "size": 2,
+                            "box": 39.65,
+                            "title": [
+                                "Donnie Brasco",
+                                "J. Edgar"
+                            ]
                         },
                         {
                             "name": "Media",
-                            "box": 10.781666666666666
+                            "size": 6,
+                            "box": 10.781666666666666,
+                            "title": [
+                                "In Love and War",
+                                "Private Parts",
+                                "Reds",
+                                "The Bang Bang Club",
+                                "The Bang Bang Club",
+                                "The Diving Bell and the Butterfly"
+                            ]
                         },
                         {
                             "name": "Athlete / military",
-                            "box": 116.0
+                            "size": 1,
+                            "box": 116.0,
+                            "title": [
+                                "Unbroken"
+                            ]
                         },
                         {
                             "name": "Academic (Philosopher)",
-                            "box": 1.0
+                            "size": 1,
+                            "box": 1.0,
+                            "title": [
+                                "Wittgenstein"
+                            ]
                         }
                     ]
                 },
@@ -224,11 +883,19 @@
                     "children": [
                         {
                             "name": "Other",
-                            "box": 81.2
+                            "size": 1,
+                            "box": 81.2,
+                            "title": [
+                                "21"
+                            ]
                         },
                         {
                             "name": "Athlete",
-                            "box": 35.1
+                            "size": 1,
+                            "box": 35.1,
+                            "title": [
+                                "Dragon: The Bruce Lee Story"
+                            ]
                         }
                     ]
                 },
@@ -237,19 +904,35 @@
                     "children": [
                         {
                             "name": "Athlete",
-                            "box": 1.0
+                            "size": 1,
+                            "box": 1.0,
+                            "title": [
+                                "A Matador's Mistress"
+                            ]
                         },
                         {
                             "name": "Author",
-                            "box": 226.0
+                            "size": 1,
+                            "box": 226.0,
+                            "title": [
+                                "Death in Granada"
+                            ]
                         },
                         {
                             "name": "Historical",
-                            "box": 26.6
+                            "size": 1,
+                            "box": 26.6,
+                            "title": [
+                                "El Cid"
+                            ]
                         },
                         {
                             "name": "Artist",
-                            "box": 1.0
+                            "size": 1,
+                            "box": 1.0,
+                            "title": [
+                                "Goya's Ghosts"
+                            ]
                         }
                     ]
                 },
@@ -258,35 +941,75 @@
                     "children": [
                         {
                             "name": "Criminal",
-                            "box": 1.7066666666666668
+                            "size": 3,
+                            "box": 1.7066666666666668,
+                            "title": [
+                                "The Chameleon",
+                                "The Krays",
+                                "The Krays"
+                            ]
                         },
                         {
                             "name": "Other",
-                            "box": 91.15
+                            "size": 4,
+                            "box": 91.15,
+                            "title": [
+                                "Grey Owl",
+                                "iSteve",
+                                "Jobs",
+                                "October Sky"
+                            ]
                         },
                         {
                             "name": "Musician",
-                            "box": 162.59
+                            "size": 2,
+                            "box": 162.59,
+                            "title": [
+                                "Bird",
+                                "Jimi: All Is by My Side"
+                            ]
                         },
                         {
                             "name": "Military",
-                            "box": 19.3
+                            "size": 1,
+                            "box": 19.3,
+                            "title": [
+                                "Behind the Lines"
+                            ]
                         },
                         {
                             "name": "Artist",
-                            "box": 194.32000000000002
+                            "size": 3,
+                            "box": 194.32000000000002,
+                            "title": [
+                                "Basquiat",
+                                "Downtown 81",
+                                "Little Ashes"
+                            ]
                         },
                         {
                             "name": "Activist",
-                            "box": 153.0
+                            "size": 1,
+                            "box": 153.0,
+                            "title": [
+                                "Music Within"
+                            ]
                         },
                         {
                             "name": "Singer",
-                            "box": 1.0
+                            "size": 1,
+                            "box": 1.0,
+                            "title": [
+                                "The Buddy Holly Story"
+                            ]
                         },
                         {
                             "name": "Author (poet)",
-                            "box": 1.0
+                            "size": 1,
+                            "box": 1.0,
+                            "title": [
+                                "The Barretts of Wimpole Street"
+                            ]
                         }
                     ]
                 },
@@ -295,23 +1018,44 @@
                     "children": [
                         {
                             "name": "Criminal",
-                            "box": 13.1
+                            "size": 1,
+                            "box": 13.1,
+                            "title": [
+                                "American Me"
+                            ]
                         },
                         {
                             "name": "Athlete",
-                            "box": 6.0
+                            "size": 2,
+                            "box": 6.0,
+                            "title": [
+                                "Counterpunch",
+                                "Lords of Dogtown"
+                            ]
                         },
                         {
                             "name": "Musician",
-                            "box": 54.2
+                            "size": 1,
+                            "box": 54.2,
+                            "title": [
+                                "La Bamba"
+                            ]
                         },
                         {
                             "name": "Military",
-                            "box": 1.0
+                            "size": 1,
+                            "box": 1.0,
+                            "title": [
+                                "Hell to Eternity"
+                            ]
                         },
                         {
                             "name": "Activist",
-                            "box": 5.55
+                            "size": 1,
+                            "box": 5.55,
+                            "title": [
+                                "Cesar Chavez"
+                            ]
                         }
                     ]
                 },
@@ -320,7 +1064,11 @@
                     "children": [
                         {
                             "name": "Activist",
-                            "box": 1.0
+                            "size": 1,
+                            "box": 1.0,
+                            "title": [
+                                "Gandhi"
+                            ]
                         }
                     ]
                 },
@@ -329,27 +1077,56 @@
                     "children": [
                         {
                             "name": "Other",
-                            "box": 1.32
+                            "size": 1,
+                            "box": 1.32,
+                            "title": [
+                                "Romero"
+                            ]
                         },
                         {
                             "name": "Musician",
-                            "box": 7.56
+                            "size": 1,
+                            "box": 7.56,
+                            "title": [
+                                "El cantante"
+                            ]
                         },
                         {
                             "name": "World leader",
-                            "box": 1.0
+                            "size": 1,
+                            "box": 1.0,
+                            "title": [
+                                "Juarez"
+                            ]
                         },
                         {
                             "name": "Military",
-                            "box": 1.11
+                            "size": 1,
+                            "box": 1.11,
+                            "title": [
+                                "Viva Villa!"
+                            ]
                         },
                         {
                             "name": "Actor",
-                            "box": 1.42
+                            "size": 1,
+                            "box": 1.42,
+                            "title": [
+                                "Pi\u0331ero"
+                            ]
                         },
                         {
                             "name": "Activist",
-                            "box": 4.458333333333333
+                            "size": 6,
+                            "box": 4.458333333333333,
+                            "title": [
+                                "Before Night Falls",
+                                "Che: Part One",
+                                "Che: Part Two",
+                                "Che!",
+                                "The Motorcycle Diaries",
+                                "Viva Zapata!"
+                            ]
                         }
                     ]
                 },
@@ -358,27 +1135,52 @@
                     "children": [
                         {
                             "name": "Other",
-                            "box": 1.0
+                            "size": 1,
+                            "box": 1.0,
+                            "title": [
+                                "Jinnah"
+                            ]
                         },
                         {
                             "name": "Historical",
-                            "box": 1.0
+                            "size": 2,
+                            "box": 1.0,
+                            "title": [
+                                "Muhammad: The Last Prophet",
+                                "The Message"
+                            ]
                         },
                         {
                             "name": "Actor",
-                            "box": 113.0
+                            "size": 1,
+                            "box": 113.0,
+                            "title": [
+                                "I Am a Sex Addict"
+                            ]
                         },
                         {
                             "name": "Artist",
-                            "box": 144.0
+                            "size": 1,
+                            "box": 144.0,
+                            "title": [
+                                "Desert Dancer"
+                            ]
                         },
                         {
                             "name": "Activist",
-                            "box": 1.0
+                            "size": 1,
+                            "box": 1.0,
+                            "title": [
+                                "Lion of the Desert"
+                            ]
                         },
                         {
                             "name": "Media",
-                            "box": 3.09
+                            "size": 1,
+                            "box": 3.09,
+                            "title": [
+                                "Rosewater"
+                            ]
                         }
                     ]
                 },
@@ -391,11 +1193,19 @@
                     "children": [
                         {
                             "name": "Other",
-                            "box": 1.0
+                            "size": 1,
+                            "box": 1.0,
+                            "title": [
+                                "Cass"
+                            ]
                         },
                         {
                             "name": "Musician",
-                            "box": 36.8
+                            "size": 1,
+                            "box": 36.8,
+                            "title": [
+                                "Notorious"
+                            ]
                         }
                     ]
                 },
@@ -404,15 +1214,30 @@
                     "children": [
                         {
                             "name": "Other",
-                            "box": 174.3
+                            "size": 2,
+                            "box": 174.3,
+                            "title": [
+                                "The First Grader",
+                                "The Last King of Scotland"
+                            ]
                         },
                         {
                             "name": "World leader",
-                            "box": 22.91
+                            "size": 2,
+                            "box": 22.91,
+                            "title": [
+                                "Invictus",
+                                "Mandela: Long Walk to Freedom"
+                            ]
                         },
                         {
                             "name": "Activist",
-                            "box": 5.095000000000001
+                            "size": 2,
+                            "box": 5.095000000000001,
+                            "title": [
+                                "Catch a Fire",
+                                "Cry Freedom"
+                            ]
                         }
                     ]
                 },
@@ -421,7 +1246,22 @@
                     "children": [
                         {
                             "name": "Historical",
-                            "box": 35.314166666666665
+                            "size": 12,
+                            "box": 35.314166666666665,
+                            "title": [
+                                "Exodus: Gods and Kings",
+                                "King David",
+                                "King of Kings",
+                                "Son of God",
+                                "The Greatest Story Ever Told",
+                                "The Jesus Film",
+                                "The King of Kings",
+                                "The Miracle Maker",
+                                "The Prince of Egypt",
+                                "The Prince of Egypt",
+                                "The Ten Commandments",
+                                "The Visual Bible: The Gospel of John"
+                            ]
                         }
                     ]
                 },
@@ -430,15 +1270,27 @@
                     "children": [
                         {
                             "name": "Athlete",
-                            "box": 1.0
+                            "size": 1,
+                            "box": 1.0,
+                            "title": [
+                                "Jim Thorpe -- All-American"
+                            ]
                         },
                         {
                             "name": "Historical",
-                            "box": 3.34
+                            "size": 1,
+                            "box": 3.34,
+                            "title": [
+                                "Squanto: A Warrior's Tale"
+                            ]
                         },
                         {
                             "name": "Military",
-                            "box": 1.0
+                            "size": 1,
+                            "box": 1.0,
+                            "title": [
+                                "Geronimo"
+                            ]
                         }
                     ]
                 },
@@ -447,19 +1299,35 @@
                     "children": [
                         {
                             "name": "Author",
-                            "box": 450.0
+                            "size": 1,
+                            "box": 450.0,
+                            "title": [
+                                "Mishima: A Life in Four Chapters"
+                            ]
                         },
                         {
                             "name": "World leader",
-                            "box": 109.0
+                            "size": 1,
+                            "box": 109.0,
+                            "title": [
+                                "The Last Emperor"
+                            ]
                         },
                         {
                             "name": "Military",
-                            "box": 4.5
+                            "size": 1,
+                            "box": 4.5,
+                            "title": [
+                                "The Conqueror"
+                            ]
                         },
                         {
                             "name": "Activist",
-                            "box": 5.53
+                            "size": 1,
+                            "box": 5.53,
+                            "title": [
+                                "Kundun"
+                            ]
                         }
                     ]
                 },
@@ -481,47 +1349,124 @@
                     "children": [
                         {
                             "name": "Criminal",
-                            "box": 43.625
+                            "size": 4,
+                            "box": 43.625,
+                            "title": [
+                                "Bonnie and Clyde",
+                                "Dance with a Stranger",
+                                "I Want to Live!",
+                                "Monster"
+                            ]
                         },
                         {
                             "name": "Other",
-                            "box": 74.67363636363636
+                            "size": 22,
+                            "box": 74.67363636363636,
+                            "title": [
+                                "A Home of Our Own",
+                                "An American Crime",
+                                "Blossoms in the Dust",
+                                "Bright Star",
+                                "Conviction",
+                                "Dreamchild",
+                                "Hyde Park on Hudson",
+                                "Julie & Julia",
+                                "Julie & Julia",
+                                "Mahler",
+                                "Mockingbird Don't Sing",
+                                "Nora",
+                                "Open Water",
+                                "Riding in Cars with Boys",
+                                "Sid and Nancy",
+                                "Testament of Youth",
+                                "The Best Intentions",
+                                "The Entity",
+                                "The Prize Winner of Defiance, Ohio",
+                                "Thirteen",
+                                "To Write Love on Her Arms",
+                                "Wild"
+                            ]
                         },
                         {
                             "name": "Athlete",
-                            "box": 16.926666666666666
+                            "size": 3,
+                            "box": 16.926666666666666,
+                            "title": [
+                                "Against the Ropes",
+                                "Soul Surfer",
+                                "The Other Side of the Mountain"
+                            ]
                         },
                         {
                             "name": "Musician",
-                            "box": 2.285
+                            "size": 2,
+                            "box": 2.285,
+                            "title": [
+                                "The Runaways",
+                                "With a Song in My Heart"
+                            ]
                         },
                         {
                             "name": "Author",
-                            "box": 76.66000000000001
+                            "size": 3,
+                            "box": 76.66000000000001,
+                            "title": [
+                                "84 Charing Cross Road",
+                                "Cross Creek",
+                                "Girl, Interrupted"
+                            ]
                         },
                         {
                             "name": "Academic",
-                            "box": 24.7
+                            "size": 1,
+                            "box": 24.7,
+                            "title": [
+                                "Gorillas in the Mist"
+                            ]
                         },
                         {
                             "name": "Historical",
-                            "box": 278.0
+                            "size": 1,
+                            "box": 278.0,
+                            "title": [
+                                "Lady Jane"
+                            ]
                         },
                         {
                             "name": "Actress",
-                            "box": 5.533333333333334
+                            "size": 3,
+                            "box": 5.533333333333334,
+                            "title": [
+                                "My Week with Marilyn",
+                                "The Actress",
+                                "The Perils of Pauline"
+                            ]
                         },
                         {
                             "name": "Artist",
-                            "box": 1.06
+                            "size": 2,
+                            "box": 1.06,
+                            "title": [
+                                "Isadora",
+                                "The Story of Vernon and Irene Castle"
+                            ]
                         },
                         {
                             "name": "Activist",
-                            "box": 80.8
+                            "size": 2,
+                            "box": 80.8,
+                            "title": [
+                                "Erin Brockovich",
+                                "Silkwood"
+                            ]
                         },
                         {
                             "name": "Singer",
-                            "box": 1.0
+                            "size": 1,
+                            "box": 1.0,
+                            "title": [
+                                "Love Me or Leave Me"
+                            ]
                         }
                     ]
                 },
@@ -530,19 +1475,35 @@
                     "children": [
                         {
                             "name": "Other",
-                            "box": 693.0
+                            "size": 1,
+                            "box": 693.0,
+                            "title": [
+                                "Frankie & Alice"
+                            ]
                         },
                         {
                             "name": "Athlete",
-                            "box": 11.5
+                            "size": 1,
+                            "box": 11.5,
+                            "title": [
+                                "The Longshots"
+                            ]
                         },
                         {
                             "name": "Musician",
-                            "box": 9.6
+                            "size": 1,
+                            "box": 9.6,
+                            "title": [
+                                "Lady Sings the Blues"
+                            ]
                         },
                         {
                             "name": "Singer",
-                            "box": 8.13
+                            "size": 1,
+                            "box": 8.13,
+                            "title": [
+                                "Cadillac Records"
+                            ]
                         }
                     ]
                 },
@@ -551,71 +1512,224 @@
                     "children": [
                         {
                             "name": "Criminal",
-                            "box": 7.05
+                            "size": 2,
+                            "box": 7.05,
+                            "title": [
+                                "An American Crime",
+                                "Bathory: Countess of Blood"
+                            ]
                         },
                         {
                             "name": "Other",
-                            "box": 30.091071428571432
+                            "size": 28,
+                            "box": 30.091071428571432,
+                            "title": [
+                                "Amelia",
+                                "Anastasia",
+                                "Bernard and Doris",
+                                "Dangerous Beauty",
+                                "Diana",
+                                "Domino",
+                                "Freedom Writers",
+                                "Fur: An Imaginary Portrait of Diane Arbus",
+                                "Gypsy",
+                                "Henry & June",
+                                "Hitchcock",
+                                "Impromptu",
+                                "In Love and War",
+                                "Out of Africa",
+                                "Patty Hearst",
+                                "Philomena",
+                                "Reversal of Fortune",
+                                "The Diary of Anne Frank",
+                                "The Duchess",
+                                "The Happy Hooker",
+                                "The Inn of the Sixth Happiness",
+                                "The Lover",
+                                "The Miracle Worker",
+                                "The Miracle Worker",
+                                "The Song of Bernadette",
+                                "The Unsinkable Molly Brown",
+                                "The Whistleblower",
+                                "Thirteen"
+                            ]
                         },
                         {
                             "name": "Athlete",
-                            "box": 5.212000000000001
+                            "size": 5,
+                            "box": 5.212000000000001,
+                            "title": [
+                                "Annie Get Your Gun",
+                                "Annie Oakley",
+                                "Gracie",
+                                "Heart Like a Wheel",
+                                "Million Dollar Mermaid"
+                            ]
                         },
                         {
                             "name": "Musician",
-                            "box": 3.5775
+                            "size": 4,
+                            "box": 3.5775,
+                            "title": [
+                                "Hilary and Jackie",
+                                "Hilary and Jackie",
+                                "The Runaways",
+                                "The Singing Nun"
+                            ]
                         },
                         {
                             "name": "Author",
-                            "box": 55.54749999999999
+                            "size": 12,
+                            "box": 55.54749999999999,
+                            "title": [
+                                "An Angel at My Table",
+                                "Becoming Jane",
+                                "Devotion",
+                                "Devotion",
+                                "Devotion",
+                                "Henry & June",
+                                "Iris",
+                                "Isn't She Great",
+                                "Miss Potter",
+                                "Mrs. Parker and the Vicious Circle",
+                                "Saving Mr. Banks",
+                                "Tom & Viv"
+                            ]
                         },
                         {
                             "name": "Academic",
-                            "box": 2.566666666666667
+                            "size": 3,
+                            "box": 2.566666666666667,
+                            "title": [
+                                "A Dangerous Method",
+                                "Madame Curie",
+                                "The Soul Keeper"
+                            ]
                         },
                         {
                             "name": "Historical",
-                            "box": 10.276
+                            "size": 20,
+                            "box": 10.276,
+                            "title": [
+                                "D\u0329sir\u0329e",
+                                "Elizabeth",
+                                "Elizabeth: The Golden Age",
+                                "Joan of Arc",
+                                "Marie Antoinette",
+                                "Marie Antoinette",
+                                "Mary of Scotland",
+                                "Mary, Queen of Scots",
+                                "Mrs Brown",
+                                "Nicholas and Alexandra",
+                                "Queen Christina",
+                                "Quo Vadis",
+                                "Saint Joan",
+                                "The Countess",
+                                "The Other Boleyn Girl",
+                                "The Other Boleyn Girl",
+                                "The Private Lives of Elizabeth and Essex",
+                                "The Queen",
+                                "The Young Victoria",
+                                "Young Bess"
+                            ]
                         },
                         {
                             "name": "Actress",
-                            "box": 50.09583333333333
+                            "size": 12,
+                            "box": 50.09583333333333,
+                            "title": [
+                                "Ciao Manhattan",
+                                "Factory Girl",
+                                "Frances",
+                                "Funny Girl",
+                                "Harlow",
+                                "I'll Cry Tomorrow",
+                                "Lovelace",
+                                "Mommie Dearest",
+                                "Star 80",
+                                "Star!",
+                                "The Brittany Murphy Story",
+                                "The Girl in the Red Velvet Swing"
+                            ]
                         },
                         {
                             "name": "World leader",
-                            "box": 30.0
+                            "size": 1,
+                            "box": 30.0,
+                            "title": [
+                                "The Iron Lady"
+                            ]
                         },
                         {
                             "name": "Military",
-                            "box": 1.0
+                            "size": 1,
+                            "box": 1.0,
+                            "title": [
+                                "Carve Her Name with Pride"
+                            ]
                         },
                         {
                             "name": "Medicine",
-                            "box": 1.0
+                            "size": 1,
+                            "box": 1.0,
+                            "title": [
+                                "Sister Kenny"
+                            ]
                         },
                         {
                             "name": "Artist",
-                            "box": 5.1825
+                            "size": 4,
+                            "box": 5.1825,
+                            "title": [
+                                "Big Eyes",
+                                "Carrington",
+                                "Gypsy",
+                                "Surviving Picasso"
+                            ]
                         },
                         {
                             "name": "Singer",
-                            "box": 43.825
+                            "size": 4,
+                            "box": 43.825,
+                            "title": [
+                                "Interrupted Melody",
+                                "La Vie en Rose",
+                                "Sweet Dreams",
+                                "The Sound of Music"
+                            ]
                         },
                         {
                             "name": "Author (poet)",
-                            "box": 13.55
+                            "size": 2,
+                            "box": 13.55,
+                            "title": [
+                                "Shadowlands",
+                                "Sylvia"
+                            ]
                         },
                         {
                             "name": "Teacher",
-                            "box": 84.9
+                            "size": 1,
+                            "box": 84.9,
+                            "title": [
+                                "Dangerous Minds"
+                            ]
                         },
                         {
                             "name": "Government",
-                            "box": 9.53
+                            "size": 1,
+                            "box": 9.53,
+                            "title": [
+                                "Fair Game"
+                            ]
                         },
                         {
                             "name": "Media",
-                            "box": 1.57
+                            "size": 1,
+                            "box": 1.57,
+                            "title": [
+                                "Veronica Guerin"
+                            ]
                         }
                     ]
                 },
@@ -624,7 +1738,11 @@
                     "children": [
                         {
                             "name": "Other",
-                            "box": 5.86
+                            "size": 1,
+                            "box": 5.86,
+                            "title": [
+                                "Heaven & Earth"
+                            ]
                         }
                     ]
                 },
@@ -633,11 +1751,19 @@
                     "children": [
                         {
                             "name": "Actress",
-                            "box": 1.0
+                            "size": 1,
+                            "box": 1.0,
+                            "title": [
+                                "A Matador's Mistress"
+                            ]
                         },
                         {
                             "name": "Activist",
-                            "box": 1.81
+                            "size": 1,
+                            "box": 1.81,
+                            "title": [
+                                "I Shot Andy Warhol"
+                            ]
                         }
                     ]
                 },
@@ -646,23 +1772,46 @@
                     "children": [
                         {
                             "name": "Other",
-                            "box": 5.17
+                            "size": 3,
+                            "box": 5.17,
+                            "title": [
+                                "Anna and the King of Siam",
+                                "The King and I",
+                                "The Notorious Bettie Page"
+                            ]
                         },
                         {
                             "name": "Author",
-                            "box": 137.0
+                            "size": 1,
+                            "box": 137.0,
+                            "title": [
+                                "The Whole Wide World"
+                            ]
                         },
                         {
                             "name": "Journalist",
-                            "box": 9.17
+                            "size": 1,
+                            "box": 9.17,
+                            "title": [
+                                "A Mighty Heart"
+                            ]
                         },
                         {
                             "name": "Singer",
-                            "box": 59.5
+                            "size": 2,
+                            "box": 59.5,
+                            "title": [
+                                "Coal Miner's Daughter",
+                                "What's Love Got to Do with It"
+                            ]
                         },
                         {
                             "name": "Author (poet)",
-                            "box": 1.0
+                            "size": 1,
+                            "box": 1.0,
+                            "title": [
+                                "The Barretts of Wimpole Street"
+                            ]
                         }
                     ]
                 },
@@ -675,7 +1824,11 @@
                     "children": [
                         {
                             "name": "Criminal",
-                            "box": 400.0
+                            "size": 1,
+                            "box": 400.0,
+                            "title": [
+                                "Bandit Queen"
+                            ]
                         }
                     ]
                 },
@@ -684,11 +1837,19 @@
                     "children": [
                         {
                             "name": "Artist",
-                            "box": 25.8
+                            "size": 1,
+                            "box": 25.8,
+                            "title": [
+                                "Frida"
+                            ]
                         },
                         {
                             "name": "Actress / activist",
-                            "box": 50.0
+                            "size": 1,
+                            "box": 50.0,
+                            "title": [
+                                "Evita"
+                            ]
                         }
                     ]
                 },
@@ -697,11 +1858,21 @@
                     "children": [
                         {
                             "name": "Historical",
-                            "box": 19.933333333333334
+                            "size": 3,
+                            "box": 19.933333333333334,
+                            "title": [
+                                "Caesar and Cleopatra",
+                                "Cleopatra",
+                                "Cleopatra"
+                            ]
                         },
                         {
                             "name": "Activist",
-                            "box": 4.44
+                            "size": 1,
+                            "box": 4.44,
+                            "title": [
+                                "Persepolis"
+                            ]
                         }
                     ]
                 },
@@ -710,7 +1881,11 @@
                     "children": [
                         {
                             "name": "Singer",
-                            "box": 446.0
+                            "size": 1,
+                            "box": 446.0,
+                            "title": [
+                                "Callas Forever"
+                            ]
                         }
                     ]
                 },
@@ -723,15 +1898,27 @@
                     "children": [
                         {
                             "name": "Other",
-                            "box": 1.0
+                            "size": 1,
+                            "box": 1.0,
+                            "title": [
+                                "Skin"
+                            ]
                         },
                         {
                             "name": "Activist",
-                            "box": 44.3
+                            "size": 1,
+                            "box": 44.3,
+                            "title": [
+                                "Desert Flower"
+                            ]
                         },
                         {
                             "name": "Government",
-                            "box": 1.0
+                            "size": 1,
+                            "box": 1.0,
+                            "title": [
+                                "Winnie Mandela"
+                            ]
                         }
                     ]
                 },
@@ -740,7 +1927,11 @@
                     "children": [
                         {
                             "name": "Historical",
-                            "box": 13.4
+                            "size": 1,
+                            "box": 13.4,
+                            "title": [
+                                "One Night with the King"
+                            ]
                         }
                     ]
                 },
@@ -749,7 +1940,11 @@
                     "children": [
                         {
                             "name": "Historical",
-                            "box": 12.7
+                            "size": 1,
+                            "box": 12.7,
+                            "title": [
+                                "The New World"
+                            ]
                         }
                     ]
                 },
@@ -758,7 +1953,11 @@
                     "children": [
                         {
                             "name": "Activist",
-                            "box": 1.0
+                            "size": 1,
+                            "box": 1.0,
+                            "title": [
+                                "The Lady"
+                            ]
                         }
                     ]
                 },
@@ -767,7 +1966,11 @@
                     "children": [
                         {
                             "name": "Other",
-                            "box": 1.0
+                            "size": 1,
+                            "box": 1.0,
+                            "title": [
+                                "Love Is a Many-Splendored Thing"
+                            ]
                         }
                     ]
                 },
@@ -776,7 +1979,11 @@
                     "children": [
                         {
                             "name": "Singer",
-                            "box": 35.4
+                            "size": 1,
+                            "box": 35.4,
+                            "title": [
+                                "Selena"
+                            ]
                         }
                     ]
                 }

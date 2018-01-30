@@ -15,7 +15,7 @@
       window.d3 = null
     </script>
     <script src="https://d3js.org/d3.v4.min.js"  charset="utf-8"></script>
-    <link rel="stylesheet" type="text/css" href="styleSheetMulti.css">
+    <link rel="stylesheet" type="text/css" href="styleSheet.css">
     
     <script src="bar.js" ></script>
     <script src="multi.js" ></script>
@@ -24,35 +24,13 @@
     <script src="force.js" ></script>
     <script src="update.js" ></script>
     <script src="test.js" ></script>
-    <script src="start.js" ></script>
+    <script src="main.js" ></script>
 	  <a href= "https://github.com/fivethirtyeight/data/tree/master/biopics"> data source </a>
     
   </head>
   <body>
   <h5> Mannus Schomaker 10591664 </h5>
-  <!-- <nav class="navbar navbar-inverse">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>                        
-          </button>
-          <a class="navbar-brand" href="#">Logo</a>
-        </div>
-        <div class="collapse navbar-collapse" id="myNavbar">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-          </ul>
-        </div>
-      </div>
-    </nav> -->
+  
 
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
         <!-- Indicators -->
@@ -80,8 +58,6 @@
           </div>
         </div>
 
-        
-    
         <!-- Left and right controls -->
         <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
           <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
@@ -95,42 +71,59 @@
 
       <h3>What We Do</h3><br>
 
+       <!-- container containing all visualizations -->
       <div class="container-fluid">
       <div class="row">
-          <div id="flip">Click to slide the panel down or up</div>
-          <div id="panel">Hello world!</div>
-
+          <div id="flip">Click to slide the panel down to get extented information on how the visualizations work and learn more about the story</div>
+          <div id="panel">On the left side there is a visualization showing the amount of films autobiografical films produced with a collored person in the main role.
+          <br> The other line represents the amount of autobiografical films produced with a non colllored main character. 
+          <br> The amount of fims was measeured every 5 years. brush the line graph with your mouse to update the other visualizations.
+          <br>
+          <br> On the right side there is a visualization showing the average amount of dollars eared by producing films in the differnt catogories.
+          <br> On button click the the bar graph will update to show you film earnings between diffenrent main character etnicities or difference between male and female main characters.
+          <br>
+          <br> Warning: all films without data have been given a standerd box office value of 1 millon 
+          <br>
+          <br> Node that when selecting data form before 1950 there is a big chance films with white main characters are the highest earners.
+          <br> Selecting more or later data however will make you realize there is no finacial gain in making a films abount a white male.
+          </div>
 
         <div class="col-lg-6" id="graph1">
             <p>Project 3</p>
         </div>
+
         <div class="col-lg-6" id="graph2"> 
         <div id="option">
-          <input name="updateButton" 
-                  type="button" 
-                  value="diffenrece between etnicities" 
-                  onclick="barUpdateEtnicity()" />
+
+        <input name="updateButton" 
+          type="button" 
+          value="diffenrece between etnicities" 
+          onclick="barUpdateEtnicity()" />
         
         <div id="option">
           <input name="updateButton" 
-                  type="button" 
-                  value="man vs woman" 
-                  onclick="barUpdateMvsW()" />
+          type="button" 
+          value="man vs woman" 
+          onclick="barUpdateMvsW()" />
             <p>Project 3</p>
         </div>
         </div>
       </div>
       </div>
+
       <div class="row">
-          <div id="flip2">Click to slide the panel down or up</div>
+
+          <div id="flip2">Click to slide the panel down to get extented information on how the visualizations work and learn more about the story</div>
           <div id="panel2">Hello world!</div>
 
-
         <div class="col-md-6" id="graph3">
-          </div>
+          <p>Project 3</p>    
+        </div>
+
         <div class="col-md-6" id="graph4">
           <p>Project 3</p>    
-          </div>
+        </div>
+
         </div>
       </div>
     <br>

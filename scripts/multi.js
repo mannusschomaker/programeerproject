@@ -1,10 +1,8 @@
 /* multi.js
- * minor programeren
+ * minor programming
  *
- * d3.js page for interactive bar graph
- * interactive bar chart
- * graph is interactive: info popup when hovering over bars
- * door: mannus schomaker 10591664
+ * build multi series line graph
+ * by: mannus schomaker 10591664
  * 
  */
 
@@ -12,14 +10,10 @@
 // funtion for a multiseries line graph
 function initMulti(data, yearsList) {
 
-    // make canvas
-    svgBar = d3.select("#graph1").append("svg").attr("id","line"),
-        marginBar = {top: 60, right: 20, bottom: 20, left: 50},
-        widthBar = 2000 - margin.left - margin.right,
-        heightBar = 250 - margin.top - margin.bottom;
+    // init canvas
+    var svgBar = d3.select("#graph1").append("svg").attr("id","line");
 
-    // transform canvas for line chart
-    g = svgBar.attr("height",height + margin.top + margin.bottom)
+    var g = svgBar.attr("height",height + margin.top + margin.bottom)
         .attr("width",width + margin.left + margin.right)
         .append("g").attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
@@ -30,9 +24,13 @@ function initMulti(data, yearsList) {
         y = d3.scaleLinear()
                 .range([height, 0])
                 .domain([
-            d3.min(data, function(c) { return d3.min(c.values, function(d) { return d.amount; }); }),
-            d3.max(data, function(c) { return d3.max(c.values, function(d) { return d.amount; }); })
-            ]),
+                    d3.min(data, function(c) { 
+                        return d3.min(c.values, function(d) { return d.amount; }); 
+                    }),
+                    d3.max(data, function(c) { 
+                        return d3.max(c.values, function(d) { return d.amount; }); 
+                    })
+                ]),
         z = d3.scaleOrdinal(d3.schemeCategory10)
                 .domain(data.map(function(c) { return c.id; }));
     
@@ -48,7 +46,7 @@ function initMulti(data, yearsList) {
         .text("aantal films");
 
     // initiate new field for each line
-    var linecolor = g.selectAll(".linecolor")
+    var lineColor = g.selectAll(".linecolor")
         .data(data)
     .enter().append("g")
         .attr("class", "linecolor");
@@ -60,13 +58,13 @@ function initMulti(data, yearsList) {
         .y(function(d) { return y(d.amount); });
 
     // draw line 
-    linecolor.append("path")
+    lineColor.append("path")
         .attr("class", "line")
         .attr("d", function(d) { return line(d.values); })
         .style("stroke", function(d) { return z(d.id); });
         
     // append legend text
-    linecolor.append("text")
+    lineColor.append("text")
         .datum(function(d) { return {id: d.id, value: d.values[d.values.length - 1]}; })
         .attr("transform", function(d) { return "translate(" + x(d.value.year) + "," + y(d.value.amount) + ")"; })
         .attr("x", 3)

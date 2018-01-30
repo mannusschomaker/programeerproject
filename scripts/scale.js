@@ -1,9 +1,15 @@
-
+/* scale.js
+ * minor programming
+ *
+ * build brush over for updating visualizations
+ * by: mannus schomaker 10591664
+ * 
+ */
 
 
 var margin = {top: 40, right: 20, bottom: 20, left: 50},
-width = 700 - margin.left - margin.right,
-height = 250 - margin.top - margin.bottom;
+width = 1000 - margin.left - margin.right,
+height = 350 - margin.top - margin.bottom;
 
 var x = d3.scaleTime()
 .domain([new Date(1925, 1, 1), new Date(2015, 1, 15) - 1])

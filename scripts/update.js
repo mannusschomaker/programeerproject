@@ -1,64 +1,20 @@
-// function valueSun(data){
-//     var etnicities = []
-//     var catagory = []
-//     var gender = []
-    
-//     data.forEach(function(d) {
+/* update.js
+ * minor programming
+ *
+ * d3.js page for calculating new data
+ * by: mannus schomaker 10591664
+ * 
+ */
 
-//         if (etnicities.indexOf(d.subject_race) <= -1){
-//             etnicities.push(d.subject_race);         
-//         }
-//         if (catagory.indexOf(d.type_of_subject) <= -1){
-//             catagory.push(d.type_of_subject);     
-//         }
-//         if (gender.indexOf(d.subject_sex) <= -1){
-//             gender.push(d.subject_sex);         
-//         }
-//     })
-
-//     var childernlist = []
-//     gender.forEach(function(sex) {
-
-//         var childernlist1 = []
-//         etnicities.forEach(function(race) {
-
-//             var childernlist2 = []
-//             catagory.forEach(function(subject) {
-                
-//                 counter = 0
-//                 data.forEach(function(row) {
-//                     if (row.subject_sex == sex && row.subject_race == race && row.type_of_subject == subject){
-//                         counter += 1
-//                     }
-
-                
-//                 })
-//                 if (counter != 0){
-//                     childernlist2.push({"name": subject, "size": counter})
-//                 }
-//             })
-//             childernlist1.push({"name": race, "children": childernlist2})
-
-//         })
-//         childernlist.push({"name": sex, "children": childernlist1})
-
-//     })
-
-//     temp = {"name": "films", "children": childernlist}
-
-    
-//     // setTimeout(function() {
-//     updateSun(temp)
-//     updateForce()
-
-//     // },3000)
-// }
-
+ // procces new data of sunburst and froce graph
 function valueSun(data){
+
+    // init lists for all catogories
     var etnicities = []
     var catagory = []
     var gender = []
     
+    // subtract all differt variables 
     data.forEach(function(d) {
         if (etnicities.indexOf(d.subject_race) <= -1){
             etnicities.push(d.subject_race);         
@@ -71,6 +27,7 @@ function valueSun(data){
         }
     })
 
+    // build hierarchy structure
     var childernlist = []
     gender.forEach(function(sex) {
 
@@ -80,18 +37,27 @@ function valueSun(data){
             var childernlist2 = []
             catagory.forEach(function(subject) {
                 
-                avg_monny = []
-                counter = 0
+                // initiate the different lists for data points
+                var avg_monny = []
+                var titles = []
+                var counter = 0
+
+                // add data for specific catogory
                 data.forEach(function(row) {
                     if (row.subject_sex == sex && row.subject_race == race && row.type_of_subject == subject){
                         counter += 1
                         avg_monny.push(row['box_office'])
+                        titles.push(row['title'])
                     }
 
                 
                 })
+                // if specific catogorie exsists push data to structure 
                 if (avg_monny.length != 0){
-                    childernlist2.push({"name": subject, "size": counter, "box": (avg_monny.reduce(function(a, b) { return a + b; }, 0))/(avg_monny.length)})
+                    childernlist2.push({"name": subject,
+                        "size": counter, 
+                        "box": (avg_monny.reduce(function(a, b) { return a + b; }, 0))/(avg_monny.length),
+                        "title": titles})
                 }
             })
             childernlist1.push({"name": race, "children": childernlist2})
@@ -100,23 +66,24 @@ function valueSun(data){
         childernlist.push({"name": sex, "children": childernlist1})
 
     })
-    console.log()
-    temp = {"name": "films", "children": childernlist}
+
+    // finish structure and call update functions
+    var temp = {"name": "films", "children": childernlist}
     root = temp
-    // console.log(temp)
-    // updateForce()
-    // root = temp
-    // setTimeout(function() {
     updateSun(temp)
     updateForce()
 
-    // },3000)
 }
 
+ // procces new data for bar graph
 function valueBarUpdate(data){
+
+    // init lists for all catogories
     var etnicities = []
     var newData = []
     var color = []
+
+    // subtract all differt variables 
     data.forEach(function(d) {
         if (etnicities.indexOf(d.subject_race) <= -1){
             etnicities.push(d.subject_race);
@@ -125,36 +92,47 @@ function valueBarUpdate(data){
         }
     })
 
+    // add data to new structure 
     var counter = 0
     etnicities.forEach(function(a) {
-        arr = []
+
+        // make arry for each bar
+        var arr = []
         data.forEach(function(d) {
             if (a == d.subject_race){
                 arr.push(d.box_office)
             }
         })
         
+        // calculate average and push to structure
         var sum = 0;
         for (i = 0; i < arr.length; i++) {
-            sum = sum + arr[i]; //don't forget to add the base
+            sum = sum + arr[i]; 
         }
+
         var avg = sum/arr.length; 
-        
         newData.push({"id":a, "meanValue":avg, "color":color[counter]})
         counter = counter + 1
     })
+
+    // update data and call update function
     dataBarEtnicities = newData
     barUpdate(newData)
 }
 
+ // procces new data for bar graph men vs women
 function valueBarUpdateMvsW(data){
-    console.log(data)
+
+    // init lists for all catogories
     var gender = ["Male","Female"]
     var newData = []
     var color = [0,1]
 
+    // add data to new structure 
     var counter = 0
     gender.forEach(function(a) {
+
+        // make arry for each bar
         arr = []
         data.forEach(function(d) {
             if (a == d.subject_sex){
@@ -162,26 +140,30 @@ function valueBarUpdateMvsW(data){
             }
         })
         
+        // calculate average and push to structure
         var sum = 0;
         for (i = 0; i < arr.length; i++) {
-            sum = sum + arr[i]; //don't forget to add the base
+            sum = sum + arr[i]; 
         }
         var avg = sum/arr.length; 
         
         newData.push({"id":a, "meanValue":avg, "color":counter})
         counter = counter + 1
     })
-    console.log(newData)
+
+    // update data for bar graph
     dataBarMvsW = newData
 }
 
-
+ // procces first data for bar graph
 function valueBar(data){
 
+    // init lists for all catogories
     var etnicities = []
     var newData = []
     var color = []
 
+    // subtract all differt variables and preprocess
     data.forEach(function(d) {
         if (d.box_office == "-") {
             d.box_office = 1;
@@ -198,8 +180,12 @@ function valueBar(data){
             color.push(d.person_of_color);
         }
     })
+
+    // add data to new structure 
     var counter = 0
     etnicities.forEach(function(a) {
+
+        // make arry for each bar
         var arr = []
         data.forEach(function(d) {
             if (a == d.subject_race){
@@ -207,9 +193,10 @@ function valueBar(data){
             }
         })
         
+        // calculate average and push to structure
         var sum = 0;
         for (i = 0; i < arr.length; i++) {
-            sum = sum + arr[i]; //don't forget to add the base
+            sum = sum + arr[i];
         }
         var avg = sum/arr.length; 
         
@@ -218,17 +205,18 @@ function valueBar(data){
         
     })
 
-    console.log(newData)
+    // update data and 
     dataBarEtnicities = newData
     barUpdate(newData)
-   
 
 }   
 
+// update bar on button click to men vs women
 function barUpdateMvsW(){
     barUpdate(dataBarMvsW)
 }
 
+// update bar on button click to different etnicities
 function barUpdateEtnicity(){
     barUpdate(dataBarEtnicities)
 }
