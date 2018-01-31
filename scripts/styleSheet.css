@@ -22,6 +22,10 @@ body {
 
 }
 
+title {
+  text-align: center;
+}
+
 #panel, #flip {
   padding: 5px;
   text-align: center;
