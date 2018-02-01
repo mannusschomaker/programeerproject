@@ -8,7 +8,8 @@
 ***
 ## technische componenten
 ***
-* Hier een weergave van de de pagina indeling die de website zal bevatten. Boven in het scherm is er een tabblad blak aanwezig met de keuze tussen de visualizatie of het verhaal of contact.
+
+![alt text](https://github.com/mannusschomaker/programeerproject/blob/master/doc/structure.png)
 
   
 ***
