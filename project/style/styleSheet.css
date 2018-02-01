@@ -1,7 +1,7 @@
 /* styleSheet.js
  * minor programming
  *
- * styling full page
+ * styling full page and all visualizations
  * by: mannus schomaker 10591664
  * 
  */
@@ -19,35 +19,34 @@
 
 body {
   font-family: Sans-serif;
-
 }
 
-title {
-  text-align: center;
+.row {
+  background-color: #edf2f0;
 }
 
-#panel, #flip {
+.infoText, #flip, #flip2{
   padding: 5px;
   text-align: center;
-  background-color: #e5eecc;
-  border: solid 1px #c3c3c3;
+  color: #fff1ee;
+  background-color: #6F5C4A;
+  border: solid 3px #FEDCD2;
+  font-size: 20px;
+
 }
 
-#panel {
-  padding: 50px;
+.infoText {
+  padding: 30px;
   display: none;
 }
 
-#panel2, #flip2 {
+input {
   padding: 5px;
   text-align: center;
-  background-color: #e5eecc;
-  border: solid 1px #c3c3c3;
-}
-
-#panel2 {
-  padding: 50px;
-  display: none;
+  color: #fff1ee;
+  background-color: #6F5C4A;
+  border: solid 3px #FEDCD2;
+  font-size: 20px;
 }
 
 
@@ -55,12 +54,6 @@ title {
   fill: none;
   stroke: steelblue;
   stroke-width: 1.5px;
-}
-
-/* Remove the navbar's default margin-bottom and rounded borders */ 
-.navbar {
-  margin-bottom: 0;
-  border-radius: 0;
 }
   
 /* Add a gray background color and some padding to the footer */
@@ -98,11 +91,6 @@ footer {
 
 
 /*  styling for sunburst*/
-body {
-  font-family: Sans-serif;
-
-}
-
 .slice {
   cursor: pointer;
 }

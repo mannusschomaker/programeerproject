@@ -1,7 +1,16 @@
-<!DOCTYPE html>
-<html>
+<!-- 
+ scale.js
+ minor programming
 
+ loads in data and calls functions to build visualizations
+ by: mannus schomaker 10591664
+ -->
+
+<!DOCTYPE html>
+
+<html>
   <head>
+    <!-- loading in all needed scripts -->
     <title>Bootstrap Example</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -15,23 +24,21 @@
       window.d3 = null
     </script>
     <script src="https://d3js.org/d3.v4.min.js"  charset="utf-8"></script>
-    <link rel="stylesheet" type="text/css" href="styleSheet.css">
+    <link rel="stylesheet" type="text/css" href="style/styleSheet.css">
     
-    <script src="bar.js" ></script>
-    <script src="multi.js" ></script>
-    <script src="scale.js" ></script>
-    <script src="sun.js" ></script>
-    <script src="force.js" ></script>
-    <script src="update.js" ></script>
-    <script src="test.js" ></script>
-    <script src="main.js" ></script>
+    <script src="scripts/bar.js" ></script>
+    <script src="scripts/multi.js" ></script>
+    <script src="scripts/scale.js" ></script>
+    <script src="scripts/sun.js" ></script>
+    <script src="scripts/force.js" ></script>
+    <script src="scripts/update.js" ></script>
+    <script src="scripts/main.js" ></script>
 	  <a href= "https://github.com/fivethirtyeight/data/tree/master/biopics"> data source </a>
     
   </head>
   <body>
-  <h5> Mannus Schomaker 10591664 </h5>
   
-
+    <!-- build image carousel -->
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
         <!-- Indicators -->
         <ol class="carousel-indicators">
@@ -44,7 +51,7 @@
           <div class="item active">
             <img src="http://cdn.history.com/sites/2/2017/10/GettyImages-72150247-H.jpeg" alt="Image">
             <div class="carousel-caption">
-              <h3>Sell $</h3>
+              <h3>be awaire of indifferce</h3>
               <p>Money Money.</p>
             </div>      
           </div>
@@ -68,14 +75,12 @@
           <span class="sr-only">Next</span>
         </a>
     </div>
-
-      <h3>What We Do</h3><br>
-
        <!-- container containing all visualizations -->
       <div class="container-fluid">
+
       <div class="row">
           <div id="flip">Click to slide the panel down to get extented information on how the visualizations work and learn more about the story</div>
-          <div id="panel">On the left side there is a visualization showing the amount of films autobiografical films produced with a collored person in the main role.
+          <div class="infoText" id="panel">On the left side there is a visualization showing the amount of films autobiografical films produced with a collored person in the main role.
           <br> The other line represents the amount of autobiografical films produced with a non colllored main character. 
           <br> The amount of fims was measeured every 5 years. brush the line graph with your mouse to update the other visualizations.
           <br>
@@ -86,14 +91,14 @@
           <br>
           <br> Node that when selecting data form before 1950 there is a big chance films with white main characters are the highest earners.
           <br> Selecting more or later data however will make you realize there is no finacial gain in making a films abount a white male.
-          </div>
+      </div>
 
         <div class="col-lg-6" id="graph1">
             <p>Project 3</p>
         </div>
 
         <div class="col-lg-6" id="graph2"> 
-        <div id="option">
+        <div class="button" id="option">
 
         <input name="updateButton" 
           type="button" 
@@ -114,7 +119,25 @@
       <div class="row">
 
           <div id="flip2">Click to slide the panel down to get extented information on how the visualizations work and learn more about the story</div>
-          <div id="panel2">Hello world!</div>
+          <div class="infoText" id="panel2">
+              <br> On the left you see a sunburst chart, this graph tells you something about the distribution of demographic aspects of the main character in percentages.
+              <br> feel free to check out a specific category by clicking on the circles.
+              <br> clicking in the middle of the circle will get you back to the overview.
+              <br> use the brush function in the left graph above to see the distribution in a specific time zone. 
+              <br> hover over the objects in the circle the discover there quantity. 
+              <br> Hover in the outer ring and you might even find a movie to watch. 
+              <br> 
+              <br> node that when selecting smaller time zones the closer you get to the present the the smaller the percentage of white main characters becomes. 
+              <br> although it smees we are heading in the right direction the percentage of other ethnicities than white is still to low.
+              <br> seconde problem in this visualization is the small percentage of women as main characters witch has not increase since the 1920
+              <br> 
+              <br> on the rigth side there is a network visualization witch shows the amound of monney eared in in every catogorie of films 
+              <br> this visualization clearly states where the monney is eared.
+              <br> the bigger the size of the dot the more the catogorie eared on average.
+              <br> in this way the visualization shows the importants of the different catogories in time.
+              <br> a catogorie migth strong in quantity but not in popualrity 
+              <br> 
+             </div> 
 
         <div class="col-md-6" id="graph3">
           <p>Project 3</p>    

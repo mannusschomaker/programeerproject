@@ -1,7 +1,7 @@
 /* update.js
  * minor programming
  *
- * d3.js page for calculating new data
+ * d3.js page for calculating new data for updating
  * by: mannus schomaker 10591664
  * 
  */

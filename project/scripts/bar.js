@@ -89,9 +89,9 @@ function barUpdate(data) {
     //get the width a bar and remove old bar add new bars
     var barWidth = width / data.length;
     var bars = g.selectAll(".bar")
-                    .remove()
-                    .exit()
-                    .data(data)	
+        .remove()
+        .exit()
+        .data(data)	
         
 
     // give meseurments to each bar and add mouse action
@@ -116,13 +116,13 @@ function barUpdate(data) {
         .attr("height", function(d) { return height - yChart(d.meanValue); })
 
     //left axis
-    g.select('.y')
+    g.select(".y")
         .transition()
         .duration(800)
         .call(yAxis)
 
     //bottom axis
-    g.select('.xAxis')
+    g.select(".xAxis")
         .attr("transform", "translate(0," + height + ")")
         .call(xAxis)
         .selectAll("text")
@@ -132,6 +132,8 @@ function barUpdate(data) {
             .attr("transform", function(d) {
                 return "rotate(-65)";
             });
+    
+
 }
 
 

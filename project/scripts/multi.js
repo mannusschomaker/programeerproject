@@ -11,9 +11,9 @@
 function initMulti(data, yearsList) {
 
     // init canvas
-    var svgBar = d3.select("#graph1").append("svg").attr("id","line");
+    var svgmulti = d3.select("#graph1").append("svg").attr("id","line");
 
-    var g = svgBar.attr("height",height + margin.top + margin.bottom)
+    var g = svgmulti.attr("height",height + margin.top + margin.bottom)
         .attr("width",width + margin.left + margin.right)
         .append("g").attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
@@ -43,7 +43,7 @@ function initMulti(data, yearsList) {
         .attr("y", 6)
         .attr("dy", "0.71em")
         .attr("fill", "#000")
-        .text("aantal films");
+        .text("amount of films");
 
     // initiate new field for each line
     var lineColor = g.selectAll(".linecolor")
@@ -71,6 +71,25 @@ function initMulti(data, yearsList) {
         .attr("dy", "0.35em")
         .style("font", "10px sans-serif")
         .text(function(d) { return d.id; });
+
+    var legend = svgmulti.selectAll(".lineColor")
+        .data(data)
+        .enter().append("g")
+        .attr("class", "legend");
+    
+    legend.append("rect")
+        .attr("x", width - 70)
+        .attr("y", function(d, i){ return (i *  60) + 100;})
+        .attr("width", 30)
+        .attr("height", 30)
+        .style("fill", function(d) { 
+          return z(d.id);
+        });
+    
+    legend.append("text")
+        .attr("x", width - 70)
+        .attr("y", function(d, i){ return (i *  60) + 90;})
+        .text(function(d){ return d.id; });
 
 };
 

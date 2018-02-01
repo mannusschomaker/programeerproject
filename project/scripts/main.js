@@ -28,19 +28,19 @@ $(document).ready(function() {
 
 // load in data for start of page
 queue()
-    .defer(d3.csv, "../data/data.csv")
-    .defer(d3.json, "../data/dataMulti.json")
-    .defer(d3.json, "../data/dataNetwork.json")
+    .defer(d3.csv, "../project/data/allData.csv")
+    .defer(d3.json, "../project/data/dataMulti.json")
+    .defer(d3.json, "../project/data/dataNetwork.json")
     .await(startMyPage);
 
 // cal init functions of visualizations
-function startMyPage(error, all, multi, net) {
+function startMyPage(error, all, multi, network) {
 
     allData = all;
 
-    initSun(net);
+    initSun(network);
     initMulti(multi, yearslist)
-    initForce(net);
+    initForce(network);
     scale(all);
     initBar(all);
 
