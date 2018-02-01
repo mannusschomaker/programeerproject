@@ -28,9 +28,9 @@ function initForce(data) {
 
     // force layout function sets layout parameters
     force = d3v3.layout.force()
-        .linkDistance(80)
-        .charge(-120)
-        .gravity(.05)
+        .linkDistance(50)
+        .charge(-180)
+        .gravity(.20)
         .size([widthForce, heightForce])
         .on("tick", tick);
 
@@ -92,7 +92,7 @@ function updateForce() {
 
     // add circle and text
     nodeEnter.append("circle")
-        .attr("r", function(d) { return ((Math.sqrt(d.box) * 1.7) + 0.7) || 4.5; })
+        .attr("r", function(d) { return ((Math.sqrt(d.box) * 1.2) + 0.7) || 4.5; })
         .style("fill", color);
 
     nodeEnter.append("text")
@@ -145,3 +145,4 @@ function flatten(root) {
     recurse(root);
     return nodes;
 }
+
