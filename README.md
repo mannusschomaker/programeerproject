@@ -70,10 +70,10 @@ ingeladen libraries(zie hieronder)
 ## libraries
 ***
 The elements in the following list will provide functionality for my application:
-[Bootstrap](https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css)
-[jQuery](https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js)
-[D3 tooltip](https://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js)
-[D3 v3](https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js)
-[D3 v4](https://d3js.org/d3.v4.min.js)
-[D3 Queue](https://d3js.org/queue.v1.min.js)
-[Google fonts](https://fonts.googleapis.com/css?family=Josefin+Slab)
+- [Bootstrap](https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css)
+- [jQuery](https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js)
+- [D3 tooltip](https://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js)
+- [D3 v3](https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js)
+- [D3 v4](https://d3js.org/d3.v4.min.js)
+- [D3 Queue](https://d3js.org/queue.v1.min.js)
+- [Google fonts](https://fonts.googleapis.com/css?family=Josefin+Slab)
