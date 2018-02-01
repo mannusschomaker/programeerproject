@@ -69,7 +69,7 @@ ingeladen libraries(zie hieronder)
 ***
 ## libraries
 ***
-The elements in the following list will provide functionality for my application:
+
 - [Bootstrap](https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css)
 - [jQuery](https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js)
 - [D3 tooltip](https://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js)
