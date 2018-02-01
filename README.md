@@ -18,6 +18,7 @@ https://mannusschomaker.github.io/programeerproject/project/
 # introductie
 Hoe kan het dat 80% van de waargebeurde verhalen die verfilmt worden een witte man als hooft personage heeft? Was jij je hier bewust van, ik niet! Dit is een probleem dat aan het licht gebracht moet worden en hoe kan dit beter dan met een helderen visualizatie. Deze visualizatie kan als educatief middel worden gebruikt om de westerse wereld te laten zien dat gelijkheid nog niet zo normaal is als wij denken. Helden verhalen komen overal voor. Dit moeten we terug zien in film.
 
+
 # uitwerking
 die pagina begint ingeklapt hierdoor zijn alle visualizaties goed te zien
 
