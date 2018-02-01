@@ -14,7 +14,7 @@ height = 350 - margin.top - margin.bottom;
 // set x axis 
 var x = d3.scaleTime()
 .domain([new Date(1925, 1, 1), new Date(2015, 1, 15) - 1])
-.range([0, width - 30]);
+.range([0, width - 25]);
 
 // required functionality for scale function when window loads
 function scale(dataOld){

@@ -63,22 +63,14 @@ function initMulti(data, yearsList) {
         .attr("d", function(d) { return line(d.values); })
         .style("stroke", function(d) { return z(d.id); });
         
-    // append legend text
-    lineColor.append("text")
-        .datum(function(d) { return {id: d.id, value: d.values[d.values.length - 1]}; })
-        .attr("transform", function(d) { return "translate(" + x(d.value.year) + "," + y(d.value.amount) + ")"; })
-        .attr("x", 3)
-        .attr("dy", "0.35em")
-        .style("font", "10px sans-serif")
-        .text(function(d) { return d.id; });
-
+    // add legend 
     var legend = svgmulti.selectAll(".lineColor")
         .data(data)
         .enter().append("g")
         .attr("class", "legend");
     
     legend.append("rect")
-        .attr("x", width - 70)
+        .attr("x", width + 30)
         .attr("y", function(d, i){ return (i *  60) + 100;})
         .attr("width", 30)
         .attr("height", 30)
@@ -87,7 +79,7 @@ function initMulti(data, yearsList) {
         });
     
     legend.append("text")
-        .attr("x", width - 70)
+        .attr("x", width + 30)
         .attr("y", function(d, i){ return (i *  60) + 90;})
         .text(function(d){ return d.id; });
 
