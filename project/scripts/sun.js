@@ -48,7 +48,8 @@ function initSun(data) {
         .startAngle(d => xSun(d.x0))
         .endAngle(d => xSun(d.x1))
         .innerRadius(d => Math.max(0, ySun(d.y0)))
-        .outerRadius(d => Math.max(0, ySun(d.y1)));
+        .outerRadius(d => Math.max(0, ySun(d.y1)))
+        .cornerRadius(20);
 
     // calculates constant variables for arc
     middleArcLine = d => {
