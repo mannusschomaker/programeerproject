@@ -18,7 +18,7 @@
 }
 
 body {
-  font-family: Sans-serif;
+  font-family: 'Josefin Slab', serif;
 }
 
 .row {
@@ -109,6 +109,7 @@ footer {
   dominant-baseline: middle;
   text-anchor: middle;
   font-size: 25px;
+  font-weight: bold;
 }
 
 /* styling for force graph */
@@ -119,7 +120,7 @@ footer {
 }
 
 .node text {
-  font: 10px sans-serif;
+  font-size: 11px;
   pointer-events: none;
   text-anchor: middle;
 }
