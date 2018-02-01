@@ -30,7 +30,7 @@ function initSun(data) {
     svgSun = d3.select("#graph3").append("svg")
         .style("width", "650")
         .style("height", "650")
-        .attr("viewBox", `${-widthSun / 2.2} ${-heightSun / 2.2} ${widthSun} ${heightSun}`)
+        .attr("viewBox", `${-widthSun / 2.1} ${-heightSun / 2.1} ${widthSun} ${heightSun}`)
         .on("click", () => focusOn());
 
     // init fucntion for x and y axis and function for color
