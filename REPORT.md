@@ -1,10 +1,11 @@
 # Beschrijving
 Hoe kan het dat 80% van de verhalen die verfilmt worden een witte man als hooft personage heeft? Dit is een probleem dat aan het licht gebracht moet worden en hoe kan dit beter dan met een helderen visualizatie. Deze visualizatie kan als educatief middel worden gebruikt om de westerse wereld te laten zien dat gelijkheid nog niet zo normaal is als wij denken.
-
+![alt text](https://github.com/mannusschomaker/programeerproject/blob/master/doc/fullPagePulsInfo.png)
 ***
 # technische design:
 
-![alt text](https://github.com/mannusschomaker/programeerproject/blob/master/doc/fullPagePulsInfo.png)
+
+![alt text](https://github.com/mannusschomaker/programeerproject/blob/master/doc/structure.png)
 
 - in oranje de style map met daar in een file styleSheet.css deze pagina styled the hele pagina.
     - **styleSheet.css**
