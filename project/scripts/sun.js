@@ -27,11 +27,11 @@ function initSun(data) {
     heightSun = window.innerHeight,
     maxRadius = (Math.min(widthSun, heightSun) / 1.5) - 4;
     
-    svgSun = d3.select('#graph3').append('svg')
-        .style('width', '1000')
-        .style('height', '1000')
-        .attr('viewBox', `${-widthSun / 2} ${-heightSun / 2} ${widthSun} ${heightSun}`)
-        .on('click', () => focusOn());
+    svgSun = d3.select("#graph3").append("svg")
+        .style("width", "700")
+        .style("height", "700")
+        .attr("viewBox", `${-widthSun / 2} ${-heightSun / 2} ${widthSun} ${heightSun}`)
+        .on("click", () => focusOn());
 
     // init fucntion for x and y axis and function for color
     xSun = d3.scaleLinear()
@@ -91,15 +91,15 @@ function updateSun(rootSun) {
     // remove old sunburst and add new data
     svgSun.selectAll("*").remove()
 
-    var slice = svgSun.selectAll('g.slice')
+    var slice = svgSun.selectAll("g.slice")
         .data(d3.partition()(rootSun).descendants());
 
     slice.exit().remove();
 
     // create slices and add update sunburst and force graph on click
     var newSlice = slice.enter()
-        .append('g').attr('class', 'slice')
-        .on('click', d => {
+        .append("g").attr("class", "slice")
+        .on("click", d => {
             d3.event.stopPropagation();
             root = d[Object.keys(d)[0]]
 
@@ -111,21 +111,21 @@ function updateSun(rootSun) {
             focusOn(d);
         })
 
-    // draw arc's
-    newSlice.append('path')
-        .attr('class', 'main-arc')
-        .style('fill', d => colorSun((d.children ? d : d.parent).data.name))
-        .attr('d', arc);
+    // draw arc"s
+    newSlice.append("path")
+        .attr("class", "main-arc")
+        .style("fill", d => colorSun((d.children ? d : d.parent).data.name))
+        .attr("d", arc);
 
 
-    newSlice.append('path')
-        .attr('class', 'hidden-arc')
-        .attr('id', (_, i) => `hiddenArc${i}`)
-        .attr('d', middleArcLine);
+    newSlice.append("path")
+        .attr("class", "hidden-arc")
+        .attr("id", (_, i) => `hiddenArc${i}`)
+        .attr("d", middleArcLine);
 
 
     // add mouse over and text lables
-    newSlice.append('title')
+    newSlice.append("title")
         .text(function(d) { 
             var result = "";
             console.log(d)
@@ -135,27 +135,27 @@ function updateSun(rootSun) {
                     result += title + "\n";
                 })
             } else {
-                result = d.data.name + '\n' + d3.format(',d')(d.value);
+                result = d.data.name + "\n" + d3.format(",d")(d.value);
             }
             return result; });
             
 
-    var text = newSlice.append('text')
-        .attr('display', d => textFits(d) ? null : 'none');
+    var text = newSlice.append("text")
+        .attr("display", d => textFits(d) ? null : "none");
 
     // Add white contour
-    text.append('textPath')
-        .attr('startOffset','50%')
-        .attr('xlink:href', (_, i) => `#hiddenArc${i}` )
+    text.append("textPath")
+        .attr("startOffset","50%")
+        .attr("xlink:href", (_, i) => `#hiddenArc${i}` )
         .text(d => d.data.name)
-        .style('fill', 'none')
-        .style('stroke', '#fff')
-        .style('stroke-width', 5)
-        .style('stroke-linejoin', 'round');
+        .style("fill", "none")
+        .style("stroke", "#fff")
+        .style("stroke-width", 5)
+        .style("stroke-linejoin", "round");
 
-    text.append('textPath')
-        .attr('startOffset','50%')
-        .attr('xlink:href', (_, i) => `#hiddenArc${i}` )
+    text.append("textPath")
+        .attr("startOffset","50%")
+        .attr("xlink:href", (_, i) => `#hiddenArc${i}` )
         .text(d => d.data.name);
 
         focusOn(rootSun)
@@ -167,27 +167,27 @@ function focusOn(d = { x0: 0, x1: 1, y0: 0, y1: 1 }) {
     // create a transition function
     const transition = svgSun.transition()
         .duration(750)
-        .tween('scale', () => {
+        .tween("scale", () => {
             const xd = d3.interpolate(xSun.domain(), [d.x0, d.x1]),
                 yd = d3.interpolate(ySun.domain(), [d.y0, 1]);
             return t => { xSun.domain(xd(t)); ySun.domain(yd(t)); };
         });
 
     // transition arcs and text
-    transition.selectAll('path.main-arc')
-        .attrTween('d', d => () => arc(d));
+    transition.selectAll("path.main-arc")
+        .attrTween("d", d => () => arc(d));
 
-    transition.selectAll('path.hidden-arc')
-        .attrTween('d', d => () => middleArcLine(d));
+    transition.selectAll("path.hidden-arc")
+        .attrTween("d", d => () => middleArcLine(d));
 
-    transition.selectAll('text')
-        .attrTween('display', d => () => textFits(d) ? null : 'none');
+    transition.selectAll("text")
+        .attrTween("display", d => () => textFits(d) ? null : "none");
 
     moveStackToFront(d);
     
-
+    // move arcs to correct location
     function moveStackToFront(elD) {
-        svgSun.selectAll('.slice').filter(d => d === elD)
+        svgSun.selectAll(".slice").filter(d => d === elD)
             .each(function(d) {
                 this.parentNode.appendChild(this);
                 if (d.parent) { moveStackToFront(d.parent); }

@@ -8,7 +8,7 @@
 
 // intit canvas for line graph and scale brush
 var margin = {top: 40, right: 20, bottom: 40, left: 50},
-width = 1000 - margin.left - margin.right,
+width = 700 - margin.left - margin.right,
 height = 350 - margin.top - margin.bottom;
 
 // set x axis 

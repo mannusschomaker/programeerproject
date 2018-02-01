@@ -18,8 +18,8 @@ var root
 function initForce(data) {
 
     // cavas size
-    widthForce = 1000,
-    heightForce = 1000;
+    widthForce = 700,
+    heightForce = 700;
 
     // initiate cavas
     svgForce = d3v3.select("#graph4").append("svg")
@@ -55,7 +55,7 @@ function updateForce() {
 
 
 
-    // Restart the force layout.
+    // restart the force layout.
     force.nodes(nodes)
         .links(links)
         .start();
@@ -66,7 +66,7 @@ function updateForce() {
 
     // draw new links
     link.enter().insert("line", ".node")
-        .attr("class", "link");
+        .attr("class", "link"); 
 
     // add new data for nodes and make spaces for nodes
     node = node.data(nodes, function(d) { return d.id; });
@@ -76,7 +76,7 @@ function updateForce() {
         .call(force.drag);
 
     // mouse over show films
-    nodeEnter.append('title')
+    nodeEnter.append("title")
         .text(function(d) { 
             
             var result = "";
@@ -117,7 +117,7 @@ function color(d) {
         : "#fd8d3c";
 }
 
-// Toggle children on click.
+// toggle children on click.
 function click(d) {
 
     if (d3v3.event.defaultPrevented) return;
@@ -131,7 +131,7 @@ function click(d) {
     updateForce();
 }
 
-// Returns a list of all nodes under the root.
+// returns a list of all nodes under the root.
 function flatten(root) {
 
     var nodes = [], i = 0;
