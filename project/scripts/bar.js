@@ -25,7 +25,7 @@ function initBar(data) {
     // init canvas for bar chart
     svg = d3.select("#graph2").append("svg"),
     margin = {top: 20, right: 0, bottom: 150, left: 50},
-    width = 700 - margin.left - margin.right,
+    width = 650 - margin.left - margin.right,
     height = 350 - margin.top - margin.bottom,
 
     g = svg.attr("height",height + margin.top + margin.bottom)

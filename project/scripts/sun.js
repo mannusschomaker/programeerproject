@@ -28,8 +28,8 @@ function initSun(data) {
     maxRadius = (Math.min(widthSun, heightSun) / 1.5) - 4;
     
     svgSun = d3.select("#graph3").append("svg")
-        .style("width", "700")
-        .style("height", "700")
+        .style("width", "650")
+        .style("height", "650")
         .attr("viewBox", `${-widthSun / 2} ${-heightSun / 2} ${widthSun} ${heightSun}`)
         .on("click", () => focusOn());
 

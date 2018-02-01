@@ -8,13 +8,13 @@
 
 // intit canvas for line graph and scale brush
 var margin = {top: 40, right: 100, bottom: 40, left: 50},
-width = 700 - margin.left - margin.right,
+width = 650 - margin.left - margin.right,
 height = 350 - margin.top - margin.bottom;
 
 // set x axis 
 var x = d3.scaleTime()
 .domain([new Date(1925, 1, 1), new Date(2015, 1, 15) - 1])
-.range([0, width]);
+.range([0, width - 30]);
 
 // required functionality for scale function when window loads
 function scale(dataOld){

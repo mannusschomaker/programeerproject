@@ -18,8 +18,8 @@ var root
 function initForce(data) {
 
     // cavas size
-    widthForce = 700,
-    heightForce = 700;
+    widthForce = 650,
+    heightForce = 650;
 
     // initiate cavas
     svgForce = d3v3.select("#graph4").append("svg")
