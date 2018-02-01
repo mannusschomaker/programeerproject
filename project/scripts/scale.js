@@ -49,7 +49,7 @@ svg.append("g")
 svg.append("g")
 .attr("class", "brush")
 .call(d3.brushX()
-    .extent([[0, 0], [width, height]])
+    .extent([[0, 0], [width - 25, height]])
     .on("end", brushended));
 
 // function for brush effect

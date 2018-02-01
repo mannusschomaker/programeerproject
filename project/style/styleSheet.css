@@ -131,4 +131,8 @@ line.link {
   stroke-width: 1.5px;
 }
 
+.tick line{
+  opacity: 0.2;
+}
+
 
