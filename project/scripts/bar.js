@@ -104,8 +104,8 @@ function barUpdate(data) {
         .attr("fill", function (d) { return colorScale(d.color); })
         .on("mousemove", function(d) {
             tooltip
-              .style("left", d3.event.pageX - 700 + "px")
-              .style("top", d3.event.pageY - 600 + "px")
+              .style("left", d3.event.pageX - 1150 + "px")
+              .style("top", d3.event.pageY - 1150 + "px")
               .style("display", "inline-block")
               .html((d.meanValue.toFixed(2)) + " M $");
         })
