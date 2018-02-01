@@ -3,7 +3,7 @@
 meer diversiteit in hollywood.
 
 # licensie
- Copyright (C) 2007 Free Software Foundation, Inc. <http://fsf.org/>
+ Copyright (C) 2018 Mannus Schomaker, github: mannusschomaker
  Everyone is permitted to copy and distribute verbatim copies
  of this license document, but changing it is not allowed.
 
