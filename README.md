@@ -14,7 +14,11 @@ https://mannusschomaker.github.io/programeerproject/project/
 
 # Demo project film
 
+***kleine toevoeging de tooltip van de bar grafiek staat nog net iets te ver naar beneden dit had ik wel al aangepast maar was ik vergeten te pushen
+
 https://www.useloom.com/share/7cb2f1727030433aaff024684e2d41d4
+
+https://www.youtube.com/watch?v=JOY81zh8rXc&feature=youtu.be
 
 
 # introductie
