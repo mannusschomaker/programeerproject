@@ -35,12 +35,10 @@ als men uitleg over de visualizaties wil kan er een info bar worden uitgeklapt h
 ![alt text](https://github.com/mannusschomaker/programeerproject/blob/master/doc/fullPage.png)
 
 - opties:
-De line graph laat zien hoeveel films er per jaar uitgebracht zijn van twee verschillende groepen.
-De sunburst laat zien van welke catagorien de uitgebrachte films zijn per groep.
-De barchart laat zien hoeveel een gemiddelde film van die etniticiteit kost voor het geselecteerde jaar.
-Op de line graph zit een knop waarmee je kunt kiezen of je het verschil tussen man en vrouw of entnitichiteit wil zien.
-Waarneer je op de line graph clickt verandert de sunburst rechts er van naar waarbij hij alleen de catogorie van dat jaar weergeeft. Ook verandert de barchart jaar aanleiding van het geselecteerde jaar.
-Met de slider kan je kiezen hoeveel jaren je selecteerd
+De line graph laat zien hoeveel films er per 5 jaar uitgebracht zijn van twee verschillende groepen.
+De sunburst laat zien wat voor hooft personages er zijn geweest in de geselecteerde jaren.
+De barchart laat zien hoeveel een gemiddelde film van die etniticiteit heeft opgelevert voor het geselecteerde jaar dit kan hij ook voor mannen en vrouwen.
+Waarneer je op de line graph brushed verandert de sunburst de barchart en de netwerk grafiek naar waarbij zij alleen de films van de geselecteerde jaren gebruiken. de force grafiek laat zien hoe belangrijk een catagory is geweest door de grote van de cirkel. dit wordt gemeten in wat een gemiddelde film in de catogorie heeft opgeleverd.
 
 # Prerequisites
 
