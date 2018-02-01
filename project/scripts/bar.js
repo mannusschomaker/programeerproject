@@ -105,8 +105,8 @@ function barUpdate(data) {
         .on("mousemove", function(d) {
             console.log(tooltip)
             tooltip
-              .style("left", d3.event.pageX - 1000 + "px")
-              .style("top", d3.event.pageY - 900 + "px")
+              .style("left", d3.event.pageX - 700 + "px")
+              .style("top", d3.event.pageY - 600 + "px")
               .style("display", "inline-block")
               .html((d.meanValue) + "<br>" + "£" + (d.meanValue));
         })

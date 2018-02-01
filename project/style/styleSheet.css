@@ -31,7 +31,7 @@ body {
   color: #fff1ee;
   background-color: #6F5C4A;
   border: solid 3px #FEDCD2;
-  font-size: 20px;
+  font-size: 16px;
 
 }
 
@@ -70,11 +70,6 @@ footer {
 
 #graph2 svg g g path.domain {
     visibility:  hidden;
-}
-
-/* styleing bar chart */
-.grid line {
-  opacity: 0.3;
 }
 
 
