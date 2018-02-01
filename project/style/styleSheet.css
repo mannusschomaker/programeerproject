@@ -12,11 +12,16 @@ body {
   font-family: 'Josefin Slab', serif;
 }
 
+p {
+  text-align: center;
+}
+
 .row {
   background-color: #edf2f0;
 }
 
 .infoText, #flip, #flip2{
+  align-self: center
   padding: 5px;
   text-align: center;
   color: #fff1ee;
