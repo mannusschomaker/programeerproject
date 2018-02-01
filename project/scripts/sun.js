@@ -76,9 +76,9 @@ function initSun(data) {
         return d.data.name.length * CHAR_SPACE < perimeter;
     };
 
-updateSun(data)
+updateSun(data);
 
-}
+};
 
 
 // function to build and rebuild the sunburst arcs
@@ -89,7 +89,7 @@ function updateSun(rootSun) {
     rootSun.sum(d => d.size);
 
     // remove old sunburst and add new data
-    svgSun.selectAll("*").remove()
+    svgSun.selectAll("*").remove();
 
     var slice = svgSun.selectAll("g.slice")
         .data(d3.partition()(rootSun).descendants());
@@ -104,12 +104,12 @@ function updateSun(rootSun) {
             root = d[Object.keys(d)[0]]
 
             setTimeout(function() {
-                updateForce()
+                updateForce();
 
             }, 1000);
 
             focusOn(d);
-        })
+        });
 
     // draw arc"s
     newSlice.append("path")
@@ -128,15 +128,14 @@ function updateSun(rootSun) {
     newSlice.append("title")
         .text(function(d) { 
             var result = "";
-            console.log(d)
+
             if (d.data.title) {
-                console.log(d.title)
                 d.data.title.forEach(function(title) {
                     result += title + "\n";
-                })
+                });
             } else {
-                result = d.data.name + "\n" + d3.format(",d")(d.value);
-            }
+                result = "catogory: " + d.data.name + "\n" + "amount:   " + d3.format(",d")(d.value);
+            };
             return result; });
             
 
@@ -158,8 +157,8 @@ function updateSun(rootSun) {
         .attr("xlink:href", (_, i) => `#hiddenArc${i}` )
         .text(d => d.data.name);
 
-        focusOn(rootSun)
-    }
+        focusOn(rootSun);
+    };
 
 // Reset to top-level if no data point specified
 function focusOn(d = { x0: 0, x1: 1, y0: 0, y1: 1 }) {
@@ -190,7 +189,7 @@ function focusOn(d = { x0: 0, x1: 1, y0: 0, y1: 1 }) {
         svgSun.selectAll(".slice").filter(d => d === elD)
             .each(function(d) {
                 this.parentNode.appendChild(this);
-                if (d.parent) { moveStackToFront(d.parent); }
-            })
-    }
-}
+                if (d.parent) { moveStackToFront(d.parent); };
+            });
+    };
+};

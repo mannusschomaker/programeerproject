@@ -7,11 +7,11 @@
  */
 
 // initiate global variables for force graph
-var force
-var svgForce
-var link
-var node
-var root
+var force;
+var svgForce;
+var link;
+var node;
+var root;
 
 
 // function for initiation of force directed graph
@@ -35,8 +35,8 @@ function initForce(data) {
         .on("tick", tick);
 
     // set data and call function to create force graph
-    root = data
-    updateForce()
+    root = data;
+    updateForce();
 
 }
 
@@ -45,7 +45,7 @@ function initForce(data) {
 function updateForce() {
 
     // remove all old node
-    svgForce.selectAll(".node").remove()
+    svgForce.selectAll(".node").remove();
 
     // set easy selectors
     link = svgForce.selectAll(".link");

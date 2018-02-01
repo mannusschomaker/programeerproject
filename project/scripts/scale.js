@@ -25,7 +25,7 @@ var svg = d3.select("#line")
 .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
 svg.append("g")
-.attr("class", "axis axis--grid")
+.attr("class", "gridScale")
 .attr("transform", "translate(0," + height + ")")
 .style("opacity", 0.4)
 .call(d3.axisBottom(x)
@@ -33,11 +33,11 @@ svg.append("g")
     .tickSize(-height)
     .tickFormat(function() { return null; }))
 .selectAll(".tick")
-.classed("tick--minor", function(d) { return d.getYear(); });
+.classed("minorScale", function(d) { return d.getYear(); });
 
 // add x axis 
 svg.append("g")
-.attr("class", "axis axis--x")
+.attr("class", "xScale")
 .attr("transform", "translate(0," + height + ")")
 .call(d3.axisBottom(x)
     .tickPadding(0))
@@ -65,25 +65,24 @@ var d0 = d3.event.selection.map(x.invert),
 if (d1[0] >= d1[1]) {
 d1[0] = d3.timeYear.floor(d0[0]);
 d1[1] = d3.timeYear.offset(d1[0]);
-}
+};
 
 sentYears(d1, dataOld)
 
 d3.select(this)
     .transition()
     .call(d3.event.target.move, d1.map(x));
-}
-}
+};
+};
 function sentYears(years, data){
     dataForUpdate = []
     data.forEach(function(d) {
         if (d.year_release >= years[0].getFullYear() && d.year_release <= years[1].getFullYear()){
-            dataForUpdate.push(d)
-        }
-    })
+            dataForUpdate.push(d);
+        };
+    });
 
-    valueBarUpdate(dataForUpdate)
-    valueBarUpdateMvsW(dataForUpdate)
-    valueSun(dataForUpdate)
-    // valueForce(dataForUpdate)
-}
+    valueBarUpdate(dataForUpdate);
+    valueBarUpdateMvsW(dataForUpdate);
+    valueSun(dataForUpdate);
+};

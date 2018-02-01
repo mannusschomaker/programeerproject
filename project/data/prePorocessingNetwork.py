@@ -1,9 +1,9 @@
 '''
     File name: prePorocessingNetwork.py
     Author: Mannus schomaker 10591664
+    function: processing data for start page
     Python Version: 3.2
 '''
-
 import csv
 import json
 
@@ -19,12 +19,12 @@ with open('data.csv') as csvfile:
     print(reader)
 
     for row in reader:
-        if row['box_office'] == "-":
+        if row['box_office'] == '-':
             row['box_office'] = 1
         if row['box_office']:
-            row['box_office'] = float(str(row['box_office']).replace(",", "."))
-        if row['subject_race'] == "":
-            row['subject_race'] = "Unknown"
+            row['box_office'] = float(str(row['box_office']).replace(',', '.'))
+        if row['subject_race'] == '':
+            row['subject_race'] = 'Unknown'
         if not row['subject_race'] in racelist:
             racelist.append(row['subject_race'])
         if not row['type_of_subject'] in catagory:
@@ -58,11 +58,11 @@ with open('data.csv') as csvfile:
 
                 # if specific catogorie exsists push data to structure 
                 if not len(avg_monny) == 0:
-                    childernlist2.append({"name": sub, "size": counter ,"box": sum(avg_monny)/len(avg_monny), "title": titles})
-                    
-            childernlist1.append({"name": race, "children": childernlist2})
-        childernlist.append({"name": sex, "children": childernlist1})
-    temp = {"name": "films", "children": childernlist}
+                    childernlist2.append({'name': sub, 'size': counter ,'box': sum(avg_monny)/len(avg_monny), 'title': titles})
+
+            childernlist1.append({'name': race, 'children': childernlist2})
+        childernlist.append({'name': sex, 'children': childernlist1})
+    temp = {'name': 'films', 'children': childernlist}
 
 
     # dump new data structure to json file 

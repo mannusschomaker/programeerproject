@@ -6,17 +6,8 @@
  * 
  */
 
-.toolTip {
-  position: absolute;
-  display: none;
-  min-width: 80px;
-  height: auto;
-  background: none repeat scroll 0 0 #ffffff;
-  border: 1px solid #6F257F;
-  padding: 14px;
-  text-align: center;
-}
 
+/* style for html page */
 body {
   font-family: 'Josefin Slab', serif;
 }
@@ -50,47 +41,60 @@ input {
 }
 
 
-.line {
-  fill: none;
-  stroke: steelblue;
-  stroke-width: 1.5px;
-}
   
 /* Add a gray background color and some padding to the footer */
 footer {
   background-color: #f2f2f2;
   padding: 25px;
 }
-  
+
+/* class name cammel case exeption for bootstrap*/
 .carousel-inner img {
     width: 100%; 
     margin: auto;
     min-height:200px;
 }
 
+/*  specific styling for bar graph*/
 #graph2 svg g g path.domain {
     visibility:  hidden;
 }
 
+.toolTip {
+  position: absolute;
+  display: none;
+  min-width: 80px;
+  height: auto;
+  background: none repeat scroll 0 0 #ffffff;
+  border: 1px solid #6F257F;
+  padding: 14px;
+  text-align: center;
+}
 
 
-/* styling scale for line graph */
-.axis--grid .domain {
-  fill: #ddd;
+/* specific styling scale and for line graph */
+.line {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 1.5px;
+}
+
+.gridScale .domain {
+  fill: #ccc2ad;
   stroke: none;
 }
 
-.axis--x .domain,
-.axis--grid .tick line {
+.xScale .domain,
+.gridScale .tick line {
   stroke: #fff;
 }
 
-.axis--grid .tick--minor line {
-  stroke-opacity: .7;
+.gridScale .minorScale line {
+  stroke-opacity: .9;
 }
 
 
-/*  styling for sunburst*/
+/*  specific styling for sunburst*/
 .slice {
   cursor: pointer;
 }
@@ -132,7 +136,7 @@ line.link {
 }
 
 .tick line{
-  opacity: 0.2;
+  opacity: 0.6;
 }
 
 

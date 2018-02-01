@@ -6,10 +6,12 @@
  * 
  */
 
+
+// catogories for multi-line
 var yearslist = ["1925-1930", "1930-1935", "1935-1940", "1940-1945", 
                 "1945-1950", "1950-1955", "1955-1960", "1960-1965", "1965-1970", 
                 "1970-1975", "1975-1980", "1980-1985", "1985-1990", "1990-1995", 
-                "1995-2000", "2000-2005", "2005-2010", "2010-2015"]
+                "1995-2000", "2000-2005", "2005-2010", "2010-2015"];
 
  // functions to foldout info-windows
 $(document).ready(function() {
@@ -39,7 +41,7 @@ function startMyPage(error, all, multi, network) {
     allData = all;
 
     initSun(network);
-    initMulti(multi, yearslist)
+    initMulti(multi, yearslist);
     initForce(network);
     scale(all);
     initBar(all);

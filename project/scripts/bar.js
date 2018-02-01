@@ -25,8 +25,8 @@ function initBar(data) {
     // init canvas for bar chart
     svg = d3.select("#graph2").append("svg"),
     margin = {top: 20, right: 0, bottom: 150, left: 50},
-    width = 650 - margin.left - margin.right,
-    height = 350 - margin.top - margin.bottom,
+    width = 600 - margin.left - margin.right,
+    height = 350 - margin.top - margin.bottom;
 
     g = svg.attr("height",height + margin.top + margin.bottom)
             .attr("width",width + margin.left + margin.right)
@@ -53,7 +53,7 @@ function initBar(data) {
     //left axis
     g.append("g")
         .attr("class", "y axis")
-        .call(yAxis)
+        .call(yAxis);
     
     //bottom axis
     g.append("g")
@@ -74,8 +74,8 @@ function initBar(data) {
         .text("Average box office value in millions");
 
         // values for update 
-        valueBar(data)
-        valueBarUpdateMvsW(data)
+        valueBar(data);
+        valueBarUpdateMvsW(data);
 }
 
 
@@ -91,7 +91,7 @@ function barUpdate(data) {
     var bars = g.selectAll(".bar")
         .remove()
         .exit()
-        .data(data)	
+        .data(data);
         
 
     // give meseurments to each bar and add mouse action
@@ -103,23 +103,22 @@ function barUpdate(data) {
         .attr("width", barWidth - 1)
         .attr("fill", function (d) { return colorScale(d.color); })
         .on("mousemove", function(d) {
-            console.log(tooltip)
             tooltip
               .style("left", d3.event.pageX - 700 + "px")
               .style("top", d3.event.pageY - 600 + "px")
               .style("display", "inline-block")
-              .html((d.meanValue) + "<br>" + "£" + (d.meanValue));
+              .html((d.meanValue.toFixed(2)) + " M $");
         })
         .on("mouseout", function(d) { tooltip.style("display", "none");})
         .transition().duration(800)
         .attr("y", function(d) { return yChart(d.meanValue); })
-        .attr("height", function(d) { return height - yChart(d.meanValue); })
+        .attr("height", function(d) { return height - yChart(d.meanValue); });
 
     //left axis
     g.select(".y")
         .transition()
         .duration(800)
-        .call(yAxis)
+        .call(yAxis);
 
     //bottom axis
     g.select(".xAxis")
