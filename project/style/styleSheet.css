@@ -63,13 +63,18 @@ footer {
 }
   
 .carousel-inner img {
-    width: 100%; /* Set width to 100% */
+    width: 100%; 
     margin: auto;
     min-height:200px;
 }
 
 #graph2 svg g g path.domain {
     visibility:  hidden;
+}
+
+/* styleing bar chart */
+.grid line {
+  opacity: 0.3;
 }
 
 

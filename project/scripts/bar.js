@@ -70,7 +70,7 @@ function initBar(data) {
 
     //add labels
     g.append("text")
-        .attr("transform", "translate(-35," +  (height+margin.bottom)/2 + ") rotate(-90)")
+        .attr("transform", "translate(-35," +  ((height+margin.bottom) / 2 + 50) + ") rotate(-90)")
         .text("Average box office value in millions");
 
         // values for update 
